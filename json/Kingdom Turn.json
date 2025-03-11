@@ -1,0 +1,673 @@
+[
+  {
+    "type": "heading",
+    "heading": "Kingdom Turn",
+    "level": 1,
+    "content": [
+      {
+        "type": "paragraph",
+        "content": "Running a kingdom plays out as Kingdom turns that occur at the end of each in-game month. Each Kingdom turn is divided into phases, and these phases are divided into steps. The table on the previous page lists the Kingdom activities available to use during each step."
+      },
+      {
+        "type": "heading",
+        "heading": "Upkeep Phase",
+        "level": 2,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": "During the Upkeep phase, you adjust your kingdom’s statistics based on activities you have taken during the previous month. Remember that you earn 1 Fame or Infamy point at the start of your turn."
+          },
+          {
+            "type": "heading",
+            "heading": "Step 1: Assign Leadership Roles",
+            "level": 3,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": "To assign or change characters associated with leadership roles, do so now using the New Leadership kingdom activity. You can perform this activity as often as you wish during this step."
+              },
+              {
+                "type": "paragraph",
+                "content": "Next, determine if any vacancy penalties apply. Any unassigned roles incur their vacancy penalties. Also, if a character assigned to a leadership role hasn’t spent the required week of downtime on that role since the end of the last Kingdom turn, they must either give up one of the three kingdom activities they would perform during the Leadership Activities step of the Activity phase of this Kingdom turn or apply the vacancy penalty for their role until the start of the next Kingdom turn. (NPCs cannot perform kingdom activities, so in the unusual case that they were unable to spend the required downtime—see Leadership Roles—they must apply the vacancy penalty.) If a leader was replaced between Kingdom turns due to an unexpected vacancy, as long as a character currently holds the role and any characters assigned to the role collectively spent the required downtime, the vacancy penalty does not apply."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "heading": "Step 2: Adjust Unrest",
+            "level": 3,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": "On your first Kingdom turn, your kingdom’s Unrest score is 0; skip to the next step."
+              },
+              {
+                "type": "paragraph",
+                "content": "On all other turns, adjust your Unrest score: Increase it by 1 for every settlement in your kingdom that’s Overcrowded. If you are at war, increase it by 1. Other ongoing events may have ongoing Unrest adjustments as well; make them at this time."
+              },
+              {
+                "type": "paragraph",
+                "content": "After making all adjustments, if your kingdom’s Unrest is 10 or higher, the kingdom gains 1d10 points to its Ruins. Distribute these points in any way you wish among the four Ruins. In addition, attempt a DC 11 flat check. On a failure, one hex of your kingdom is lost; the PCs choose which hex. See Losing Hexes in the Kingdom Rules for more information."
+              },
+              {
+                "type": "paragraph",
+                "content": "If your kingdom’s Unrest is 20 or higher, the entire nation also falls into anarchy. While in anarchy, you can only attempt Quell Unrest activities, and the results of all kingdom checks are worsened one degree."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "heading": "Step 3: Resource Collection",
+            "level": 3,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": "The exact amount of resources you have to draw upon each Kingdom turn varies, as each month there are countless unexpected boons and setbacks throughout each citizen’s life that can impact how they can bolster your national plans."
+              },
+              {
+                "type": "paragraph",
+                "content": "First, determine the number of Resource Dice you are entitled to roll for the current Kingdom turn by adding your kingdom level + 4 to any bonus dice or penalty dice you gained from the previous turn. You cannot have fewer than 0 Resource Dice."
+              },
+              {
+                "type": "paragraph",
+                "content": "Next, roll your Resource Dice to determine how many Resource Points (RP) you have available during this turn. Your RP is equal to the roll result. (RP remaining at the end of your turn can be converted into kingdom Experience Points.)"
+              },
+              {
+                "type": "paragraph",
+                "content": "Finally, if you have any Work Sites established in your kingdom, gather Commodities. You gain 1 Commodity from each Work Site, or double that if the Work Site is in a Resource hex. Any Commodities gathered in excess of your storage capacity are lost."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "heading": "Step 4: Pay Consumption",
+            "level": 3,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": "Your settlements and armies require a certain amount of provisions, supplies, and funding, as well as all the basic necessities of life."
+              },
+              {
+                "type": "paragraph",
+                "content": "On your first Kingdom turn, your kingdom’s Consumption score is 0; skip to the next step."
+              },
+              {
+                "type": "paragraph",
+                "content": "On all other turns, calculate your kingdom’s Consumption score. This is the total of your settlements’ Consumption scores plus your armies’ Consumption scores minus the number of Farmland hexes you have within influence range of your settlements, plus any modifiers from kingdom events."
+              },
+              {
+                "type": "paragraph",
+                "content": "Spend Food Commodities equal to your kingdom’s Consumption. If you can’t or choose not to spend this Commodity cost, you can either spend 5 RP per point of unpaid Consumption or increase Unrest by 1d4."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "heading": "Step 5: Structure Advancement",
+            "level": 3,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": "You may advance any number of structures that are under construction in your kingdom. When you do so, spend the monthly RP for the structure and reduce the remaining construction time by 1 month. If the structure is complete, its effects are applied immediately and any bonuses are applied."
+              },
+              {
+                "type": "paragraph",
+                "content": "If you have any buildings that were under construction that you did not advance, subtract the number of buildings you did not advance from the number of settlements in your kingdom. If the number is greater than 0, you gain that much Unrest as your citizens begin to think your kingdom is taking on too many projects. For example, if you have 3 settlements and 5 buildings under construction that you did not advance, you gain 2 Unrest."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "heading": "Commerce Phase",
+        "level": 2,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": "The Commerce phase is when the kingdom generates revenue or makes trade agreements."
+          },
+          {
+            "type": "heading",
+            "heading": "Step 1: Collect Taxes",
+            "level": 3,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": "You can Collect Taxes once per Kingdom turn to attempt to bolster your Economy-based checks for the remainder of the Kingdom turn. If you don’t attempt to Collect Taxes, you can instead attempt a DC 11 flat check; on a success, reduce Unrest by 1."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "heading": "Step 2: Approve Expenses",
+            "level": 3,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": "You can draw upon the kingdom’s funds to enhance the standard of living for its citizens by attempting the Improve Lifestyle activity or you can attempt a withdrawal from the kingdom’s funds using the Tap Treasury activity."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "heading": "Step 3: Tap Commodities",
+            "level": 3,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": "If your kingdom has any stockpiles of Commodities, you can attempt the Trade Commodities activity to bolster your RP for the turn."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "heading": "Step 4: Manage Trade Agreements",
+            "level": 3,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": "If you’ve established trade agreements, you can use the Manage Trade Agreements activity."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "heading": "Activity Phase",
+        "level": 2,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": "The Activity phase is when you make proclamations on expanding your kingdom, declare holidays, and manage your territory and settlements. It’s during this phase that the bulk of your kingdom’s growth occurs."
+          },
+          {
+            "type": "paragraph",
+            "content": "Each activity will need to decide which settlement to use for determining item bonuses from settlement structures. For each item bonus, use the higher of the applicable settlement's item bonus or half the capital's item bonus. If the applicable settlement is the capital, simply use the full capital's item bonus."
+          },
+          {
+            "type": "heading",
+            "heading": "Step 1: Leadership Activities",
+            "level": 3,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": "Choose up to four leadership roles which have a PC assigned to them. Each of those roles can perform up to 2 leadership activities, or 3 if your kingdom's capital has a Castle, Palace, or Town Hall."
+              },
+              {
+                "type": "paragraph",
+                "content": "Your party chooses the order you go in when taking Leadership activities. Unless an activity states otherwise, a leader cannot attempt the same Leadership activity more than once per Kingdom turn."
+              },
+              {
+                "type": "paragraph",
+                "content": "For the purposes of determining which settlement to use for determining item bonuses, use the settlement in which the leader spent the most of their time leading during the month."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "heading": "Step 2: Region Activities",
+            "level": 3,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": "The PC leaders may now collectively attempt up to three Region activities. The players decide who rolls any skill checks needed to resolve these activities."
+              },
+              {
+                "type": "paragraph",
+                "content": "For the purposes of determining which settlement to use for determining item bonuses, use the settlement closest to the hex in which the Region activity is located. The players may choose which settlement to use in the case of a tie."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "heading": "Step 3: Civic Activities",
+            "level": 3,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": "Your party may now attempt one Civic activity for each of the kingdom’s settlements. You determine the order in which these activities are attempted and who rolls any skill checks."
+              },
+              {
+                "type": "paragraph",
+                "content": "For the purposes of determining which settlement to use for determining item bonuses, use the settlement in which the Civic activity is performed."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "heading": "Event Phase",
+        "level": 2,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": "Events affect entire kingdom, single hexes, or a settlement. Some are harmful, while some are beneficial. Certain events continue for multiple turns, and only come to an end once they’ve been properly handled by the PCs or their kingdom."
+          },
+          {
+            "type": "paragraph",
+            "content": "Each event will need to decide which settlement to use for determining item bonuses from settlement structures. For each item bonus, use the higher of the applicable settlement's item bonus or half the capital's item bonus. If the applicable settlement is the capital, simply use the full capital's item bonus. Use the settlement closest to the hex in which the event is located for determining item bonuses. If the event targets the entire kingdom, use the capital's item bonus."
+          },
+          {
+            "type": "heading",
+            "heading": "Step 1: Check for a Random Event",
+            "level": 3,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": "Attempt a DC 16 flat check. On success, a random kingdom event occurs (see Kingdom Events). If no random event occurs, the DC for this check in the next Kingdom turn is reduced by 5. Once an event occurs, the DC resets to 16."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "heading": "Step 2: Event Resolution",
+            "level": 3,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": "Random events present opportunities to go forth in exploration or encounter mode to deal with a rampaging monster or the like; these are handled now."
+              },
+              {
+                "type": "paragraph",
+                "content": "In some chapters of the Kingmaker Adventure Path, specific story events are introduced outside of Kingdom turns; these are resolved when they occur."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "heading": "XP Phase",
+        "level": 2,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": "The GM now awards any kingdom XP earned during turn. Full rules the various ways to earn kingdom XP are found on the following pages."
+          },
+          {
+            "type": "paragraph",
+            "content": "If your kingdom’s XP total is above 1,000, and your kingdom isn’t at its maximum level, increase your kingdom level by 1 and subtract 1,000 from your XP total. See Kingdom Advancement for the full rules for leveling up.="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "heading": "Gaining Kingdom Experience",
+    "level": 1,
+    "content": [
+      {
+        "type": "paragraph",
+        "content": "A kingdom gains experience (XP) by claiming hexes, reaching milestones that occur during the course of a campaign, enduring random kingdom events, or converting surplus RP at the end of a Kingdom turn."
+      },
+      {
+        "type": "heading",
+        "heading": "Hex Claim XP Awards",
+        "level": 2,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": "Each time a kingdom claims a hex, it earns kingdom XP. If this hex is lost at a later date, the kingdom does not lose the XP earned from claiming it. Conversely, if the kingdom reclaims a lost hex, it does not gain XP from reclaiming it."
+          },
+          {
+            "type": "paragraph",
+            "content": "The XP earned depends on the kingdom's new size after they earn the hex."
+          },
+          {
+            "type": "table",
+            "columns": [
+              {
+                "content": "New Size",
+                "align": "center"
+              },
+              {
+                "content": "XP Earned per hex claimed",
+                "align": "center"
+              }
+            ],
+            "data": [
+              [
+                "1-9",
+                "100 XP"
+              ],
+              [
+                "10-24",
+                "50 XP"
+              ],
+              [
+                "25-49",
+                "25 XP"
+              ],
+              [
+                "50-99",
+                "10 XP"
+              ],
+              [
+                "100+",
+                "5 XP"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "heading": "Event XP Awards",
+        "level": 2,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": "A kingdom earns 30 XP for experiencing a random event or more for a Story event, regardless of the event’s outcome."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "heading": "Surplus RP XP Awards",
+        "level": 2,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": "Any RP remaining unspent at the end of a Kingdom turn is converted into XP. The amount of XP gained from each surplus RP depends on the level of your kingdom."
+          },
+          {
+            "type": "table",
+            "columns": [
+              {
+                "content": "Level",
+                "align": "center"
+              },
+              {
+                "content": "RP to XP Conversion",
+                "align": "center"
+              }
+            ],
+            "data": [
+              [
+                "1-5",
+                "7"
+              ],
+              [
+                "6-10",
+                "5"
+              ],
+              [
+                "11-15",
+                "3"
+              ],
+              [
+                "16-20",
+                "1"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "heading": "Structure XP Awards",
+        "level": 2,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": "Your kingdom gains experience by building structures within its settlements. Each structure lists XP in its entry. Each turn, gain XP for the highest XP value of any structure you built that turn."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "heading": "Improvement XP Awards",
+        "level": 2,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": "Similarly, your kingdom gains XP by building outside the borders of your settlements. Each turn you do one or more of the following activities, gain the XP for the highest value activity you performed (for example, if you used both Build Roads and Irrigation, you would gain 20 XP)."
+          },
+          {
+            "type": "table",
+            "columns": [
+              {
+                "content": "XP",
+                "align": "center"
+              },
+              {
+                "content": "Activity",
+                "align": "left"
+              },
+              {
+                "content": "Improvement",
+                "align": "left"
+              }
+            ],
+            "data": [
+              [
+                "10",
+                "Build Roads",
+                "Roads"
+              ],
+              [
+                "10",
+                "Establish Farmland",
+                "Farmland"
+              ],
+              [
+                "10",
+                "Fishing Fleets",
+                "Fisheries"
+              ],
+              [
+                "10",
+                "Breed Livestock",
+                "Ranch"
+              ],
+              [
+                "20",
+                "Build Roads",
+                "Roads with a bridge"
+              ],
+              [
+                "20",
+                "Establish Worksite",
+                "Quarry, mine, or lumber camp"
+              ],
+              [
+                "20",
+                "Irrigation",
+                "Canal or reservoir"
+              ],
+              [
+                "30",
+                "Fortify",
+                "Watchtower"
+              ],
+              [
+                "30",
+                "Fortify",
+                "Keep (upgraded)"
+              ],
+              [
+                "60",
+                "Fortify",
+                "Keep"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "heading": "Milestone XP Awards",
+        "level": 2,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": "As the kingdom grows, the kingdom gains XP the first time it reaches a milestone. These XP awards are given only once, the first time each milestone is attained. The milestones are listed in the table on the following page."
+          },
+          {
+            "type": "table",
+            "columns": [
+              {
+                "content": "XP Award",
+                "align": "center"
+              },
+              {
+                "content": "Milestone",
+                "align": "left"
+              }
+            ],
+            "data": [
+              [
+                "20",
+                "Build Roads for the first time"
+              ],
+              [
+                "20",
+                "Celebrate your first successful Holiday"
+              ],
+              [
+                "20",
+                "Claim your first new Hex (2nd hex overall)"
+              ],
+              [
+                "20",
+                "Complete your First successful Infiltration"
+              ],
+              [
+                "20",
+                "Create your first Masterpiece"
+              ],
+              [
+                "20",
+                "Establish your first Farmland"
+              ],
+              [
+                "20",
+                "Establish your first Lumber Camp"
+              ],
+              [
+                "20",
+                "Establish your first Mine"
+              ],
+              [
+                "20",
+                "Establish your first Quarry"
+              ],
+              [
+                "20",
+                "Fortify your first hex"
+              ],
+              [
+                "20",
+                "Successfully use your first Creative Solution"
+              ],
+              [
+                "20",
+                "Successfully use your first Supernatural Solution"
+              ],
+              [
+                "40",
+                "Build your first Structure requiring Expert in a Kingdom Skill"
+              ],
+              [
+                "40",
+                "Build your first Famous/Infamous Structure"
+              ],
+              [
+                "40",
+                "Build your first seat of government (Town Hall, Castle, or Palace)"
+              ],
+              [
+                "40",
+                "Claim your first Landmark hex"
+              ],
+              [
+                "40",
+                "Claim your first Refuge hex"
+              ],
+              [
+                "40",
+                "Establish your first Village"
+              ],
+              [
+                "40",
+                "Establish your second Village"
+              ],
+              [
+                "40",
+                "Reach Kingdom Size 10"
+              ],
+              [
+                "40",
+                "Recruit your first regular Army"
+              ],
+              [
+                "40",
+                "Successfully resolve a random Kingdom Event"
+              ],
+              [
+                "60",
+                "All eight leadership roles are assigned"
+              ],
+              [
+                "60",
+                "Build your first Structure requiring Master in a Kingdom Skill"
+              ],
+              [
+                "60",
+                "Establish Diplomatic Relations for the first time"
+              ],
+              [
+                "60",
+                "Expand a Village into your first Town"
+              ],
+              [
+                "60",
+                "Reach Kingdom size 25"
+              ],
+              [
+                "60",
+                "Recruit your first Specialized Army"
+              ],
+              [
+                "60",
+                "Win your first War Encounter"
+              ],
+              [
+                "80",
+                "Achieve your first successful Pledge of Fealty"
+              ],
+              [
+                "80",
+                "Establish your first Trade Agreement"
+              ],
+              [
+                "80",
+                "Expand a town into your first City"
+              ],
+              [
+                "80",
+                "Reach Kingdom size 50"
+              ],
+              [
+                "80",
+                "Spend 100 RP during a Kingdom turn"
+              ],
+              [
+                "120",
+                "Expand a city into your first Metropolis"
+              ],
+              [
+                "120",
+                "Reach Kingdom size 100"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

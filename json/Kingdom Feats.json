@@ -1,0 +1,1050 @@
+[
+  {
+    "type": "heading",
+    "heading": "Kingdom Feats",
+    "level": 1,
+    "content": [
+      {
+        "type": "paragraph",
+        "content": "A kingdom gains feats as it increases in level. Some feats are broad-purpose abilities that apply all the time. Others grant benefits to specific kingdom activities or events or allow kingdoms to perform special activities. Each time a kingdom gains a feat, players can select any feat whose level does not exceed their kingdom’s level and whose prerequisites their kingdom satisfies."
+      },
+      {
+        "type": "paragraph",
+        "content": "There are two types of feats. Your kingdom gains **Skill** feats at 2nd level and every two levels after that. It gains **General** feats at 3rd level and every 4 levels thereafter. When choosing a feat, it must be chosen from the section matching that feat type."
+      },
+      {
+        "type": "paragraph",
+        "content": "Status bonuses granted by Kingdom feats are cumulative with status bonuses granted by invested Leadership Roles."
+      },
+      {
+        "type": "heading",
+        "heading": "General Feats",
+        "level": 2,
+        "content": [
+          {
+            "type": "item",
+            "heading": "Ability Boost",
+            "subheading": "Feat 11",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "You gain one ability boost, which you can apply to any one of your abilities. You can take this feat only once."
+          },
+          {
+            "type": "item",
+            "heading": "Civil Service",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Everyone has a place and a role, and as long as those roles are filled, the government functions. When you select this feat, choose one leadership role; that role is now supported by your efficient civil servants, so its vacancy penalty is no longer applicable. If you wish to change the leadership role to which Civil Service applies, you can do so using the New Leadership activity at the start of a Kingdom turn. You gain a +2 status bonus to New Leadership checks."
+          },
+          {
+            "type": "item",
+            "heading": "Cooperative Leadership",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "Your leaders are skilled at working with one another. When a leader uses the Focused Attention kingdom activity to aid another leader’s kingdom check, the circumstance bonus granted by a success is increased to +3."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "At 11th level, your leaders’ collaborative style leads them to ever greater successes when they work together. When a leader uses the Focused Attention kingdom activity to aid another leader’s check, treat a critical failure on the aided check as a failure. If your kingdom has at least the expert rank in the skill used in the aided check, treat a failure on the check as a success. (This does not allow you to ever improve a critical failure to a success.)"
+          },
+          {
+            "type": "item",
+            "heading": "Crush Dissent",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** trained in Warfare"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your rule brooks no dissent and stamps out traitors, making harsh examples of them. Once per Kingdom turn when you gain Unrest, you can attempt to crush the dissent by attempting a basic Warfare check. On a success, the Unrest increase is canceled, but on a critical failure, the Unrest increase is doubled. In addition, you gain a +1 status bonus to checks to resolve dangerous kingdom events that involve internal bickering, such as Feud."
+          },
+          {
+            "type": "item",
+            "heading": "Endure Anarchy",
+            "subheading": "Feat 3",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** Loyalty 14"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your kingdom holds together even in the midst of extreme peril. If your kingdom’s Unrest is 6 or higher and you use a kingdom activity that decreases Unrest, decrease the Unrest by an additional 1. You do not fall into anarchy unless your kingdom’s Unrest reaches 24 (see last paragraph of Step 2: Adjust Unrest on page 538)."
+          },
+          {
+            "type": "item",
+            "heading": "Fame And Fortune",
+            "subheading": "Feat 11",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your kingdom’s reputation has spread far and wide, bringing in visitors to behold the spectacle of your greatness and pay their respects. Whenever you achieve a critical success on any Kingdom skill check during the Activity phase of a Kingdom turn, gain 1 bonus Resource Die at the start of your next Kingdom turn."
+          },
+          {
+            "type": "item",
+            "heading": "Fortified Fiefs",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** trained in Defense"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your vassals take their duty to protect those under their stewardship seriously, and your engineers emphasize the value of a strong defense when it comes to building settlements and fortifications. You gain a +2 circumstance bonus to checks attempted as part of the Fortify Hex activity and on activities to build or repair a Barracks, Castle, Garrison, Keep, Stone Wall, or Wooden Wall. In addition, you gain a +1 status bonus to all kingdom checks attempted during dangerous events that directly impact your settlements’ defenses."
+          },
+          {
+            "type": "item",
+            "heading": "Free And Fair",
+            "subheading": "Feat 7",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your reputation for transparency and fairness in conducting elections, appointments, and other changes in government inspires tremendous public trust. You gain a +2 circumstance bonus to Loyalty-based checks attempted as part of the New Leadership and Pledge of Fealty activities. If you fail or critically fail such a check, you can spend 2 RP to reroll the check (but without the +2 circumstance bonus); attempting this adds the Fortune trait. You must take the result of the second roll, even if it is worse than the original roll."
+          },
+          {
+            "type": "item",
+            "heading": "Insider Trading",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** trained in Industry"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your leading citizens share valuable business information with one another and with associates in other lands, and they hire one another’s workers to supply the labor they need to fuel their production. You gain a +1 status bonus to Establish Work Site, Establish Trade Agreement, and Trade Commodities activities. In addition, gain 1 bonus Resource Die at the start of each Kingdom turn."
+          },
+          {
+            "type": "item",
+            "heading": "Inspiring Entertainment",
+            "subheading": "Feat 3",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** Culture 14"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your kingdom’s artists and entertainers are talented and prolific, and there’s never a shortage of new plays, operas, novels, music, sculptures, paintings, or other forms of distraction to entertain the citizens, even during times of upheaval. When you check for Unrest during the Upkeep phase of a Kingdom turn, you may roll a Culture-based check rather than a Loyalty-based check to determine the outcome. Your kingdom also gains a +2 status bonus to all Culture-based skill checks whenever your kingdom has at least 1 Unrest."
+          },
+          {
+            "type": "item",
+            "heading": "Joint Success",
+            "subheading": "Feat 7",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisites** Cooperative Leadership"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your leaders’ collaborative style leads them to ever-greater successes when they work together. When you use the Focused Attention rulership action to aid another ruler’s check, you treat any critical failure on their check as a failure. In addition, if the check is a Focus check and you are at least an expert in one of the relevant skills for that Focus, you treat a failure on the check as a success."
+          },
+          {
+            "type": "item",
+            "heading": "Kingdom Assurance",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** trained in at least three skills"
+              },
+              {
+                "type": "paragraph",
+                "content": "Even when things go poorly in other areas, you can count on consistency in carrying out kingdom activities with a chosen skill. Choose one Kingdom skill in which your kingdom is trained. Once per Kingdom turn, when you would attempt a skill check for that skill, you can forgo rolling and instead take a result equal to 10 + your proficiency bonus; do not apply any other bonuses, penalties, or modifiers to this result."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "**Special** You can select this feat multiple times. Each time, choose a different skill and gain the benefits of this feat for that skill."
+          },
+          {
+            "type": "item",
+            "heading": "Liquidate Resources",
+            "subheading": "Feat 3",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** Economy 14"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your kingdom’s economy can liquidate resources in an emergency when funding runs out. The first time during a Kingdom turn in which you are forced to spend RP as the result of a failed skill check or a dangerous event, and that expense reduces you to 0 RP, you may instead reduce your RP to 1 and treat the expense as if it were paid in full. At the start of your next Kingdom turn, roll 4 fewer Resource Dice than normal."
+          },
+          {
+            "type": "item",
+            "heading": "Muddle Through",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** trained in Wilderness"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your people are independent-minded and take care of the small things around the kingdom, not letting them pile up into bigger problems. Increase two of your Ruin thresholds by 1 and one of them by 2."
+          },
+          {
+            "type": "item",
+            "heading": "Multilingual Nation",
+            "subheading": "Feat 3",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisites** Culture 14+"
+              },
+              {
+                "type": "paragraph",
+                "content": "Your cosmopolitan citizenry is exposed to many nations, cultures, and peoples, making it easier for them to pick up languages. Your citizens learn two languages, which may be common or uncommon languages (or any language your PCs know, at the GM’s discretion)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "**Special** If any citizen of your nation takes the Multilingual character feat (Pathfinder Core Rulebook), they learn one additional language when the feat is selected."
+          },
+          {
+            "type": "item",
+            "heading": "Practical Magic",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** trained in Magic"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Magic has an honored place in your society, and your people incorporate it into their everyday work to make life easier. You gain a +1 status bonus to Magic checks, and if you have Expert Magic you gain a +1 circumstance bonus to Engineering checks. If you have Master Magic, this bonus increases to +2. In addition, as magic-wielding NPCs find your nation a comfortable place to live and work, you reduce the cost of using the Hire Adventurers activity to 1 RP."
+          },
+          {
+            "type": "item",
+            "heading": "Pull Together",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** trained in Politics"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your people are very reliable, and their swift decision‑making keeps most projects from getting too far off track. Once per Kingdom turn when you roll a critical failure on a Kingdom skill check, attempt a DC 11 flat check. If this succeeds, your citizens heed the call to put in extra work to mitigate the disaster; treat the Kingdom skill check result as failure instead. The DC of this flat check increases by 5 each time you subsequently use it, but it decreases by 1 (to a minimum of 11) for each Kingdom turn that passes when you do not use it."
+          },
+          {
+            "type": "item",
+            "heading": "Quality Of Life",
+            "subheading": "Feat 7",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your kingdom’s robust economy makes the creature comforts of civilization more readily available to all, and even finer luxuries are more easily had. The first time you gain Luxury Commodities in a Kingdom turn, increase the total gained by 1. All of your settlements are treated as 1 level higher than their actual level for the purposes of determining what sorts of magic items might be offered for sale at their markets and shops."
+          },
+          {
+            "type": "item",
+            "heading": "Quick Recovery",
+            "subheading": "Feat 3",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** Stability 14"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your kingdom recovers more quickly from danger and disaster. Whenever you attempt a skill check to end an ongoing harmful kingdom event, you gain a +4 status bonus to the check."
+          },
+          {
+            "type": "item",
+            "heading": "Skill Training",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your kingdom receives the trained proficiency rank in a Kingdom skill of your choice. You can select this feat multiple times, choosing a new skill each time."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "heading": "Skill Feats",
+        "level": 2,
+        "content": [
+          {
+            "type": "item",
+            "heading": "Academic Rigor",
+            "subheading": "Feat 4",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** expert in Scholarship"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Literacy is nearly universal in your kingdom, and your people study both classical and modern thinkers. You gain a +1 status bonus on the Creative Solution action, and you reduce the RP cost by 1 (minimum 0). In addition, creatures in every settlement of your kingdom gain a +1 circumstance bonus on Lore checks made to Recall Knowledge while Investigating, as well as to research checks (see the Pathfinder Gamemastery Guide), and to Decipher Writing checks."
+          },
+          {
+            "type": "item",
+            "heading": "Adaptive Armies",
+            "subheading": "Feat 8",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** master in Warfare"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Military theory and practice are common knowledge in your kingdom, with citizens trained from childhood in the subtler arts of war, able to easily learn new tactics and improvise with scavenged gear. You gain a +4 circumstance bonus on Warfare checks made to Train Army, and you can Train Army as free activity once per kingdom turn. Your kingdom also is treated as 2 levels higher than its actual level for the purpose of determining the level of gear your armies can purchase or craft with the Outfit Army action, and you gain a +2 circumstance bonus on Warfare checks made to Outfit Army with gear gained from battle."
+          },
+          {
+            "type": "item",
+            "heading": "Agrarian Homesteaders",
+            "subheading": "Feat 2",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** expert in Agriculture"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your citizens favor large families on large farms, clustering together on their lands rather than streaming into your urban areas. As a result, your farms have plenty of hands to work the land and crops. Once per kingdom turn, you can use the Crop Rotation activity as a free activity. In addition, if you use the Crop Rotation activity, you gain a +4 circumstance bonus on the Skill check."
+          },
+          {
+            "type": "item",
+            "heading": "Agricultural Science",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your people have refined successful agriculture to a science based on your kingdom’s soil properties, local flora, and seasonal changes. With the plans put in place by these local researchers, your kingdom’s farms have flourished. When you would get a critical failure on the Plant Crops action or on a Crop Failure kingdom event, it is a failure instead. When you build an Academy and choose Agriculture as a Skill area, its Agriculture Skill Score is +4."
+          },
+          {
+            "type": "item",
+            "heading": "Apprentice System",
+            "subheading": "Feat 4",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** expert in Scholarship or Magic"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "In your kingdom, knowledge of all kinds is respected and passed from master to student in a process of vigorous study and training. You gain a +1 status bonus on Scholarship and Magic checks. Additionally, when you construct one of the following buildings, you may use either Scholarship or Magic as the Skill for any checks made to construct it: Academy, Alchemist, Arcanist’s Tower, Library, Magical Academy, Observatory, or University. The first of each of these buildings in your kingdom, you may increase the Skill Score it adds to Scholarship or Magic by 1."
+          },
+          {
+            "type": "item",
+            "heading": "Bountiful Seas",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your kingdom has learned how to depend on the sea to provide for much of its needs. You gain a +2 status bonus on any Skill checks to construct a Pier building or Fishery improvement. Additionally, once per kingdom turn, you may build the first Fishery improvement or Pier building in a settlement adjacent to a coastline as a free action and reduce the RP cost by 1."
+          },
+          {
+            "type": "item",
+            "heading": "Bread and Circuses",
+            "subheading": "Feat 6",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** expert in Arts and Politics"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "You abide by the motto that a well-fed and distracted populace makes a happy kingdom. You spare no expense on public spectacles and feasts, and as a result your citizenry has a short memory for your political missteps. When you use the Celebrate Holiday action, you may increase the resulting Consumption by 2 to then use the Repair Reputation action as a free action this turn. Additionally, you do not gain Unrest on a critical failure with this Repair Reputation action."
+          },
+          {
+            "type": "item",
+            "heading": "Cartographer Guild",
+            "subheading": "Feat 6",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "The unexplored territory of your kingdom resulted in guilds of mapmakers forming with a determination to fill in the blank spaces of your territory. These maps are not only valuable for your scouts, but copies of them make for valuable trade with foreign powers. If you critically fail a Send Surveyors action, treat it as a failure instead. Additionally, you may trade maps with a foreign power. You gain 1 fame for each Trade Route you have established, and when you establish a new Trade Route with a foreign power, you gain 1 fame. You may only receive this fame bonus only once per foreign power. You do not lose the fame bonus if you later lose the Trade Route."
+          },
+          {
+            "type": "item",
+            "heading": "Divert Blame",
+            "subheading": "Feat 4",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** expert in Intrigue"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your silver-tongued envoys, heralds, and messengers are expert at keeping your reputation intact when you might otherwise be caught in a compromising situation. You gain a +2 circumstance bonus on checks to resolve Public Scandal or Sensational Crime kingdom events. In addition, if your kingdom were to lose a point of Fame or gain a point of Infamy, you can attempt a DC 15 flat check for each point. If the check succeeds, you do not gain or lose that point. If you roll a natural 1, your attempted cover-up is revealed and you lose an additional point of Fame or gain an additional point of Infamy."
+          },
+          {
+            "type": "item",
+            "heading": "Divine Right",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** trained in Politics and Folklore"
+              },
+              {
+                "type": "paragraph",
+                "content": "Religion lies at the core of your kingdom, whether through a common religious tradition or a dedicated embrace of ecumenism, bringing unity of purpose and connection to your people and the legacy of faith they leave behind to future generations, including material and financial contributions. Whenever the result of a Folklore check would cause you to gain Strife or Unrest, make a DC 15 flat check for each point. If the check succeeds, you do not gain that point. If you roll a natural 1, you gain 1 additional point."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "When making a Trade check for Capital Investment or a Statecraft check for Tap Treasury, you can make a Folklore check instead. In addition, when you Build Structure for any of the following buildings, you can reduce the cost by 1 RP or 1 Commodity, to a minimum of 1: Cathedral, Cemetery, Monastery, Sacred Grove, Shrine, or Temple."
+          },
+          {
+            "type": "item",
+            "heading": "Ecclesiarchy",
+            "subheading": "Feat 6",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** expert in Folklore"
+              },
+              {
+                "type": "paragraph",
+                "content": "Organized religious hierarchies abound within your kingdom, providing ready access to skilled and educated functionaries as well as ready access to divine magic. You treat all settlements in your kingdom as if they were one level higher than their actual level for the purpose of determining what divine magic items are readily available for sale in that settlement. This stacks with similar benefits from the presence of Cathedrals, Shrines, and similar buildings."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "You gain a +1 status bonus on checks made to resolve Cult Activity, Inquisition, Pilgrimage, and Sacrifices kingdom events; however, if you have a critical failure on a check to resolve such an event, make a DC 3 flat check. If the check fails, a Feud kingdom event occurs as conflict between religious groups escalates into open strife. This is in addition to any other kingdom events. Whenever your kingdom would gain Corruption, you can make a DC 15 flat check for each point of Corruption. If the check succeeds, you do not gain that point of corruption. On a natural 1, however, you gain 1 additional point of Corruption."
+          },
+          {
+            "type": "item",
+            "heading": "Gulag",
+            "subheading": "Feat 8",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** Economy 14, expert in Industry and Intrigue"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Dissenters and troublemakers in your kingdoms have a habit of disappearing, placed into forced labor camps to serve your rule. Whenever you succeed on a Quell Unrest action, roll a bonus Resource Die (or two dice on a critical success) and gain that many RP. You must spend these bonus RP during your current turn, or they are wasted. They do not count toward gaining XP at the end of the kingdom turn. If you succeed at a Quell Unrest action more than once, you may gain additional Resource Dice. If you used Quell Unrest this kingdom turn, then at the end of the kingdom turn attempt an Intrigue check with a penalty equal to the number of Quell Unrest actions taken this turn. Despotic kingdoms have a +2 circumstance bonus on this check. Your kingdom gains 1 Strife on a success, 2 Strife and 1 Unrest on a failure, and 4 Strife and 2 Unrest on a critical failure."
+          },
+          {
+            "type": "item",
+            "heading": "Happy Holiday",
+            "subheading": "Feat 4",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** expert in Arts"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your celebrations are the envy of the world when it comes to the magnificence of the music, performances, decorations, food, and all the fineries. You gain a +2 circumstance bonus on Politics or Folklore checks to use the Celebrate Holiday action. When you have a critical success, you can spend roll a resource die and spend that many on your next kingdom turn to cause the effects to persist until the end of your next kingdom turn. When you have a critical failure, you can immediately roll 2 Resource Dice; if you spend that amount of RP equal to the result, treat it as a failure instead."
+          },
+          {
+            "type": "item",
+            "heading": "Hidden Refuge",
+            "subheading": "Feat 6",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** expert in Defense, Exploration, and Wilderness"
+              },
+              {
+                "type": "paragraph",
+                "content": "Your scouts are always on the lookout for hidden places where your citizenry might seek shelter in times of danger or disaster, creating contingency plans for evacuation to keep your people safe. You gain a +2 circumstance bonus on checks to resolve a Local Disaster or Natural Disaster kingdom event, and you reduce any Unrest gained as a result of a Local or Natural Disaster by 1."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "When you have a critical success on the Send Surveyors action, you can choose to instead treat that as a success and make a DC 11 flat check. If the check succeeds, your explorers discover a Refuge (as described under Terrain Features in the official rules) in that hex. The DC of this flat check is increased by 4 if there is another Refuge within 2 hexes and automatically fails if there is a Refuge in an adjacent hex."
+          },
+          {
+            "type": "item",
+            "heading": "Homestead Defense",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "The wilds are a perilous place for average folk, but yours work hard to keep their homesteads secure. Through simple walls, small moats, or intentionally uncultivated thatches of brambles, your citizens provide their homes with basic defenses. When you get a Monster Attack or Vandals event, you get a +2 status bonus on any checks made to resolve that event. Additionally, these defenses help secure crops and livestock against destruction by wild animals and looters: Settlements with at least one Farm in their area of influence reduce Consumption by 1."
+          },
+          {
+            "type": "item",
+            "heading": "In Magic We Trust",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** trained in Politics and Magic"
+              },
+              {
+                "type": "paragraph",
+                "content": "Magic is sufficiently common, reliable, and safe in your kingdom that even the common folk have regarded it as a natural and normal part of life, something to be embraced rather than feared. Whenever the result of a Magic check would cause you to gain Strife or Unrest, make a DC 15 flat check for each point. If the check succeeds, you do not gain that point. If you roll a natural 1, you gain 1 additional point."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "When making a Trade check to Purchase Commodities, you can make a Magic check instead, using magic to aid logistics and production. In addition, when you Build Structure for any of the following buildings, you can reduce the cost by 1 RP or 1 Commodity, to a minimum of 1: Alchemy Laboratory, Arcanist’s Tower, Magic Shop, Magical Streetlamps, Menagerie, or Occult Shop."
+          },
+          {
+            "type": "item",
+            "heading": "Intrepid Citizenry",
+            "subheading": "Feat 4",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your kingdom may just attract the adventurous type, or perhaps it is largely composed of actual adventurers, trailblazers, explorers, and people with a greater sense of independence and fearlessness in confronting the unknown. Once per kingdom turn, you can reroll an Exploration check and choose the higher result. Additionally, whenever your kingdom loses hexes sufficient to break it up into a secondary territory, it takes twice as long for the secondary territory to be lost before a kingdom leader can arrive, and you have a number of turns equal to your kingdom level to reclaim the territory should it be lost."
+          },
+          {
+            "type": "item",
+            "heading": "Mass Production",
+            "subheading": "Feat 4",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** trained in Industry and Trade"
+              },
+              {
+                "type": "paragraph",
+                "content": "Your workers and workplaces are integrated to improve efficiency and maximize productivity. You gain a +2 circumstance bonus on checks to Establish Work Site, and on a critical failure you can spend 2 RP to treat that as a failure instead. You also gain this bonus on Build Structure actions to construct a Foundry, Lumberyard, Mill, or Stonemason, and the cost of that improvement is reduced by 1 RP."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Once per kingdom turn when you gain a Commodity from a Work Site, you can gain one extra Commodity of the same type. In order to do this, that Work Site must be within the area of influence of a settlement with a Foundry (for ore), Lumberyard (for lumber), or Stonemason (for stone). If you are expert in both Industry and Trade, you can gain two extra Commodities in this fashion."
+          },
+          {
+            "type": "item",
+            "heading": "Merchant Guards",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "You have developed an organized network of protective services, including guide and guard cadres as well as protected waystations, to keep your merchants and peddlers safe on the roads. You gain a +1 circumstance bonus to Establish Trade Route, Purchase Commodities, or Trade Commodities, or to resolve a Bandit Activity or Vandals kingdom event. In addition, when you would lose Resource Dice due to a failed Establish Trade Route action or a dangerous kingdom event, you lose one fewer Resource Die than normal."
+          },
+          {
+            "type": "item",
+            "heading": "Nature’s Garden",
+            "subheading": "Feat 4",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** expert in Agriculture and Wilderness"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "The natural world is filled with a bounty of foodstuffs for those willing to put in the extra work to find it. You gain a +2 circumstance bonus on checks made to Establish Farmland, Gather Livestock, and Harvest Crops. In addition, citizens of your kingdom gain a +1 circumstance bonus on checks to Subsist while in your kingdom's borders. This bonus increases to +2 if your kingdom is expert in both Agriculture and Wilderness, and +3 if your kingdom is legendary in both."
+          },
+          {
+            "type": "item",
+            "heading": "Organic Construction",
+            "subheading": "Feat 2",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "You develop your kingdom in harmony with nature rather than against it, preferring to work around trees and land masses instead of forcing the land to comply and repurposing natural falls. Every time you complete construction of a building or improvement that uses Lumber (including upgrading a building), you regain 1 Lumber at the beginning of your next turn. In addition, you can use the following region activity."
+          },
+          {
+            "type": "item",
+            "heading": "Reclaim Lumber",
+            "subheading": "",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Requirement** Must have at least one claimed hex that includes forest terrain."
+              },
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "Attempt a basic check to gather fallen logs and reclaim unused timber in your kingdom. If your kingdom Reclaimed Lumber the previous turn, the DC increases by 4, as there is a finite amount of spare lumber to be pruned and culled from your forests."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Success** Gain 1d4 Lumber commodities."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Success** Gain 1 Lumber commodity."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Failure** Gain no commodities."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "**Critical Failure** Your reclaimed lumber is blighted and rotten, blighting other lumber stored with it. You lose 1 Lumber commodity, and the next time you Build Structure using Lumber, make a DC 3 flat check. On a failure, the structure’s flawed materials prevent it from being completed. You must spend 1d4 RP and use another Build Structure action on your next turn to retrofit the building and complete it."
+          },
+          {
+            "type": "item",
+            "heading": "Patronage of the Arts",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your citizens value the contributions of art in all its forms and believe it is worth investing in as a community. You gain a +2 circumstance bonus to resolve an Outstanding Success kingdom event and on Build Structure actions to construct the following buildings: Bardic College, Festival Hall, Monument, Museum, Opera House, Tavern (World-Class), or Theater. In addition, due to private donations of labor and materials, you can reduce the cost of such buildings by 2 RP or 2 Commodities (your choice if the building requires multiple commodities), to a minimum of 1."
+          },
+          {
+            "type": "item",
+            "heading": "Political Connections",
+            "subheading": "Feat 4",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** trained in Politics and Statecraft"
+              },
+              {
+                "type": "paragraph",
+                "content": "You have made friends in high places inside your kingdom and in foreign lands. You gain a +2 circumstance bonus to resolve a Diplomatic Overture, Noblesse Oblige, or Political Calm kingdom event."
+              },
+              {
+                "type": "paragraph",
+                "content": "Once per kingdom turn when dealing with a foreign power, you can add a +1 circumstance bonus to your roll, or +2 if you are master in both Politics and Statecraft."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Once per kingdom turn as a free action you can spend 2 RP to send out invitations for your connected allies to visit. Make a DC 19 flat check. If the check succeeds, you have a Visiting Celebrity or Wealthy Immigrant kingdom event (equal chance of either); this is in addition to any other events that turn."
+          },
+          {
+            "type": "item",
+            "heading": "Public Education",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Broadening the minds of your people with access to literacy, mathematics, tutoring, and academic preparation is a high priority for your people. You gain a +2 circumstance bonus to resolve a Discovery kingdom event and on Build Structure actions to construct the following buildings: Academy, Library, Museum, Observatory, or University. In addition, due to private donations of labor and materials, you can reduce the cost of such buildings by 2 RP or 2 Commodities (your choice if the building requires multiple commodities), to a minimum of 1."
+          },
+          {
+            "type": "item",
+            "heading": "Rapid Rebuild",
+            "subheading": "Feat 6",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "Your engineers are expert at repurposing the rubble of razed buildings and getting things reassembled in record time. You gain a +4 status bonus when using the Demolish action, and you can attempt to Demolish two adjacent structures (or two adjacent lots of a multiple-lot structure) as part of the same Demolish action. Make a separate Engineering check for each lot. In addition, on a success you recover up to 2 Commodities (your choice of lumber, stone, or ore, though they must be Commodities used in construction of the building)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "If you are using the Rebuild action, you can use that action on two adjacent structures (or two adjacent lots of a multiple-lot structure) as part of the same Rebuild action."
+          },
+          {
+            "type": "item",
+            "heading": "Ruin Delver",
+            "subheading": "Feat 6",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** expert in Exploration"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "and Scholarship, your country has discovered at least one Ruin Your kingdom has become noteworthy for its lost ruins and has recruited a large number of adventurers to explore them. Your agents track down tales of their adventures and maintain good relations with them, so they are more willing to assist at need. You gain a +2 circumstance bonus to Hire Adventurers and to resolve Archaeological Find and Unexpected Find kingdom events. Because of their particular expertise in such areas, you gain a +4 circumstance bonus on Exploration checks in any hex containing a Ruin (see Terrain Features in the official kingdom rules), including using the Clear Hex action to remove a hazard involving that Ruin."
+          },
+          {
+            "type": "item",
+            "heading": "Rumormongering",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Word travels fast around your kingdom, with rumors and information eagerly shared down your roads and trade route as your people happily gossip with travelers from your kingdom and beyond. Your reputation often precedes you and the abundance of chatter about your kingdom’s mysteries and challenges lure in adventuring groups. The first time you gain Fame or Infamy each kingdom turn, you gain an additional point of Fame or Infamy. Additionally, when you use the Hire Adventures reaction, it costs you 2 less RP (minimum 0)."
+          },
+          {
+            "type": "item",
+            "heading": "Sea Power",
+            "subheading": "Feat 2",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite** trained in Boating and Warfare"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your nation’s focus on sea power has led to a prodigious tradition of shipbuilding and ambitions to project power across lakes, rivers, and seas. You gain a +2 circumstance bonus on checks made to resolve dangerous kingdom events involving threats from the water. You also gain a +1 circumstance bonus on army actions involving ships, boats, and aquatic armies, +2 when making Boating checks made to Deploy Army."
+          },
+          {
+            "type": "item",
+            "heading": "Swift Surveyors",
+            "subheading": "Feat 2",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your explorers are extremely efficient at mapping out your frontiers and seeking out hidden dangers. When you use the Send Surveyors action, you can select two hexes anywhere in your kingdom and survey each of them as part of the same kingdom action. These hexes need not be adjacent. You must roll and pay RP separately for each hex. In addition, when you are using the Establish Trade Route action, your enhanced maps and guides help your traders travel more quickly, granting a +1 circumstance bonus to the roll."
+          },
+          {
+            "type": "item",
+            "heading": "Tales of Derring-Do",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Adventurous exploits are a popular subject in your kingdom, and your explorers desire to live up to daring fables and feats of greatness. When you fail or critically fail a Hire Adventurers check, you can roll a resource dice and spend that number of RP to roll again, but you must take the second result."
+          },
+          {
+            "type": "item",
+            "heading": "Trading Fleets",
+            "subheading": "Feat 6",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite**: trained in Exploration, Boating, and Trade"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your nation’s sailors range far and wide across waterways and the bounding main in search of commodities to bargain. You gain a +2 circumstance bonus on Boating checks made to Establish Trade Route or Trade Commodities. In addition, when you have a critical failure on a Manage Trade Agreements action, you can roll a Resource Die and spend that number of RP in order to treat the result as a failure instead. Because your trading fleets also can be repurposed in time of need to move troops, you also gain a +2 circumstance bonus on Boating checks made to Deploy Army. During any turn when you use this bonus, the circumstance bonus on other Boating checks provided by this feat is reduced to +1."
+          },
+          {
+            "type": "item",
+            "heading": "Trail Network",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "Every wild land has natural game trails, river courses, and landmarks that can ease travel. You gain a +1 status bonus on Exploration checks to Clear Hex, Deploy Army, Establish Trade Route, or Send Surveyors."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "In addition to the kingdom effects noted, individual travelers in your kingdom have a +1 circumstance bonus on Survival checks made to Sense Direction, increasing to +2 if your kingdom is Expert in both Exploration and Wilderness. This bonus also applies on Survival checks made to find trails in the wilderness (typically a Trained task); finding a trail may allow them to reduce the penalty from difficult terrain when determining how many miles per day they can travel (see Table 9-2: Travel Speed in the Pathfinder Core Rulebook), allowing them to move at 3/4 speed instead of at half speed, or at half speed rather than one-third speed through greater difficult terrain."
+          },
+          {
+            "type": "item",
+            "heading": "Underhanded Dealings",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite**: expert in Intrigue"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Certain unsavory groups, such as bandit gangs, smuggling rings, or even a group of intelligent monsters, have found common ground with you. In exchange for you taking a light hand in their activities, they put some of their ill-gotten resources at your disposal. At the beginning of the kingdom turn, if both your Crime and Strife scores are 3 or greater, you gain one extra Resource Die. If your kingdom is a master of Intrigue, your Crime and Strife scores need only be 2 or greater. If your kingdom is legendary at Intrigue, only one of Crime or Strife must be 2 or greater and you gain an additional point of RP."
+          },
+          {
+            "type": "item",
+            "heading": "Wall Builder",
+            "subheading": "Feat 4",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your engineers always have an eye for defensive construction, building settlements around natural defenses and efficiently integrating buildings as part of those defenses, ensuring that security is at the top of the list. You reduce the Stone or Lumber cost of any Castle, Garrison, Keep, Moat, Watchtower, or Wall by 1; if construction requires both Stone and Lumber, you reduce both costs by 1. In addition, when you use the Build Structure, Fortify, or Fortify Hex action, you can build two defensive structures from the list above or fortify two adjacent hexes as part of the same kingdom action, paying separately and rolling checks for the construction of each."
+          },
+          {
+            "type": "item",
+            "heading": "Warrior Tradition",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your people are no strangers to battle and strife and prove resilient when wars erupt. While you are at war with another kingdom, once per turn when you would gain Unrest, you can spend 1 RP to reduce the Unrest you gain by 1. Additionally, each kingdom turn when you are at war, you gain a +1 status bonus to either Defense or Warfare (your choice each turn). If your kingdom is a master at Warfare, you can increase this bonus to +2 or can gain a +1 status bonus to both, and a kingdom that is legendary at Warfare can increase one bonus to +2 and the other to +1."
+          },
+          {
+            "type": "item",
+            "heading": "Wild Hearth",
+            "subheading": "Feat 6",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Prerequisite**: Organic Construction"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your kingdom’s dedication to harmonious coexistence with natural forces has earned you the goodwill of mysterious wild entities. Once per kingdom turn, you can build an Everflowing Spring, Menagerie, Park, or Sacred Grove (or upgrade a Park to a Menagerie) as a free action. Additionally, the first time each kingdom turn that you complete one of these buildings, make a DC 19 flat check. If the check succeeds, your kingdom has a Nature’s Blessing event during the Event Phase and you gain a +2 circumstance bonus to any checks made to resolve it. This is in addition to any other event that may occur in that month."
+          },
+          {
+            "type": "item",
+            "heading": "Wisdom of the Elders",
+            "subheading": "Feat 1",
+            "content": [
+              {
+                "type": "hr"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Your kingdom venerates the elderly and looks to them for wisdom and advice. Increase your Consumption by 1 to represent a large venerable population. Once per kingdom turn, you may spend one leadership activity to consult a council of your oldest and wisest citizens. If you do so, you gain a +2 status bonus on all Skill checks you make during the Event Phase for the next month. Once per Event Phase, you can reroll a check and choose the better result."
+          }
+        ]
+      }
+    ]
+  }
+]
