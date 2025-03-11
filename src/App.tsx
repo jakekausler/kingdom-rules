@@ -37,6 +37,15 @@ const RULESETS: Record<string, ParsedElement[]> = {
   "Settlement Structures": settlementStructures as ParsedElement[],
 };
 
+// TODO: Add a search bar to the navbar
+// TODO: Scroll to top when ruleset changes
+// TODO: Add a "back to top" button
+// TODO: Add a color scheme toggle and save preference
+// TODO: Add dark colors
+// TODO: Pages should change the URL and be able to open in new tabs
+// TODO: Support links within the data to pages and/or anchors
+// TODO: Add anchors to each heading, item, and table
+
 function App() {
   const [opened, { toggle }] = useDisclosure(false);
   const [ruleset, setRuleset] = useState<string>("Kingdom Actions");
@@ -48,7 +57,7 @@ function App() {
       layout="alt"
     >
       <AppShell.Header>
-        <Burger opened={opened} onClick={toggle} />
+        <Burger hiddenFrom="sm" opened={opened} onClick={toggle} />
       </AppShell.Header>
       <AppShell.Navbar p="md">
         {Object.entries(RULESETS).map(([key, _ruleset]) => (
