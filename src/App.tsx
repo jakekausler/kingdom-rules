@@ -1,42 +1,50 @@
-import { AppShell, Burger, Button } from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
-import { useState } from 'react';
+import { AppShell, Burger, Button } from "@mantine/core";
+import { useDisclosure } from "@mantine/hooks";
+import { useState } from "react";
 
-import './App.css'
+import "./App.css";
 
-import { HeadingData, ItemData, ListData, ParagraphData, ParsedElement, TableData, TraitsData } from './types'
-import kingdomActions from '../json/Kingdom Actions.json';
-import kingdomAdvancement from '../json/Kingdom Advancement.json';
-import kingdomCreation from '../json/Kingdom Creation.json';
-import kingdomFeats from '../json/Kingdom Feats.json';
-import kingdomRules from '../json/Kingdom Rules.json';
-import kingdomTurn from '../json/Kingdom Turn.json';
-import leadershipRoles from '../json/Leadership Roles.json';
-import settlementCreation from '../json/Settlement Creation.json';
-import settlementRules from '../json/Settlement Rules.json';
-import settlementStructures from '../json/Settlement Structures.json';
+import {
+  HeadingData,
+  ItemData,
+  ListData,
+  ParagraphData,
+  ParsedElement,
+  TableData,
+  TraitsData,
+} from "./types";
+import kingdomActions from "../json/Kingdom Actions.json";
+import kingdomAdvancement from "../json/Kingdom Advancement.json";
+import kingdomCreation from "../json/Kingdom Creation.json";
+import kingdomFeats from "../json/Kingdom Feats.json";
+import kingdomRules from "../json/Kingdom Rules.json";
+import kingdomTurn from "../json/Kingdom Turn.json";
+import leadershipRoles from "../json/Leadership Roles.json";
+import settlementCreation from "../json/Settlement Creation.json";
+import settlementRules from "../json/Settlement Rules.json";
+import settlementStructures from "../json/Settlement Structures.json";
 
 const RULESETS: Record<string, ParsedElement[]> = {
-  'Kingdom Actions': kingdomActions as ParsedElement[],
-  'Kingdom Advancement': kingdomAdvancement as ParsedElement[],
-  'Kingdom Creation': kingdomCreation as ParsedElement[],
-  'Kingdom Feats': kingdomFeats as ParsedElement[],
-  'Kingdom Rules': kingdomRules as ParsedElement[],
-  'Kingdom Turn': kingdomTurn as ParsedElement[],
-  'Leadership Roles': leadershipRoles as ParsedElement[],
-  'Settlement Creation': settlementCreation as ParsedElement[],
-  'Settlement Rules': settlementRules as ParsedElement[],
-  'Settlement Structures': settlementStructures as ParsedElement[],
+  "Kingdom Actions": kingdomActions as ParsedElement[],
+  "Kingdom Advancement": kingdomAdvancement as ParsedElement[],
+  "Kingdom Creation": kingdomCreation as ParsedElement[],
+  "Kingdom Feats": kingdomFeats as ParsedElement[],
+  "Kingdom Rules": kingdomRules as ParsedElement[],
+  "Kingdom Turn": kingdomTurn as ParsedElement[],
+  "Leadership Roles": leadershipRoles as ParsedElement[],
+  "Settlement Creation": settlementCreation as ParsedElement[],
+  "Settlement Rules": settlementRules as ParsedElement[],
+  "Settlement Structures": settlementStructures as ParsedElement[],
 };
 
 function App() {
   const [opened, { toggle }] = useDisclosure(false);
-  const [ruleset, setRuleset] = useState<string>('Kingdom Actions');
+  const [ruleset, setRuleset] = useState<string>("Kingdom Actions");
 
   return (
     <AppShell
       header={{ height: 40 }}
-      navbar={{ width: 300, breakpoint: 'sm', collapsed: { mobile: !opened } }}
+      navbar={{ width: 300, breakpoint: "sm", collapsed: { mobile: !opened } }}
       layout="alt"
     >
       <AppShell.Header>
@@ -44,7 +52,17 @@ function App() {
       </AppShell.Header>
       <AppShell.Navbar p="md">
         {Object.entries(RULESETS).map(([key, _ruleset]) => (
-          <Button m="xs" variant="subtle" key={key} onClick={() => setRuleset(key)}>{key}</Button>
+          <Button
+            m="xs"
+            variant="subtle"
+            key={key}
+            onClick={() => {
+              setRuleset(key);
+              toggle();
+            }}
+          >
+            {key}
+          </Button>
         ))}
       </AppShell.Navbar>
       <AppShell.Main>
@@ -53,7 +71,7 @@ function App() {
         </div>
       </AppShell.Main>
     </AppShell>
-  )
+  );
 }
 function Ruleset({ ruleset }: { ruleset: ParsedElement[] }) {
   return (
@@ -62,7 +80,7 @@ function Ruleset({ ruleset }: { ruleset: ParsedElement[] }) {
         <Content data={ruleset} />
       </div>
     </div>
-  )
+  );
 }
 
 function Content({ data }: { data: ParsedElement[] }) {
@@ -70,51 +88,51 @@ function Content({ data }: { data: ParsedElement[] }) {
     <div>
       {data.map((element: ParsedElement, index: number) => {
         switch (element.type) {
-          case 'heading':
-            return <Heading data={element} key={index} />
-          case 'paragraph':
-            return <Paragraph data={element} key={index} />
-          case 'list':
-            return <List data={element} key={index} />
-          case 'table':
-            return <Table data={element} key={index} />
-          case 'item':
-            return <Item data={element} key={index} />
-          case 'hr':
-            return <HR />
-          case 'traits':
-            return <Traits data={element} key={index} />
+          case "heading":
+            return <Heading data={element} key={index} />;
+          case "paragraph":
+            return <Paragraph data={element} key={index} />;
+          case "list":
+            return <List data={element} key={index} />;
+          case "table":
+            return <Table data={element} key={index} />;
+          case "item":
+            return <Item data={element} key={index} />;
+          case "hr":
+            return <HR />;
+          case "traits":
+            return <Traits data={element} key={index} />;
           default:
             return null;
         }
       })}
     </div>
-  )
+  );
 }
 
 function Heading({ data }: { data: HeadingData }) {
   let heading = null;
   switch (data.level) {
     case 1:
-      heading = <h1>{data.heading}</h1>
+      heading = <h1>{data.heading}</h1>;
       break;
     case 2:
-      heading = <h2>{data.heading}</h2>
+      heading = <h2>{data.heading}</h2>;
       break;
     case 3:
-      heading = <h3>{data.heading}</h3>
+      heading = <h3>{data.heading}</h3>;
       break;
     case 4:
-      heading = <h4>{data.heading}</h4>
+      heading = <h4>{data.heading}</h4>;
       break;
     case 5:
-      heading = <h5>{data.heading}</h5>
+      heading = <h5>{data.heading}</h5>;
       break;
     case 6:
-      heading = <h6>{data.heading}</h6>
+      heading = <h6>{data.heading}</h6>;
       break;
     default:
-      heading = null
+      heading = null;
   }
   return (
     <>
@@ -126,14 +144,16 @@ function Heading({ data }: { data: HeadingData }) {
 
 function Paragraph({ data }: { data: ParagraphData }) {
   return (
-    <p>{data.content.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/).map((text, index) => {
-      if (text.startsWith('**') && text.endsWith('**')) {
-        return <strong key={index}>{text.slice(2, -2)}</strong>
-      } else if (text.startsWith('*') && text.endsWith('*')) {
-        return <em key={index}>{text.slice(1, -1)}</em>
-      }
-      return text;
-    })}</p>
+    <p>
+      {data.content.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/).map((text, index) => {
+        if (text.startsWith("**") && text.endsWith("**")) {
+          return <strong key={index}>{text.slice(2, -2)}</strong>;
+        } else if (text.startsWith("*") && text.endsWith("*")) {
+          return <em key={index}>{text.slice(1, -1)}</em>;
+        }
+        return text;
+      })}
+    </p>
   );
 }
 
@@ -141,14 +161,16 @@ function List({ data }: { data: ListData }) {
   return (
     <ul>
       {data.content.map((item) => (
-        <li>{item.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/).map(text => {
-          if (text.startsWith('**') && text.endsWith('**')) {
-            return <strong>{text.slice(2, -2)}</strong>
-          } else if (text.startsWith('*') && text.endsWith('*')) {
-            return <em>{text.slice(1, -1)}</em>
-          }
-          return text;
-        })}</li>
+        <li>
+          {item.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/).map((text) => {
+            if (text.startsWith("**") && text.endsWith("**")) {
+              return <strong>{text.slice(2, -2)}</strong>;
+            } else if (text.startsWith("*") && text.endsWith("*")) {
+              return <em>{text.slice(1, -1)}</em>;
+            }
+            return text;
+          })}
+        </li>
       ))}
     </ul>
   );
@@ -160,7 +182,9 @@ function Table({ data }: { data: TableData }) {
       <thead>
         <tr>
           {data.columns.map((column, index) => (
-            <th key={index} style={{ textAlign: column.align }}>{column.content}</th>
+            <th key={index} style={{ textAlign: column.align }}>
+              {column.content}
+            </th>
           ))}
         </tr>
       </thead>
@@ -168,7 +192,9 @@ function Table({ data }: { data: TableData }) {
         {data.data.map((row) => (
           <tr>
             {row.map((cell, index) => (
-              <td key={index} style={{ textAlign: data.columns[index].align }}>{cell}</td>
+              <td key={index} style={{ textAlign: data.columns[index].align }}>
+                {cell}
+              </td>
             ))}
           </tr>
         ))}
@@ -188,9 +214,7 @@ function Item({ data }: { data: ItemData }) {
 }
 
 function HR() {
-  return (
-    <hr />
-  );
+  return <hr />;
 }
 
 function Traits({ data }: { data: TraitsData }) {
@@ -209,4 +233,4 @@ function Traits({ data }: { data: TraitsData }) {
   );
 }
 
-export default App
+export default App;
