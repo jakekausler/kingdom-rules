@@ -23,7 +23,7 @@ function Ruleset({ ruleset, search }: { ruleset: ParsedElement[], search?: strin
         <Content data={ruleset} search={search} />
       </div>
       <Affix position={{ bottom: 20, right: 20 }}>
-        <ActionIcon variant="filled" color={colorScheme === 'dark' ? '#ffda9b' : '#5D0000'} onClick={scrollToTop}>
+        <ActionIcon bg={colorScheme === 'dark' ? '#ffda9b' : '#5D0000'} c={colorScheme === 'dark' ? '#000000' : '#ffffff'} onClick={scrollToTop}>
           <IconArrowUp />
         </ActionIcon>
       </Affix>
