@@ -30,7 +30,8 @@
                 "type": "paragraph",
                 "content": "Next, determine if any vacancy penalties apply. Any unassigned roles incur their vacancy penalties. Also, if a character assigned to a leadership role hasn’t spent the required week of downtime on that role since the end of the last Kingdom turn, they must either give up one of the three kingdom activities they would perform during the Leadership Activities step of the Activity phase of this Kingdom turn or apply the vacancy penalty for their role until the start of the next Kingdom turn. (NPCs cannot perform kingdom activities, so in the unusual case that they were unable to spend the required downtime—see Leadership Roles—they must apply the vacancy penalty.) If a leader was replaced between Kingdom turns due to an unexpected vacancy, as long as a character currently holds the role and any characters assigned to the role collectively spent the required downtime, the vacancy penalty does not apply."
               }
-            ]
+            ],
+            "id": "AssignLeadershipRoles"
           },
           {
             "type": "heading",
@@ -53,7 +54,8 @@
                 "type": "paragraph",
                 "content": "If your kingdom’s Unrest is 20 or higher, the entire nation also falls into anarchy. While in anarchy, you can only attempt Quell Unrest activities, and the results of all kingdom checks are worsened one degree."
               }
-            ]
+            ],
+            "id": "AdjustUnrest"
           },
           {
             "type": "heading",
@@ -76,7 +78,8 @@
                 "type": "paragraph",
                 "content": "Finally, if you have any Work Sites established in your kingdom, gather Commodities. You gain 1 Commodity from each Work Site, or double that if the Work Site is in a Resource hex. Any Commodities gathered in excess of your storage capacity are lost."
               }
-            ]
+            ],
+            "id": "ResourceCollection"
           },
           {
             "type": "heading",
@@ -99,7 +102,8 @@
                 "type": "paragraph",
                 "content": "Spend Food Commodities equal to your kingdom’s Consumption. If you can’t or choose not to spend this Commodity cost, you can either spend 5 RP per point of unpaid Consumption or increase Unrest by 1d4."
               }
-            ]
+            ],
+            "id": "PayConsumption"
           },
           {
             "type": "heading",
@@ -114,9 +118,11 @@
                 "type": "paragraph",
                 "content": "If you have any buildings that were under construction that you did not advance, subtract the number of buildings you did not advance from the number of settlements in your kingdom. If the number is greater than 0, you gain that much Unrest as your citizens begin to think your kingdom is taking on too many projects. For example, if you have 3 settlements and 5 buildings under construction that you did not advance, you gain 2 Unrest."
               }
-            ]
+            ],
+            "id": "StructureAdvancement"
           }
-        ]
+        ],
+        "id": "UpkeepPhase"
       },
       {
         "type": "heading",
@@ -136,7 +142,8 @@
                 "type": "paragraph",
                 "content": "You can Collect Taxes once per Kingdom turn to attempt to bolster your Economy-based checks for the remainder of the Kingdom turn. If you don’t attempt to Collect Taxes, you can instead attempt a DC 11 flat check; on a success, reduce Unrest by 1."
               }
-            ]
+            ],
+            "id": "CollectTaxes"
           },
           {
             "type": "heading",
@@ -147,7 +154,8 @@
                 "type": "paragraph",
                 "content": "You can draw upon the kingdom’s funds to enhance the standard of living for its citizens by attempting the Improve Lifestyle activity or you can attempt a withdrawal from the kingdom’s funds using the Tap Treasury activity."
               }
-            ]
+            ],
+            "id": "ApproveExpenses"
           },
           {
             "type": "heading",
@@ -158,7 +166,8 @@
                 "type": "paragraph",
                 "content": "If your kingdom has any stockpiles of Commodities, you can attempt the Trade Commodities activity to bolster your RP for the turn."
               }
-            ]
+            ],
+            "id": "TapCommodities"
           },
           {
             "type": "heading",
@@ -169,9 +178,11 @@
                 "type": "paragraph",
                 "content": "If you’ve established trade agreements, you can use the Manage Trade Agreements activity."
               }
-            ]
+            ],
+            "id": "ManageTradeAgreements"
           }
-        ]
+        ],
+        "id": "CommercePhase"
       },
       {
         "type": "heading",
@@ -203,7 +214,8 @@
                 "type": "paragraph",
                 "content": "For the purposes of determining which settlement to use for determining item bonuses, use the settlement in which the leader spent the most of their time leading during the month."
               }
-            ]
+            ],
+            "id": "LeadershipActivities"
           },
           {
             "type": "heading",
@@ -218,7 +230,8 @@
                 "type": "paragraph",
                 "content": "For the purposes of determining which settlement to use for determining item bonuses, use the settlement closest to the hex in which the Region activity is located. The players may choose which settlement to use in the case of a tie."
               }
-            ]
+            ],
+            "id": "RegionActivities"
           },
           {
             "type": "heading",
@@ -233,9 +246,11 @@
                 "type": "paragraph",
                 "content": "For the purposes of determining which settlement to use for determining item bonuses, use the settlement in which the Civic activity is performed."
               }
-            ]
+            ],
+            "id": "CivicActivities"
           }
-        ]
+        ],
+        "id": "ActivityPhase"
       },
       {
         "type": "heading",
@@ -259,7 +274,8 @@
                 "type": "paragraph",
                 "content": "Attempt a DC 16 flat check. On success, a random kingdom event occurs (see Kingdom Events). If no random event occurs, the DC for this check in the next Kingdom turn is reduced by 5. Once an event occurs, the DC resets to 16."
               }
-            ]
+            ],
+            "id": "CheckForARandomEvent"
           },
           {
             "type": "heading",
@@ -274,9 +290,11 @@
                 "type": "paragraph",
                 "content": "In some chapters of the Kingmaker Adventure Path, specific story events are introduced outside of Kingdom turns; these are resolved when they occur."
               }
-            ]
+            ],
+            "id": "EventResolution"
           }
-        ]
+        ],
+        "id": "EventPhase"
       },
       {
         "type": "heading",
@@ -291,9 +309,11 @@
             "type": "paragraph",
             "content": "If your kingdom’s XP total is above 1,000, and your kingdom isn’t at its maximum level, increase your kingdom level by 1 and subtract 1,000 from your XP total. See Kingdom Advancement for the full rules for leveling up.="
           }
-        ]
+        ],
+        "id": "XPPhase"
       }
-    ]
+    ],
+    "id": "KingdomTurn"
   },
   {
     "type": "heading",
@@ -350,9 +370,11 @@
                 "100+",
                 "5 XP"
               ]
-            ]
+            ],
+            "id": "HexClaimXPAwardsTable"
           }
-        ]
+        ],
+        "id": "HexClaimXPAwards"
       },
       {
         "type": "heading",
@@ -363,7 +385,8 @@
             "type": "paragraph",
             "content": "A kingdom earns 30 XP for experiencing a random event or more for a Story event, regardless of the event’s outcome."
           }
-        ]
+        ],
+        "id": "EventXPAwards"
       },
       {
         "type": "heading",
@@ -403,9 +426,11 @@
                 "16-20",
                 "1"
               ]
-            ]
+            ],
+            "id": "SurplusRPXPAwardsTable"
           }
-        ]
+        ],
+        "id": "SurplusRPXPAwards"
       },
       {
         "type": "heading",
@@ -416,7 +441,8 @@
             "type": "paragraph",
             "content": "Your kingdom gains experience by building structures within its settlements. Each structure lists XP in its entry. Each turn, gain XP for the highest XP value of any structure you built that turn."
           }
-        ]
+        ],
+        "id": "StructureXPAwards"
       },
       {
         "type": "heading",
@@ -494,9 +520,11 @@
                 "Fortify",
                 "Keep"
               ]
-            ]
+            ],
+            "id": "ImprovementXPAwardsTable"
           }
-        ]
+        ],
+        "id": "ImprovementXPAwards"
       },
       {
         "type": "heading",
@@ -664,10 +692,13 @@
                 "120",
                 "Reach Kingdom size 100"
               ]
-            ]
+            ],
+            "id": "MilestoneXPAwardsTable"
           }
-        ]
+        ],
+        "id": "MilestoneXPAwards"
       }
-    ]
+    ],
+    "id": "GainingKingdomExperience"
   }
 ]

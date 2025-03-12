@@ -106,9 +106,11 @@
                 "type": "paragraph",
                 "content": "**Effect** All additional game effects the structure grants to your kingdom are listed here. In many cases, these effects grant item bonuses to PCs while they are in the settlement, but unlike those granted by the Item Bonus above, item bonuses found in this section of the stat block do not stack with other item bonuses. Unless stated otherwise, effects in this section apply only within this settlement; they do not apply to areas influenced by this settlement."
               }
-            ]
+            ],
+            "id": "ExampleStructure"
           }
-        ]
+        ],
+        "id": "StructureDescriptions"
       },
       {
         "type": "heading",
@@ -178,7 +180,8 @@
                 "type": "paragraph",
                 "content": "**Effect** While in a settlement with an Academy, you gain a +2 item bonus to Lore checks made to Recall Knowledge while Investigating, to all checks made while Researching (Gamemastery Guide 154), and to Decipher Writing."
               }
-            ]
+            ],
+            "id": "Academy"
           },
           {
             "type": "item",
@@ -226,7 +229,8 @@
                 "type": "paragraph",
                 "content": "**Effect** If you have an aerie in the same city as a castle, garrison, keep, or watchtower, you gain a +1 item bonus on Defense checks made to resolve a Monster Activity event, or a +2 item bonus if the monsters involved are flying creatures"
               }
-            ]
+            ],
+            "id": "Aerie"
           },
           {
             "type": "item",
@@ -277,7 +281,8 @@
                 "type": "paragraph",
                 "content": "**Effect** Checks attempted to Identify Alchemy in any settlement with at least one alchemy laboratory gain a +1 item bonus."
               }
-            ]
+            ],
+            "id": "AlchemyLaboratory"
           },
           {
             "type": "item",
@@ -328,7 +333,8 @@
                 "type": "paragraph",
                 "content": "**Effect** Checks made to Borrow an Arcane Spell or Learn a Spell in any settlement with at least one arcanist’s tower gain a +1 item bonus."
               }
-            ]
+            ],
+            "id": "Arcanist’sTower"
           },
           {
             "type": "item",
@@ -377,7 +383,8 @@
                 "type": "paragraph",
                 "content": "**Effect** An arena lets you to retrain combat-themed feats more efficiently while in the settlement; doing so takes only 5 days rather than a week of downtime."
               }
-            ]
+            ],
+            "id": "Arena"
           },
           {
             "type": "item",
@@ -426,7 +433,8 @@
                 "type": "paragraph",
                 "content": "**Effect** When you use a Build Roads or Establish Farmland activity in a hex adjacent to a settlement with an assembly, or a Build Structure activity in a settlement with an assembly, you can take one kingdom activity of the same type in that settlement or a hex adjacent to it."
               }
-            ]
+            ],
+            "id": "Assembly"
           },
           {
             "type": "item",
@@ -477,7 +485,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The Capital Investment Leadership activity can be used only within the influence area of a settlement with a bank."
               }
-            ]
+            ],
+            "id": "Bank"
           },
           {
             "type": "item",
@@ -525,7 +534,8 @@
                 "type": "paragraph",
                 "content": "**Item Bonus** +2 item bonus to Rest and Relax using Arts and to Create a Masterpiece. While in a settlement with a Bardic college, you gain a +3 item bonus to Lore and Occultism checks made to Recall Knowledge while Investigating and to all art or music-related checks while Researching (see the Pathfinder Gamemastery Guide). Treat the settlement’s level as two levels higher than its actual level for the purposes of determining what occult magic items or items related to the arts, music, or the bard class are available for sale in that settlement. This does not stack with itself but does stack with similar increases from other structures."
               }
-            ]
+            ],
+            "id": "BardicCollege"
           },
           {
             "type": "item",
@@ -577,7 +587,8 @@
                 "type": "paragraph",
                 "content": "**Item Bonus** +1 item bonus to Garrison Army, Recover Army, or Recruit Army (see Appendix 3)"
               }
-            ]
+            ],
+            "id": "Barracks"
           },
           {
             "type": "item",
@@ -620,7 +631,8 @@
                 "type": "paragraph",
                 "content": "**Item Bonus** +1 item bonus to Provide Care and on Defense checks made to resolve a Plague event"
               }
-            ]
+            ],
+            "id": "Baths"
           },
           {
             "type": "item",
@@ -667,7 +679,8 @@
                 "type": "paragraph",
                 "content": "**Effect** When you build a brewery, reduce Unrest by 1 as long as you have fewer than 4 breweries in the settlement at that time."
               }
-            ]
+            ],
+            "id": "Brewery"
           },
           {
             "type": "item",
@@ -714,7 +727,8 @@
                 "type": "paragraph",
                 "content": "**Effect** You can build quarries within the settlement's influence in desert, plains, or coastal terrain, reducing the RP cost to build them by 1."
               }
-            ]
+            ],
+            "id": "Brickyard"
           },
           {
             "type": "item",
@@ -761,7 +775,8 @@
                 "type": "paragraph",
                 "content": "**Special** A bridge can share the same space as a waterway inside a city. Alternatively, if the settlement has a water border but nearby land, a bridge can be built occupying one square but serving as a causeway to connect the settlement to dry land beyond the city."
               }
-            ]
+            ],
+            "id": "Bridge"
           },
           {
             "type": "item",
@@ -812,7 +827,8 @@
                 "type": "paragraph",
                 "content": "**Special** You can build multiple Bureaus in a settlement, but each must select a different Focus (such as a Bureau of Agriculture and a Bureau of Trade)."
               }
-            ]
+            ],
+            "id": "Bureau"
           },
           {
             "type": "item",
@@ -869,7 +885,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a castle each Kingdom turn, reduce Unrest by 1d4. A castle in a capital allows PC leaders to take 3 Leadership activities during the Activity phase of a Kingdom turn rather than 2."
               }
-            ]
+            ],
+            "id": "Castle"
           },
           {
             "type": "item",
@@ -926,7 +943,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a cathedral in a turn, reduce Unrest by 4. While in a settlement with a cathedral, you gain a +3 item bonus to Lore and Religion checks made to Recall Knowledge while Investigating, and to all faith-themed checks made while Researching (Gamemastery Guide 154)."
               }
-            ]
+            ],
+            "id": "Cathedral"
           },
           {
             "type": "item",
@@ -969,7 +987,8 @@
                 "type": "paragraph",
                 "content": "**Effect** Giving the citizens a place to bury and remember their departed loved ones helps to temper Unrest gained from dangerous events. If you have at least one cemetery in a settlement, reduce Unrest gained from any dangerous settlement events in that particular settlement by 1 (to a maximum of 4 for four cemeteries). The presence of a cemetery provides additional effects during certain kingdom events."
               }
-            ]
+            ],
+            "id": "Cemetery"
           },
           {
             "type": "item",
@@ -1020,7 +1039,8 @@
                 "type": "paragraph",
                 "content": "**Special** A cistern cannot be built adjacent to a Cemetery, Yard, Dump, Stables, Stockyard, or Tannery."
               }
-            ]
+            ],
+            "id": "Cistern"
           },
           {
             "type": "item",
@@ -1077,7 +1097,8 @@
                 "type": "paragraph",
                 "content": "**Special** A colossus can share the same space on the urban grid with a lighthouse or observatory (but not both)."
               }
-            ]
+            ],
+            "id": "Colossus"
           },
           {
             "type": "item",
@@ -1120,7 +1141,8 @@
                 "type": "paragraph",
                 "content": "**Item Bonus** +1 item bonus to Build Housing, Build Roads, Build Structure, Irrigation, Repair, and to Repair Reputation (Decay)"
               }
-            ]
+            ],
+            "id": "ConstructionYard"
           },
           {
             "type": "item",
@@ -1167,7 +1189,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a courthouse in a Kingdom turn, reduce your Corruption and Crime Ruin scores by 1 each. While in a settlement with a courthouse, you gain a +1 item bonus to Lore checks related to the law and legal matters."
               }
-            ]
+            ],
+            "id": "Courthouse"
           },
           {
             "type": "item",
@@ -1218,7 +1241,8 @@
                 "type": "paragraph",
                 "content": "**Special** A crematorium must be built adjacent to a cemetery or dump."
               }
-            ]
+            ],
+            "id": "Crematorium"
           },
           {
             "type": "item",
@@ -1265,7 +1289,8 @@
                 "type": "paragraph",
                 "content": "**Effect** Certain events have a more dangerous impact on settlements that don’t include a dump. A dump can’t be located in a block with any Residential structures.\nlocated in a block with any Residential structures."
               }
-            ]
+            ],
+            "id": "Dump"
           },
           {
             "type": "item",
@@ -1308,7 +1333,8 @@
                 "type": "paragraph",
                 "content": "**Item Bonus** +1 item bonus to Send Diplomatic Envoy and Request Foreign Aid"
               }
-            ]
+            ],
+            "id": "Embassy"
           },
           {
             "type": "item",
@@ -1360,7 +1386,8 @@
                 "type": "paragraph",
                 "content": "**Special** Can share a lot with a castle, cathedral, monument, park, sacred grove, shrine, or temple."
               }
-            ]
+            ],
+            "id": "EverflowingSpring"
           },
           {
             "type": "item",
@@ -1407,7 +1434,8 @@
                 "type": "paragraph",
                 "content": "**Item Bonus** +1 item bonus to Celebrate Holiday and Quell Unrest (Arts)"
               }
-            ]
+            ],
+            "id": "FestivalHall"
           },
           {
             "type": "item",
@@ -1458,7 +1486,8 @@
                 "type": "paragraph",
                 "content": "**Effect** By processing ore in a foundry, your settlements grow more efficient at storing your kingdom’s Commodities. Each foundry in your kingdom increases your maximum Ore Commodity capacity by 1. A foundry cannot share a block with a Residential structure."
               }
-            ]
+            ],
+            "id": "Foundry"
           },
           {
             "type": "item",
@@ -1509,7 +1538,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a gambling den on your kingdom turn, you can make an Intrigue check against your kingdom’s control DC. If the check succeeds, you gain a bonus Resource Die for economy, or two Resource Dice on a critical success. If the check fails, you lose 1 RP from all four ability score pools, or one Resource Die from each on a critical failure. In addition, you can use Intrigue for the Rest and Relax kingdom activity."
               }
-            ]
+            ],
+            "id": "GamblingDen"
           },
           {
             "type": "item",
@@ -1565,7 +1595,8 @@
                 "type": "paragraph",
                 "content": "**Effect** A garrison helps outfit armies with new gear or trains them. When you build a garrison, reduce Unrest by 1."
               }
-            ]
+            ],
+            "id": "Garrison"
           },
           {
             "type": "item",
@@ -1612,7 +1643,8 @@
                 "type": "paragraph",
                 "content": "**Upgrade To** luxury store, marketplace"
               }
-            ]
+            ],
+            "id": "GeneralStore"
           },
           {
             "type": "item",
@@ -1659,7 +1691,8 @@
                 "type": "paragraph",
                 "content": "**Effect** Each granary in your kingdom increases your maximum Food Commodity capacity by 1."
               }
-            ]
+            ],
+            "id": "Granary"
           },
           {
             "type": "item",
@@ -1714,7 +1747,8 @@
                 "type": "paragraph",
                 "content": "**Effect** When you build a guildhall, indicate what sort of organization (such as bakers, grocers, smiths, etc.) it serves as a headquarters for. While in a settlement with a guildhall, you gain a +1 item bonus to all related skill checks to Earn Income or to Repair."
               }
-            ]
+            ],
+            "id": "Guildhall"
           },
           {
             "type": "item",
@@ -1771,7 +1805,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build hanging gardens each Kingdom turn, reduce Unrest by 2 and reduce Decay by 2. A settlement with hanging gardens reduces its Consumption by 2. In addition, you can use Agriculture for the Rest and Relax kingdom activity. While in a settlement with hanging gardens, you gain a +2 item bonus to Lore checks related to plants, agriculture, and medicine."
               }
-            ]
+            ],
+            "id": "HangingGardens"
           },
           {
             "type": "item",
@@ -1822,7 +1857,8 @@
                 "type": "paragraph",
                 "content": "**Item Bonus** +1 item bonus to Provide Care"
               }
-            ]
+            ],
+            "id": "Herbalist"
           },
           {
             "type": "item",
@@ -1877,7 +1913,8 @@
                 "type": "paragraph",
                 "content": "**Effect** While in a settlement with a hospital, you gain a +2 item bonus to Medicine checks to Treat Disease and Treat Wounds."
               }
-            ]
+            ],
+            "id": "Hospital"
           },
           {
             "type": "item",
@@ -1929,7 +1966,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build houses each Kingdom turn, reduce Unrest by 1."
               }
-            ]
+            ],
+            "id": "Houses"
           },
           {
             "type": "item",
@@ -1980,7 +2018,8 @@
                 "type": "paragraph",
                 "content": "**Ruin** +1 Crime"
               }
-            ]
+            ],
+            "id": "IllicitMarket"
           },
           {
             "type": "item",
@@ -2024,7 +2063,8 @@
                 "type": "paragraph",
                 "content": "**Item Bonus** +1 Item bonus to Clear Hex (Exploration) and Hire Adventurers"
               }
-            ]
+            ],
+            "id": "Inn"
           },
           {
             "type": "item",
@@ -2071,7 +2111,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a jail each a Kingdom turn, reduce Crime by 1."
               }
-            ]
+            ],
+            "id": "Jail"
           },
           {
             "type": "item",
@@ -2123,7 +2164,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a keep each Kingdom turn, reduce Unrest by 1."
               }
-            ]
+            ],
+            "id": "Keep"
           },
           {
             "type": "item",
@@ -2178,7 +2220,8 @@
                 "type": "paragraph",
                 "content": "**Effect** While in a settlement with a library, you gain a +1 item bonus to Lore checks made to Recall Knowledge while Investigating, as well as to Researching checks (Gamemastery Guide 154), and to Decipher Writing checks."
               }
-            ]
+            ],
+            "id": "Library"
           },
           {
             "type": "item",
@@ -2230,7 +2273,8 @@
                 "type": "paragraph",
                 "content": "**Special** A lighthouse must be built on a water border at the edge of an Urban Grid."
               }
-            ]
+            ],
+            "id": "Lighthouse"
           },
           {
             "type": "item",
@@ -2277,7 +2321,8 @@
                 "type": "paragraph",
                 "content": "**Effect** Each lumberyard in your kingdom increases maximum Lumber Commodity capacity by 1. A lumberyard must be built in a lot next to a Water border, both to give the yard a source of power to run saws to process timber, but more importantly to facilitate the shipment of trees to the yard."
               }
-            ]
+            ],
+            "id": "Lumberyard"
           },
           {
             "type": "item",
@@ -2336,7 +2381,8 @@
                 "type": "paragraph",
                 "content": "**Effect** A luxury store must be built on a block that has either a mansion or a noble villa."
               }
-            ]
+            ],
+            "id": "LuxuryStore"
           },
           {
             "type": "item",
@@ -2391,7 +2437,8 @@
                 "type": "paragraph",
                 "content": "**Item Bonus** +1 item bonus to Prognostication and Supernatural Solution"
               }
-            ]
+            ],
+            "id": "MagicShop"
           },
           {
             "type": "item",
@@ -2434,7 +2481,8 @@
                 "type": "paragraph",
                 "content": "**Effect** Magical streetlamps provide nighttime illumination for an entire Urban Grid. When you build magical streetlamps, check the magical streetlamps checkbox on your Urban Grid. The first time you build magical streetlamps in a Kingdom turn, reduce Crime by 1."
               }
-            ]
+            ],
+            "id": "MagicalStreetlamps"
           },
           {
             "type": "item",
@@ -2486,7 +2534,8 @@
                 "type": "paragraph",
                 "content": "**Item Bonus** +1 item bonus to Improve Lifestyle"
               }
-            ]
+            ],
+            "id": "Mansion"
           },
           {
             "type": "item",
@@ -2538,7 +2587,8 @@
                 "type": "paragraph",
                 "content": "**Item Bonus** +1 item bonus to Establish Trade Agreement and Trade Fair"
               }
-            ]
+            ],
+            "id": "Marketplace"
           },
           {
             "type": "item",
@@ -2591,7 +2641,8 @@
                 "type": "paragraph",
                 "content": "**Effect** A menagerie typically contains a selection of level 5 or lower animals. If your party captures a living creature of level 6 or higher and can transport the creature back to a settlement with a menagerie, you can add that creature to the menagerie as long as your kingdom level is at least 4 higher than the creature’s level. Each time such a creature is added to a menagerie, gain 1 Fame or Infamy point (as appropriate) or reduce one Ruin of your choice by 1. Only creatures with Intelligence modifiers of –4 or –5 are appropriate to place in a menagerie. A kingdom gains 1 Unrest at the start of a Kingdom turn for each sapient creature (anything with an Intelligence modifier of –3 or higher) on display in a menagerie."
               }
-            ]
+            ],
+            "id": "Menagerie"
           },
           {
             "type": "item",
@@ -2644,7 +2695,8 @@
                 "type": "paragraph",
                 "content": "**Item Bonus** +2 item bonus to Pledge of Fealty using Warfare, +2 item bonus to Train Army"
               }
-            ]
+            ],
+            "id": "MilitaryAcademy"
           },
           {
             "type": "item",
@@ -2691,7 +2743,8 @@
                 "type": "paragraph",
                 "content": "**Effect** If a settlement includes at least one mill built on a lot adjacent to a Water border, the increased efficiency of these mills reduces the settlement’s Consumption by 1 (to a minimum of 0)."
               }
-            ]
+            ],
+            "id": "Mill"
           },
           {
             "type": "item",
@@ -2740,7 +2793,8 @@
                 "type": "paragraph",
                 "content": "**Item Bonus** +3 item bonus to Capital Investment, Collect Taxes, and to Repair Reputation (Crime)"
               }
-            ]
+            ],
+            "id": "Mint"
           },
           {
             "type": "item",
@@ -2792,7 +2846,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a monastery each Kingdom turn, reduce Unrest by 1 and reduce Corruption by 1. Choose one type of Lore for your monastery to study; while in a settlement containing a monastery, you gain a +1 item bonus to Lore checks of that type. Treat the settlement’s level as one level higher than its actual level for the purpose of determining what divine magic items or magic items related to the monk class are available for sale in that settlement; this does not stack with similar effects from other buildings."
               }
-            ]
+            ],
+            "id": "Monastery"
           },
           {
             "type": "item",
@@ -2837,7 +2892,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a monument each Kingdom turn, reduce Unrest by 1 and reduce one Ruin of your choice by 1."
               }
-            ]
+            ],
+            "id": "Monument"
           },
           {
             "type": "item",
@@ -2885,7 +2941,8 @@
                 "type": "paragraph",
                 "content": "**Effect** A magic item of level 6 or higher that has a particular import or bears significant historical or regional value (at the GM’s discretion) can be donated to a museum. Each time such an item is donated, reduce Unrest by 1. If that item is later removed from display, increase Unrest by 1."
               }
-            ]
+            ],
+            "id": "Museum"
           },
           {
             "type": "item",
@@ -2942,7 +2999,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a noble villa each Kingdom turn, reduce Unrest by 2."
               }
-            ]
+            ],
+            "id": "NobleVilla"
           },
           {
             "type": "item",
@@ -2994,7 +3052,8 @@
                 "type": "paragraph",
                 "content": "**Effect** While in a settlement with an observatory, you gain a +1 item bonus to Lore checks related to the suns and stars."
               }
-            ]
+            ],
+            "id": "Observatory"
           },
           {
             "type": "item",
@@ -3049,7 +3108,8 @@
                 "type": "paragraph",
                 "content": "**Effect** While in a settlement with an occult shop, you gain a +2 item bonus to all checks made to Research esoteric subjects or to Recall Knowledge about the same."
               }
-            ]
+            ],
+            "id": "OccultShop"
           },
           {
             "type": "item",
@@ -3102,7 +3162,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build an opera house each Kingdom turn, reduce Unrest by 4. While in a settlement with an opera house, you gain a +3 item bonus to Performance checks made to Earn Income."
               }
-            ]
+            ],
+            "id": "OperaHouse"
           },
           {
             "type": "item",
@@ -3150,7 +3211,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build an orphanage each Kingdom turn, reduce Unrest by 1."
               }
-            ]
+            ],
+            "id": "Orphanage"
           },
           {
             "type": "item",
@@ -3207,7 +3269,8 @@
                 "type": "paragraph",
                 "content": "**Effect** A palace can only be built in your capital. The first time you build a palace, reduce Unrest by 10. If you Relocate your Capital, a palace left behind in that capital instead functions as a noble villa that takes up 4 lots. (If you represent this by placing two noble villas in these lots, make sure to note that they constitute a single building and aren’t two separate structures.) A palace in a capital allows PC leaders to take 3 Leadership activities during the Activity phase of a Kingdom turn rather than just 2. In addition, once your kingdom has a palace, a PC in the Ruler leadership role gains a +3 item bonus to checks made to resolve Leadership activities."
               }
-            ]
+            ],
+            "id": "Palace"
           },
           {
             "type": "item",
@@ -3258,7 +3321,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a park each Kingdom turn, reduce Unrest by 1."
               }
-            ]
+            ],
+            "id": "Park"
           },
           {
             "type": "item",
@@ -3301,7 +3365,8 @@
                 "type": "paragraph",
                 "content": "**Effect** It takes a character only 5 minutes to move from one lot to an adjacent lot in an Urban Grid when moving on paved streets. When you build paved streets, check the paved streets checkbox on your Urban Grid."
               }
-            ]
+            ],
+            "id": "PavedStreets"
           },
           {
             "type": "item",
@@ -3356,7 +3421,8 @@
                 "type": "paragraph",
                 "content": "**Effect** A pier must be built in a lot next to a Water border."
               }
-            ]
+            ],
+            "id": "Pier"
           },
           {
             "type": "item",
@@ -3399,7 +3465,8 @@
                 "type": "paragraph",
                 "content": "**Effect** Rubble is created accidentally, such as from a result of certain kingdom events or failed Demolish activity. You cannot build in a lot with rubble; it must be removed via a successful Demolish activity."
               }
-            ]
+            ],
+            "id": "Rubble"
           },
           {
             "type": "item",
@@ -3446,7 +3513,8 @@
                 "type": "paragraph",
                 "content": "**Item Bonus** +1 item bonus to Quell Unrest using Folklore"
               }
-            ]
+            ],
+            "id": "SacredGrove"
           },
           {
             "type": "item",
@@ -3493,7 +3561,8 @@
                 "type": "paragraph",
                 "content": "**Effect** Each secure warehouse in your kingdom increases your maximum Luxuries Commodity capacity by 1."
               }
-            ]
+            ],
+            "id": "SecureWarehouse"
           },
           {
             "type": "item",
@@ -3540,7 +3609,8 @@
                 "type": "paragraph",
                 "content": "**Effect** A sewer system reduces the settlement’s Consumption by 1. Having a sewer system can also affect certain kingdom events. When you build a sewer system, check the sewer system checkbox on its Urban Grid. (For metropolises, this infrastructure automatically applies to all of its Urban Grids.)"
               }
-            ]
+            ],
+            "id": "SewerSystem"
           },
           {
             "type": "item",
@@ -3591,7 +3661,8 @@
                 "type": "paragraph",
                 "content": "**Item Bonus** +1 item bonus to Celebrate Holiday"
               }
-            ]
+            ],
+            "id": "Shrine"
           },
           {
             "type": "item",
@@ -3642,7 +3713,8 @@
                 "type": "paragraph",
                 "content": "**Effect** While in a settlement with a smithy, you gain a +1 item bonus to Craft checks made to work with metal."
               }
-            ]
+            ],
+            "id": "Smithy"
           },
           {
             "type": "item",
@@ -3705,7 +3777,8 @@
                 "type": "paragraph",
                 "content": "**Special** A Smuggler’s Den must share a block with at least one Housing improvement and another Structure with a Construction requirement of Community, Faith, Industry, or Trade as a front."
               }
-            ]
+            ],
+            "id": "Smuggler’sDen"
           },
           {
             "type": "item",
@@ -3756,7 +3829,8 @@
                 "type": "paragraph",
                 "content": "**Effect** While in a settlement with a specialized artisan, you gain a +1 item bonus to Craft checks made to craft specialized goods like jewelry."
               }
-            ]
+            ],
+            "id": "SpecializedArtisan"
           },
           {
             "type": "item",
@@ -3799,7 +3873,8 @@
                 "type": "paragraph",
                 "content": "**Item Bonus** +1 item bonus to Establish Trade Agreement and Supply Network"
               }
-            ]
+            ],
+            "id": "Stable"
           },
           {
             "type": "item",
@@ -3846,7 +3921,8 @@
                 "type": "paragraph",
                 "content": "**Effect** A settlement with at least one stockyard reduces its Consumption by 1."
               }
-            ]
+            ],
+            "id": "Stockyard"
           },
           {
             "type": "item",
@@ -3893,7 +3969,8 @@
                 "type": "paragraph",
                 "content": "**Effect** Each stonemason in your kingdom increases your maximum Stone Commodity capacity by 1."
               }
-            ]
+            ],
+            "id": "Stonemason"
           },
           {
             "type": "item",
@@ -3940,7 +4017,8 @@
                 "type": "paragraph",
                 "content": "**Effect** A tannery cannot share a block with any Residential structure except tenements."
               }
-            ]
+            ],
+            "id": "Tannery"
           },
           {
             "type": "item",
@@ -3991,7 +4069,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a dive tavern in a Kingdom turn, reduce Unrest by 1 but increase Crime by 1."
               }
-            ]
+            ],
+            "id": "Tavern,Dive"
           },
           {
             "type": "item",
@@ -4046,7 +4125,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a popular tavern in a Kingdom turn, reduce Unrest by 2. If you attempt a Performance check to Earn Income in a settlement with a popular tavern, you gain a +1 item bonus to the check. All checks made to Gather Information in a settlement with at least one popular tavern gain a +1 item bonus."
               }
-            ]
+            ],
+            "id": "Tavern,Popular"
           },
           {
             "type": "item",
@@ -4102,7 +4182,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a luxury tavern in a Kingdom turn, reduce Unrest by 1d4+1. If attempt a Performance check to Earn Income in a settlement with a luxury tavern, you gain a +2 item bonus to the check. All checks made to Gather Information in a settlement with at least one luxury tavern gain a +2 item bonus."
               }
-            ]
+            ],
+            "id": "Tavern,Luxury"
           },
           {
             "type": "item",
@@ -4155,7 +4236,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a world-class tavern in a Kingdom turn, reduce Unrest by 2d4. If you attempt a Performance check to Earn Income in a settlement with a world-class tavern, you gain a +3 item bonus to the check. All checks made to Gather Information in a settlement with a world-class tavern gain a +3 item bonus."
               }
-            ]
+            ],
+            "id": "Tavern,WorldClass"
           },
           {
             "type": "item",
@@ -4210,7 +4292,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a temple each Kingdom turn, reduce Unrest by 2."
               }
-            ]
+            ],
+            "id": "Temple"
           },
           {
             "type": "item",
@@ -4262,7 +4345,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build tenements each Kingdom turn, reduce Unrest by 1."
               }
-            ]
+            ],
+            "id": "Tenement"
           },
           {
             "type": "item",
@@ -4317,7 +4401,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a theater each Kingdom turn, reduce Unrest by 1. While in a settlement with a theater, you gain a +2 item bonus to Performance checks made to Earn Income."
               }
-            ]
+            ],
+            "id": "Theater"
           },
           {
             "type": "item",
@@ -4368,7 +4453,8 @@
                 "type": "paragraph",
                 "content": "**Effect** While in a settlement with a thieves’ guild, you gain a +1 item bonus to Create Forgeries."
               }
-            ]
+            ],
+            "id": "Thieves’Guild"
           },
           {
             "type": "item",
@@ -4420,7 +4506,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a town hall each Kingdom turn, reduce Unrest by 1. A town hall in a capital allows PC leaders to take 3 Leadership activities during the Activity phase of a Kingdom turn rather than just 2."
               }
-            ]
+            ],
+            "id": "TownHall"
           },
           {
             "type": "item",
@@ -4471,7 +4558,8 @@
                 "type": "paragraph",
                 "content": "**Effect** When you build a trade shop, indicate the kind of shop it is, such as a bakery, carpenter, tailor, and so on. While in a settlement with a trade shop, you gain a +1 item bonus to all associated Crafting checks."
               }
-            ]
+            ],
+            "id": "TradeShop"
           },
           {
             "type": "item",
@@ -4524,7 +4612,8 @@
                 "type": "paragraph",
                 "content": "**Effect** While in a settlement with a university, you gain a +3 item bonus to Lore checks made to Recall Knowledge while Investigating, to Research checks (Gamemastery Guide 154), and to Decipher Writing."
               }
-            ]
+            ],
+            "id": "University"
           },
           {
             "type": "item",
@@ -4571,7 +4660,8 @@
                 "type": "paragraph",
                 "content": "**Effect** A stone wall is built along the border of your settlement. The first time you build a stone wall in each settlement, reduce Unrest by 1. When you build a stone wall, choose a border on your Urban Grid and check the appropriate checkbox; if you’re upgrading from a wooden wall, uncheck that box."
               }
-            ]
+            ],
+            "id": "Wall,Stone"
           },
           {
             "type": "item",
@@ -4618,7 +4708,8 @@
                 "type": "paragraph",
                 "content": "**Effect** A wooden wall is built along the border of your settlement. The first time you build a wooden wall in each settlement, reduce Unrest by 1. When you build a wooden wall, choose a border on your Urban Grid and check the appropriate checkbox."
               }
-            ]
+            ],
+            "id": "Wall,Wooden"
           },
           {
             "type": "item",
@@ -4665,7 +4756,8 @@
                 "type": "paragraph",
                 "content": "**Effect** The first time you build a watchtower each Kingdom turn, decrease Unrest by 1."
               }
-            ]
+            ],
+            "id": "Watchtower"
           },
           {
             "type": "item",
@@ -4716,7 +4808,8 @@
                 "type": "paragraph",
                 "content": "**Effect** A waterfront must be constructed next to a Water Border."
               }
-            ]
+            ],
+            "id": "Waterfront"
           },
           {
             "type": "item",
@@ -4763,7 +4856,8 @@
                 "type": "paragraph",
                 "content": "**Special** You can build a watergate as part of the same Build Structure activity to build a stone wall, using the higher DC for the watergate and paying the RP cost for both structures."
               }
-            ]
+            ],
+            "id": "Watergate"
           },
           {
             "type": "item",
@@ -4810,7 +4904,8 @@
                 "type": "paragraph",
                 "content": "**Effect** You transform a square on your building hex into a canal. All squares directly adjacent to that square (not including diagonally adjacent squares) are considered to have a water border. A waterway must be adjacent to a water border or another waterway. Water cannot pass through a wall unless the wall has a Watergate."
               }
-            ]
+            ],
+            "id": "Waterway"
           },
           {
             "type": "item",
@@ -4857,10 +4952,13 @@
                 "type": "paragraph",
                 "content": "**Effect** If a settlement has at least one windmill built adjacent to a Cistern or Granary, the increased efficiency reduces the settlement’s Consumption by 1 (to a minimum of 0)."
               }
-            ]
+            ],
+            "id": "Windmill"
           }
-        ]
+        ],
+        "id": "SettlementStructures"
       }
-    ]
+    ],
+    "id": "SettlementStructures"
   }
 ]

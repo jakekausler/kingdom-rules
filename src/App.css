@@ -626,7 +626,8 @@ html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: transparent
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
 }
 
 article,
@@ -10860,7 +10861,7 @@ h5+table {
 .content h5 {
   text-transform: uppercase;
   font-size: 1.4rem;
-  padding-top: 0.1rem;
+  padding-top: 0.25rem;
   font-weight: bold;
 }
 
@@ -10987,6 +10988,8 @@ h5+table {
 
 .item hr {
   margin: 0 !important;
+  margin-bottom: 0.25rem !important;
+  margin-top: 0.25rem !important;
 }
 
 .item *+p {
@@ -11877,3 +11880,39 @@ h5+table {
   counter-increment: pages!important;
   content: counter(pages)!important;
 } */
+
+.anchor {
+  position: absolute;
+  left: -2em;
+  color: #999;
+  opacity: 0.5;
+  cursor: pointer;
+  user-select: none;
+  font-style: italic;
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+.anchor:has(+ table) {
+  margin-top: 0.5rem;
+}
+
+.collapsible-header svg {
+  position: absolute;
+  left: -1.25em;
+  color: #999;
+  opacity: 0.5;
+  cursor: pointer;
+  user-select: none;
+  font-style: italic;
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+.collapsible-header:has(+ table) {
+  margin-top: 0.5rem;
+}
+
+.dark hr {
+  border-top: 1px solid #fff;
+}

@@ -21,7 +21,8 @@
             "type": "paragraph",
             "content": "Select a Claimed Hex in your kingdom that doesn’t already have a settlement as the site for your new settlement. Work with your GM to select the specific location of your settlement within the hex. If it contains lake, river, or swamp terrain, take into consideration the number of Water Borders you have in mind for your settlement."
           }
-        ]
+        ],
+        "id": "SelectAHex"
       },
       {
         "type": "heading",
@@ -40,7 +41,8 @@
             "type": "paragraph",
             "content": "If your hex contains Ruins or a Structure, you can incorporate that building into your settlement at a reduced cost (for Ruins) or for free (for Structures). The exact type of structure is indicated in that hex’s encounter text in Chapter 2—the GM has full information about these structures and ruins and how they can impact settlements."
           }
-        ]
+        ],
+        "id": "EstablishYourVillage"
       },
       {
         "type": "heading",
@@ -51,7 +53,8 @@
             "type": "paragraph",
             "content": "Each settlement needs a name. Some leaders name settlements after themselves or their families, but the name can be anything suitable for the campaign and agreeable to the PCs."
           }
-        ]
+        ],
+        "id": "NameYourVillage"
       },
       {
         "type": "heading",
@@ -62,8 +65,10 @@
             "type": "paragraph",
             "content": "Your brand new village is now ready to grow! A village must fill a single block of 4 lots before it can expand, so select one block on the Urban Grid for your village’s development. Each Kingdom turn, during the Civic Activities step of its Activity phase, your settlement has one Civic activity, which can be used to Build Structures."
           }
-        ]
+        ],
+        "id": "StartBuilding!"
       }
-    ]
+    ],
+    "id": "FoundingAVillage"
   }
 ]

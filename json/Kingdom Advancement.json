@@ -33,7 +33,8 @@
             "type": "paragraph",
             "content": "The more powerful a kingdom grows, the more difficult it becomes to control it. The base Control DC for your kingdom is set by the kingdom’s level—fortunately, as you increase in level, your ability to successfully utilize your skills grows as well."
           }
-        ]
+        ],
+        "id": "ControlDC"
       },
       {
         "type": "heading",
@@ -44,7 +45,8 @@
             "type": "paragraph",
             "content": "Your kingdom gains the benefits of your selected charter, government, and heartland."
           }
-        ]
+        ],
+        "id": "Charter,Government,AndHeartland"
       },
       {
         "type": "heading",
@@ -55,7 +57,8 @@
             "type": "paragraph",
             "content": "At 1st level, a kingdom receives the trained proficiency rank in six Kingdom skills gained from your initial choice of charter, heartland, and government and in up to four additional Kingdom skills determined by your invested leaders, giving you a proficiency bonus to checks using these skills equal to your kingdom level plus 2. Proficiencies cannot be changed, even if the kingdom’s government or leaders later change."
           }
-        ]
+        ],
+        "id": "InitialProficiencies"
       },
       {
         "type": "heading",
@@ -66,7 +69,8 @@
             "type": "paragraph",
             "content": "Your heartland’s terrain becomes your kingdom’s favored land—the wilderness terrain that your people feel the strongest emotional ties to and to which your resource gatherers tend to flock. Once per Kingdom turn, during the Region Activities step of the Activity phase, you can attempt two Region activities simultaneously as long as both activities take place in the same hex and that hex contains the same terrain as your heartland. You take a –2 penalty to Kingdom skill checks made during these two activities."
           }
-        ]
+        ],
+        "id": "FavoredLand"
       },
       {
         "type": "heading",
@@ -81,7 +85,8 @@
             "type": "paragraph",
             "content": "As villages grow into larger settlements, you not only gain more room to build, but the maximum item bonus you can gain from that settlement’s structures increases as well (see table in Settlement Rules)."
           }
-        ]
+        ],
+        "id": "SettlementConstruction"
       },
       {
         "type": "heading",
@@ -92,7 +97,8 @@
             "type": "paragraph",
             "content": "At 2nd level, and then every 2 levels thereafter, the kingdom gains a Skill feat."
           }
-        ]
+        ],
+        "id": "SkillFeats"
       },
       {
         "type": "heading",
@@ -107,7 +113,8 @@
             "type": "paragraph",
             "content": "Starting at 7th level, you can use your skill increases to increase your kingdom’s proficiency to master in a skill in which your kingdom is already an expert. Beginning at 15th level, you can use them to increase your proficiency to legendary in a skill in which your kingdom is already a master."
           }
-        ]
+        ],
+        "id": "SkillIncrease"
       },
       {
         "type": "heading",
@@ -118,7 +125,8 @@
             "type": "paragraph",
             "content": "Your Kingdom has learned how to handle situations when it’s out of its depth. Your proficiency bonus to untrained skill checks is equal to half your level instead of +0. If you’re 7th level or higher, the bonus increases to your full level instead. This doesn’t allow you to use the skill’s trained actions."
           }
-        ]
+        ],
+        "id": "UntrainedImprovisation"
       },
       {
         "type": "heading",
@@ -129,7 +137,8 @@
             "type": "paragraph",
             "content": "At 3rd level and every 4 levels thereafter, your kingdom gains a General feat."
           }
-        ]
+        ],
+        "id": "GeneralFeats"
       },
       {
         "type": "heading",
@@ -144,7 +153,8 @@
             "type": "paragraph",
             "content": "At 9th level, you can attempt to Claim Hex up to three times during a Kingdom turn."
           }
-        ]
+        ],
+        "id": "ExpansionExpert"
       },
       {
         "type": "heading",
@@ -159,7 +169,8 @@
             "type": "paragraph",
             "content": "You gain a +1 circumstance bonus to all checks made to Craft or Earn Income while in your kingdom."
           }
-        ]
+        ],
+        "id": "FineLiving"
       },
       {
         "type": "heading",
@@ -170,7 +181,8 @@
             "type": "paragraph",
             "content": "At 5th level and every 5 levels thereafter, you boost three different kingdom ability scores. You can use these ability boosts to increase your kingdom’s ability scores above 18. Boosting an ability score increases it by 2 if it starts out below 18, or by 1 if it’s already 18 or above."
           }
-        ]
+        ],
+        "id": "AbilityBoosts"
       },
       {
         "type": "heading",
@@ -185,7 +197,8 @@
             "type": "paragraph",
             "content": "When you do so, reset that Ruin’s penalty to 0. See the Kingdom Rules for more information about Ruin."
           }
-        ]
+        ],
+        "id": "RuinResistance"
       },
       {
         "type": "heading",
@@ -200,7 +213,8 @@
             "type": "paragraph",
             "content": "At 11th level you gain another free action (for total of 2 free actions), and at 16th you gain another (for a total of 3 free actions)."
           }
-        ]
+        ],
+        "id": "UrbanDevelopment"
       },
       {
         "type": "heading",
@@ -215,7 +229,8 @@
             "type": "paragraph",
             "content": "At 16th level, this increases to a +3 status bonus."
           }
-        ]
+        ],
+        "id": "ExperiencedLeadership"
       },
       {
         "type": "heading",
@@ -230,7 +245,8 @@
             "type": "paragraph",
             "content": "You gain a +2 circumstance bonus to all checks made to Craft or Earn Income while in your kingdom."
           }
-        ]
+        ],
+        "id": "LifeOfLuxury"
       },
       {
         "type": "heading",
@@ -241,7 +257,8 @@
             "type": "paragraph",
             "content": "During the Civic Activities step of the Activities phase of a Kingdom turn, one settlement of the party’s choice can attempt two Civic activities rather than one. The second Civic activity occurs after all other settlements have taken their individual Civic activities."
           }
-        ]
+        ],
+        "id": "CivicPlanning"
       },
       {
         "type": "heading",
@@ -252,7 +269,8 @@
             "type": "paragraph",
             "content": "At 13th level your nation has such a grasp of transforming the land that you can take an additional regional activity, bringing the total number of Region Activities you can take to 4."
           }
-        ]
+        ],
+        "id": "TameTheWilds"
       },
       {
         "type": "heading",
@@ -263,9 +281,11 @@
             "type": "paragraph",
             "content": "Your kingdom is one of the world’s prominent nations. The first time in a Kingdom turn when your kingdom would gain Unrest or Ruin, ignore that increase. You can ignore additional increases to Unrest or Ruin later in the same turn as well, but you must spend a Fame or Infamy point each time you do so. Your Fame increases by 5."
           }
-        ]
+        ],
+        "id": "EnvyOfTheWorld"
       }
-    ]
+    ],
+    "id": "KingdomAdvancement"
   },
   {
     "type": "heading",
@@ -389,8 +409,10 @@
             "40",
             "Ability Boosts, Envy of the World, Ruin Resistance, Skill Feat, Skill Increase"
           ]
-        ]
+        ],
+        "id": "SummaryOfKingdomAdvancementTable"
       }
-    ]
+    ],
+    "id": "SummaryOfKingdomAdvancement"
   }
 ]

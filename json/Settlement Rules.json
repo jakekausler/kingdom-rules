@@ -46,7 +46,8 @@
                 "type": "paragraph",
                 "content": "**Walled Borders** Building Walls on your borders boosts your settlement’s defense in certain events and in Warfare."
               }
-            ]
+            ],
+            "id": "UrbanGridBorders"
           },
           {
             "type": "heading",
@@ -57,9 +58,11 @@
                 "type": "paragraph",
                 "content": "You can simulate travel in a settlement using the Urban Grid to approximate distances. Since moving through a settlement requires a character to follow twisting roads, navigate crowds, or endure minor distractions along the way, it takes 15 minutes to move from one lot to an adjacent lot, or to cross a border (including exiting the settlement). If the settlement has Paved Streets, this travel time is reduced to 5 minutes. Crossing a Water Border that doesn’t have a Bridge takes an hour."
               }
-            ]
+            ],
+            "id": "NavigatingAnUrbanGrid"
           }
-        ]
+        ],
+        "id": "TheUrbanGrid"
       },
       {
         "type": "heading",
@@ -123,7 +126,8 @@
                 "+3",
                 "3 hexes"
               ]
-            ]
+            ],
+            "id": "SettlementTypesTable"
           },
           {
             "type": "heading",
@@ -154,7 +158,8 @@
                 "type": "paragraph",
                 "content": "**Metropolis** When your kingdom reaches 15th level and you have filled at least two lots on each block in your city, if your settlement is not Overcrowded, you may expand into a metropolis by adding a second Urban Grid. (You may instead continue filling in the remaining lots and remain a city.) At this point, you can place new structures into any lot you wish in the newly added Urban Grid. You can add additional Urban Grids each time you have built at least two lots of structures in every available block and are not Overcrowded, but there are no further settlement types beyond metropolis to achieve. When your kingdom gains its first metropolis, gain 120 kingdom XP as a milestone award."
               }
-            ]
+            ],
+            "id": "Size"
           },
           {
             "type": "heading",
@@ -165,7 +170,8 @@
                 "type": "paragraph",
                 "content": "This indicates the maximum number of blocks the settlement can occupy in an Urban Grid."
               }
-            ]
+            ],
+            "id": "Blocks"
           },
           {
             "type": "heading",
@@ -176,7 +182,8 @@
                 "type": "paragraph",
                 "content": "Consumption is a numerical value that indicates the Food commodities the settlement requires in order to remain viable and functional. The number given here shows the settlement’s base consumption; specific structures in the settlements can increase or decrease its Consumption."
               }
-            ]
+            ],
+            "id": "Consumption"
           },
           {
             "type": "heading",
@@ -191,7 +198,8 @@
                 "type": "paragraph",
                 "content": "For example, if you build a Brewery and a Marketplace (each of which grants a +1 Item Bonus to Establish Trade Agreement) in a village (with a maximum item bonus of +1), you can only apply one of the item bonuses to Establish Trade Agreement. However, if they were built in a city (with a maximum item bonus of +2), you could apply both item bonuses to the activity."
               }
-            ]
+            ],
+            "id": "MaximumItemBonus"
           },
           {
             "type": "heading",
@@ -214,9 +222,11 @@
                 "type": "paragraph",
                 "content": "Hexes not claimed by your kingdom are never part of your settlements’ influence areas, even if they are within the distance noted above. A hex can be influenced by multiple settlements."
               }
-            ]
+            ],
+            "id": "Influence"
           }
-        ]
+        ],
+        "id": "SettlementTypes"
       },
       {
         "type": "heading",
@@ -280,10 +290,13 @@
                 "Primal",
                 "items and spellcasting services related to primal spells and classes (including snares)"
               ]
-            ]
+            ],
+            "id": "MarketLevelsTable"
           }
-        ]
+        ],
+        "id": "MarketLevels"
       }
-    ]
+    ],
+    "id": "SettlementRules"
   }
 ]

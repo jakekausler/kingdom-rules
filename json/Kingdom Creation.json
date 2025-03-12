@@ -17,7 +17,8 @@
             "type": "paragraph",
             "content": "Building a kingdom is a cooperative experience that is enhanced by having the entire group engaged. By the time the PCs are granted a charter to explore and settle a portion of the Stolen Lands, the players should be given the kingdom rules and should work together to decide the sort of kingdom they want to establish."
           }
-        ]
+        ],
+        "id": "KingdomConcept"
       },
       {
         "type": "heading",
@@ -72,7 +73,8 @@
                 "type": "paragraph",
                 "content": "**Skills** Warfare, plus a free training"
               }
-            ]
+            ],
+            "id": "Conquest"
           },
           {
             "type": "item",
@@ -98,7 +100,8 @@
                 "type": "paragraph",
                 "content": "**Skills** Exploration, plus a free training"
               }
-            ]
+            ],
+            "id": "Expansion"
           },
           {
             "type": "item",
@@ -124,7 +127,8 @@
                 "type": "paragraph",
                 "content": "**Skills** Wilderness, plus a free training"
               }
-            ]
+            ],
+            "id": "Exploration"
           },
           {
             "type": "item",
@@ -150,7 +154,8 @@
                 "type": "paragraph",
                 "content": "**Skills** Industry, plus a free training"
               }
-            ]
+            ],
+            "id": "Grant"
           },
           {
             "type": "item",
@@ -176,9 +181,11 @@
                 "type": "paragraph",
                 "content": "**Skills** Two free trainings"
               }
-            ]
+            ],
+            "id": "Open"
           }
-        ]
+        ],
+        "id": "SelectACharter"
       },
       {
         "type": "heading",
@@ -225,7 +232,8 @@
                 "type": "paragraph",
                 "content": "**Skills** Wilderness, one free training"
               }
-            ]
+            ],
+            "id": "ForestOrSwamp"
           },
           {
             "type": "item",
@@ -247,7 +255,8 @@
                 "type": "paragraph",
                 "content": "**Skills** Agriculture, one free training"
               }
-            ]
+            ],
+            "id": "HillOrPlain"
           },
           {
             "type": "item",
@@ -269,7 +278,8 @@
                 "type": "paragraph",
                 "content": "**Skills** Boating, one free training"
               }
-            ]
+            ],
+            "id": "LakeOrRiver"
           },
           {
             "type": "item",
@@ -291,9 +301,11 @@
                 "type": "paragraph",
                 "content": "**Skills** Defense, one free training"
               }
-            ]
+            ],
+            "id": "MountainOrRuins"
           }
-        ]
+        ],
+        "id": "ChooseAHeartland"
       },
       {
         "type": "heading",
@@ -340,7 +352,8 @@
                 "type": "paragraph",
                 "content": "**Bonus Feat** Civil Service"
               }
-            ]
+            ],
+            "id": "Bureaucracy"
           },
           {
             "type": "item",
@@ -366,7 +379,8 @@
                 "type": "paragraph",
                 "content": "**Bonus Feat** Crush Dissent"
               }
-            ]
+            ],
+            "id": "Despotism"
           },
           {
             "type": "item",
@@ -392,7 +406,8 @@
                 "type": "paragraph",
                 "content": "**Bonus Feat** Fortified Fiefs"
               }
-            ]
+            ],
+            "id": "Feudalism"
           },
           {
             "type": "item",
@@ -418,7 +433,8 @@
                 "type": "paragraph",
                 "content": "**Bonus Feat** Insider Trading"
               }
-            ]
+            ],
+            "id": "Oliarchy"
           },
           {
             "type": "item",
@@ -444,7 +460,8 @@
                 "type": "paragraph",
                 "content": "**Bonus Feat** Pull Together"
               }
-            ]
+            ],
+            "id": "Republic"
           },
           {
             "type": "item",
@@ -470,7 +487,8 @@
                 "type": "paragraph",
                 "content": "**Bonus Feat** Practical Magic"
               }
-            ]
+            ],
+            "id": "Thaumocracy"
           },
           {
             "type": "item",
@@ -496,9 +514,11 @@
                 "type": "paragraph",
                 "content": "**Bonus Feat** Muddle Through"
               }
-            ]
+            ],
+            "id": "Yeomanry"
           }
-        ]
+        ],
+        "id": "ChooseAGovernment"
       },
       {
         "type": "heading",
@@ -509,7 +529,8 @@
             "type": "paragraph",
             "content": "Once the players have chosen their kingdom’s charter, heartland, and government, finalize the kingdom’s ability scores. First, choose three different kingdom abilities to receive additional boosts. Then, total the boosts and flaws the kingdom has received for each ability, and record the final ability score and its associated modifier on the kingdom sheet. Remember that ability scores start at 10, boosts add 2, and flaws subtract 2. For example, if a kingdom’s Loyalty received two boosts and a flaw, its Loyalty ability score is 12 (10+4-2), so its Loyalty modifier is +1."
           }
-        ]
+        ],
+        "id": "FinalizeAbilityScores"
       },
       {
         "type": "heading",
@@ -533,7 +554,8 @@
               "The kingdom’s initial commodity stores are 0, and its maximum storage limit for each is 4."
             ]
           }
-        ]
+        ],
+        "id": "RecordKingdomDetails"
       },
       {
         "type": "heading",
@@ -564,7 +586,8 @@
             "type": "paragraph",
             "content": "On the kingdom sheet, record the leader you assigned to each role and indicate the four roles you invested. Record a +1 status bonus to the skill associated with each invested role’s key ability, and record the four skills that your nation received training in."
           }
-        ]
+        ],
+        "id": "ChooseLeaders"
       },
       {
         "type": "heading",
@@ -575,7 +598,8 @@
             "type": "paragraph",
             "content": "Somewhere in that heartland hex lies the kingdom’s first village—the capital. Rules for founding settlements are in the Settlement Creation document, but the players can skip Step 1 and Step 2 of that process when founding this village. Since this is their first village, the PCs gain 40 kingdom XP as a milestone award; record it on the kingdom sheet, along with the capital’s name. If the site the PCs have chosen has any established structures listed in the hex’s resources in Chapter 2, place them in blocks of the PCs’ choice on an Urban Grid. (The PCs won’t add new structures to the settlement before their first Kingdom turn.)"
           }
-        ]
+        ],
+        "id": "FirstVillage"
       },
       {
         "type": "heading",
@@ -598,8 +622,10 @@
             "type": "paragraph",
             "content": "Calculate the initial modifiers for all skills and record them on the kingdom sheet."
           }
-        ]
+        ],
+        "id": "CalculateSkillModifiers"
       }
-    ]
+    ],
+    "id": "KingdomCreation"
   }
 ]

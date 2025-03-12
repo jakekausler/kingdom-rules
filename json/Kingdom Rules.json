@@ -17,7 +17,8 @@
             "type": "paragraph",
             "content": "Culture measures the interest and dedication of your nation and its people to the arts and sciences, to religion and reason, and to the subjects that your society chooses to learn about and to teach. Are your people well-versed in rhetoric and philosophy? Do they value learning and research, music and dance? Do they embrace society in all its diverse splendor? If they do, your kingdom likely has a robust Culture score."
           }
-        ]
+        ],
+        "id": "Culture"
       },
       {
         "type": "heading",
@@ -28,7 +29,8 @@
             "type": "paragraph",
             "content": "Economy measures the practical day-to-day workings of your society as it comes together to do the work of making and building, buying and selling. How industrious are your citizenry? Are they devoted to building more, higher, and better, trading in goods, services, and ideas? If so, your kingdom likely has a robust Economy score."
           }
-        ]
+        ],
+        "id": "Economy"
       },
       {
         "type": "heading",
@@ -39,7 +41,8 @@
             "type": "paragraph",
             "content": "Loyalty measures the collective will, spirit, and sense of camaraderie the citizens of your nation possess. How much do they trust and depend on one another? How do they respond when you sound the call to arms or enact new laws? How do they react when other nations send spies or provocateurs into your lands to make trouble? If they support the kingdom’s leadership, the kingdom itself has a robust Loyalty score."
           }
-        ]
+        ],
+        "id": "Loyalty"
       },
       {
         "type": "heading",
@@ -50,7 +53,8 @@
             "type": "paragraph",
             "content": "Stability measures the physical health and well-being of your nation. This includes its infrastructure and buildings, the welfare of its people, and how well things are protected and maintained under your rule. How carefully do you maintain your stores and reserves, repair things that are broken, and provide for the necessities of life? How quickly can you mobilize to shield your citizens from harm? A kingdom that can handle both prosperity and disaster efficiently and effectively has a robust Stability score."
           }
-        ]
+        ],
+        "id": "Stability"
       },
       {
         "type": "heading",
@@ -61,9 +65,11 @@
             "type": "paragraph",
             "content": "Each Kingdom ability score starts at 10, representing the average, but as a player makes kingdom creation choices in the following steps, they’ll adjust these scores. Apply ability boosts (which increase a score by 2) or ability flaws (which decrease a score by 2), in the same way that boosts and flaws are applied to character ability scores. Kingdom ability scores give the same ability modifiers as character ability scores, as summarized on Table 1–1 of the Pathfinder Core Rulebook."
           }
-        ]
+        ],
+        "id": "AbilityScoreOverview"
       }
-    ]
+    ],
+    "id": "AbilityScores"
   },
   {
     "type": "heading",
@@ -125,7 +131,8 @@
             "+4",
             "20"
           ]
-        ]
+        ],
+        "id": "KingdomPropertiesTable"
       },
       {
         "type": "heading",
@@ -136,7 +143,8 @@
             "type": "paragraph",
             "content": "A kingdom’s economy is based on the sum of the productive activity of its citizens, and that activity is reflected in a quantity of resources that the kingdom can tap into each month. These resources are represented by Resource Points (see below) which are determined by Resource Dice, with the number of dice being equal to the nation’s level + 4. When a kingdom is first founded, each Resource Die is a d4, but as the kingdom advances in Size, its Resource Die increases to d6, d8, d10, or d12 (see the Kingdom Size table)."
           }
-        ]
+        ],
+        "id": "ResourceDice"
       },
       {
         "type": "heading",
@@ -151,7 +159,8 @@
             "type": "paragraph",
             "content": "Whenever the kingdom is forced to spend RP that would drop it below 0, spend all the RP the kingdom has and then increase a Ruin of the PCs’ choice by 1."
           }
-        ]
+        ],
+        "id": "ResourcePoints"
       },
       {
         "type": "heading",
@@ -194,7 +203,8 @@
             "type": "paragraph",
             "content": "**Reducing Ruin Penalties** When a kingdom reaches 5th level, and then again every 3 levels thereafter, it gains Ruin resistance; each time it does so, it has the opportunity to reduce an existing Ruin penalty to 0. This is an extremely effective way to manage a Ruin penalty that’s crept particularly high, but it’s also an extremely limited resource, as a kingdom will only get, at most, 6 opportunities to adjust a Ruin penalty in this way over the course of a campaign. The Repair Reputation activity can reduce existing Ruin penalties, although at a much slower rate. Other activities or events can reduce Ruin penalties as well, as detailed in the text for each. Finally, if circumstances ever allow for a Ruin’s points to be reduced and that particular Ruin is already at 0 points, instead of reducing Ruin to a negative value you can instead attempt a DC 16 flat check; on a success, reduce that Ruin’s penalty by 1 to a minimum of 0."
           }
-        ]
+        ],
+        "id": "Ruin"
       },
       {
         "type": "heading",
@@ -221,7 +231,8 @@
             "type": "paragraph",
             "content": "**Unrest 15** If a kingdom has 15 or more points of Unrest, take a –4 status penalty to all kingdom checks."
           }
-        ]
+        ],
+        "id": "Unrest"
       },
       {
         "type": "heading",
@@ -232,7 +243,8 @@
             "type": "paragraph",
             "content": "A kingdom grows one hex at a time on the Stolen Lands map, via Region activities like Claim Hex and Clear Hex. The PCs can pursue these activities during the Activity phase of each Kingdom turn."
           }
-        ]
+        ],
+        "id": "ExpandingAKingdom"
       },
       {
         "type": "heading",
@@ -251,7 +263,8 @@
             "type": "paragraph",
             "content": "If a kingdom is reduced to 0 hexes, whether through Unrest, a disaster, war with another kingdom, or any other effect, the PCs are at risk of having their rule end. On their next Kingdom turn, they must claim at least one new hex and establish or claim at least one settlement, or their kingdom is considered totally destroyed, and they must start over. In this case, you should have the PCs undertake a new adventure of your design to secure a new charter."
           }
-        ]
+        ],
+        "id": "LosingHexes"
       },
       {
         "type": "heading",
@@ -262,7 +275,8 @@
             "type": "paragraph",
             "content": "Diplomatic relations refers to acts of leadership that engage with other nations. In order to begin diplomatic relations with another group, PCs must first successfully Send a Diplomatic Envoy to the target group. When they establish diplomatic relations with a group, record the name of that group on the kingdom sheet. Once the PCs have established diplomatic relations with a group, they can use the Establish Trade Agreement and Request Foreign Aid Leadership activities."
           }
-        ]
+        ],
+        "id": "DiplomaticRelations"
       },
       {
         "type": "heading",
@@ -273,7 +287,8 @@
             "type": "paragraph",
             "content": "The PCs can bolster their kingdom’s economy by Establishing Trade Agreements with other groups with whom they have diplomatic relations. To do so, they must first successfully perform the Establish Trade Agreement activity. There is no need to record the actual physical route of the Trade Agreement on the map, nor does distance play a significant factor."
           }
-        ]
+        ],
+        "id": "TradeAgreements"
       },
       {
         "type": "heading",
@@ -312,7 +327,8 @@
             "type": "paragraph",
             "content": "**Stone** is used to build structures and is gathered from quarries built by Establish Work Site."
           }
-        ]
+        ],
+        "id": "Commodities"
       },
       {
         "type": "heading",
@@ -390,7 +406,8 @@
             "type": "paragraph",
             "content": "**Work Site** A Work Site generates commodities each Kingdom turn once you establish it via Establish Work Site. A Work Site established in a regular hex generates 1 Lumber, 1 Stone, or 1 Ore, depending on what type of site it is. Unlike most features, a Work Site can be constructed in a hex that already features a Resource, provided the Work Site is focused on harvesting that specific Resource. A Work Site established in a Resource hex doubles its Commodity production to 2. Work Site Commodities accumulate during the Upkeep phase of a Kingdom turn. Some kingdom events can result in Work Sites being destroyed. When that happens, the hex loses its Work Site status; to restore it, you must successfully perform the Establish Work Site activity on the hex during a future Kingdom turn."
           }
-        ]
+        ],
+        "id": "TerrainFeatures"
       },
       {
         "type": "heading",
@@ -425,8 +442,10 @@
             "type": "paragraph",
             "content": "**Expending Fame and Infamy** You can expend Fame and Infamy points as a free action, though each action can taken only once per turn. Spent Fame is permanently lost. Spent Infamy is regained at the end of your turn and is increased by 1, and at the end of any turn in which you expend Infamy, you gain 1 point to a random Ruin Score.\nYou can expend 2 points to reroll a Focus check. You must use the second result. In addition, if your kingdom is about to fall into Anarchy or increase your Ruin Penalty, you can spend 3 points reduce Unrest or your Ruin Score to 1 point below the value where anarchy or attribute loss would occur."
           }
-        ]
+        ],
+        "id": "FameAndInfamy"
       }
-    ]
+    ],
+    "id": "KingdomProperties"
   }
 ]
