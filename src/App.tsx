@@ -41,6 +41,7 @@ const RULESETS: Record<string, ParsedElement[]> = {
 // // TODO: Pages should change the URL and be able to open in new tabs
 // TODO: Support links within the data to pages and/or anchors
 // // TODO: Add anchors to each heading, item, and table
+// TODO: Don't display side content on smaller screens. Have the clipboard happen when clicking the anchor link
 
 function App() {
   const [opened, { toggle }] = useDisclosure(false);
