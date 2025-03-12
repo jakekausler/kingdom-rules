@@ -75,8 +75,57 @@
         "content": "A kingdom’s Size reflects the complexity of its governance, its influence on other nations, and its access to resources. A kingdom’s Size also determines its Resource Die and other statistics. The actual total population of a kingdom is a function of its Size as well, but population numbers do not have a direct effect on these rules.\n**Size** The total number of hexes in the kingdom. When a kingdom’s Size reaches 10, 25, 50, and 100, it gains kingdom XP as a milestone award.\n**Resource Die** The type of Resource Die a kingdom rolls.\n**Control DC Modifier** As a kingdom increases in Size, it grows more difficult to control. This modifier increases a kingdom’s base Control DC.\n**Commodity Storage** This number indicates the maximum units of a specific Commodity that can be stored in a kingdom. Building specialized structures can increase this number on a per-Commodity basis."
       },
       {
-        "type": "paragraph",
-        "content": "Size | Resource Die | Control DC Mod | Commodity Storage\n:---: | :---: | :---: | :---:\n1-9 | d4 | +0 | 4\n10-24 | d6 | +1 | 8\n25-49 | d8 | +2 | 12\n50-99 | 1d10 | +3 | 16\n100+ | d12 | +4 | 20"
+        "type": "table",
+        "columns": [
+          {
+            "content": "Size",
+            "align": "center"
+          },
+          {
+            "content": "Resource Die",
+            "align": "center"
+          },
+          {
+            "content": "Control DC Mod",
+            "align": "center"
+          },
+          {
+            "content": "Commodity Storage",
+            "align": "center"
+          }
+        ],
+        "data": [
+          [
+            "1-9",
+            "d4",
+            "+0",
+            "4"
+          ],
+          [
+            "10-24",
+            "d6",
+            "+1",
+            "8"
+          ],
+          [
+            "25-49",
+            "d8",
+            "+2",
+            "12"
+          ],
+          [
+            "50-99",
+            "1d10",
+            "+3",
+            "16"
+          ],
+          [
+            "100+",
+            "d12",
+            "+4",
+            "20"
+          ]
+        ]
       },
       {
         "type": "heading",

@@ -67,12 +67,12 @@
               {
                 "type": "paragraph",
                 "content": "**Ability Flaw** Culture"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Skills** Warfare, plus a free training"
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Skills** Warfare, plus a free training"
           },
           {
             "type": "item",
@@ -88,17 +88,17 @@
               },
               {
                 "type": "paragraph",
-                "content": "**Ability Boosts** Loyalty, plus a free boost"
+                "content": "**Ability Boosts** Culture, plus a free boost"
               },
               {
                 "type": "paragraph",
                 "content": "**Ability Flaw** Stability"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Skills** Exploration, plus a free training"
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Skills** Exploration, plus a free training"
           },
           {
             "type": "item",
@@ -114,17 +114,17 @@
               },
               {
                 "type": "paragraph",
-                "content": "**Ability Boosts** Loyalty, plus a free boost"
+                "content": "**Ability Boosts** Stability, plus a free boost"
               },
               {
                 "type": "paragraph",
                 "content": "**Ability Flaw** Economy"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Skills** Wilderness, plus a free training"
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Skills** Wilderness, plus a free training"
           },
           {
             "type": "item",
@@ -140,17 +140,17 @@
               },
               {
                 "type": "paragraph",
-                "content": "**Ability Boosts** Loyalty, plus a free boost"
+                "content": "**Ability Boosts** Economy, plus a free boost"
               },
               {
                 "type": "paragraph",
                 "content": "**Ability Flaw** Loyalty"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Skills** Industry, plus a free training"
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Skills** Industry, plus a free training"
           },
           {
             "type": "item",
@@ -171,12 +171,12 @@
               {
                 "type": "paragraph",
                 "content": "**Ability Flaw** None"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Skills** Two free trainings"
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Skills** Two free trainings"
           }
         ]
       },
@@ -220,12 +220,12 @@
               {
                 "type": "paragraph",
                 "content": "**Ability Boost** Culture"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Skills** Wilderness, one free training"
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Skills** Wilderness, one free training"
           },
           {
             "type": "item",
@@ -242,12 +242,12 @@
               {
                 "type": "paragraph",
                 "content": "**Ability Boost** Loyalty"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Skills** Agriculture, one free training"
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Skills** Agriculture, one free training"
           },
           {
             "type": "item",
@@ -264,12 +264,12 @@
               {
                 "type": "paragraph",
                 "content": "**Ability Boost** Economy"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Skills** Boating, one free training"
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Skills** Boating, one free training"
           },
           {
             "type": "item",
@@ -286,12 +286,12 @@
               {
                 "type": "paragraph",
                 "content": "**Ability Boost** Stability"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Skills** Defense, one free training"
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Skills** Defense, one free training"
           }
         ]
       },
@@ -336,10 +336,10 @@
                 "type": "paragraph",
                 "content": "**Skills** Scholarship and Statecraft"
               },
-          {
-            "type": "paragraph",
-            "content": "**Bonus Feat** Civil Service"
-          }
+              {
+                "type": "paragraph",
+                "content": "**Bonus Feat** Civil Service"
+              }
             ]
           },
           {
@@ -362,10 +362,10 @@
                 "type": "paragraph",
                 "content": "**Skills** Intrigue and Warfare"
               },
-          {
-            "type": "paragraph",
-            "content": "**Bonus Feat** Crush Dissent"
-          }
+              {
+                "type": "paragraph",
+                "content": "**Bonus Feat** Crush Dissent"
+              }
             ]
           },
           {
@@ -382,16 +382,16 @@
               },
               {
                 "type": "paragraph",
-                "content": "**Ability Boosts** Stability and Culture, plus a free ability boost"
+                "content": "**Ability Boosts** STability and Culture, plus a free ability boost"
               },
               {
                 "type": "paragraph",
                 "content": "**Skills** Defense and Trade"
               },
-          {
-            "type": "paragraph",
-            "content": "**Bonus Feat** Fortified Fiefs"
-          }
+              {
+                "type": "paragraph",
+                "content": "**Bonus Feat** Fortified Fiefs"
+              }
             ]
           },
           {
@@ -414,10 +414,10 @@
                 "type": "paragraph",
                 "content": "**Skills** Arts and Industry"
               },
-          {
-            "type": "paragraph",
-            "content": "**Bonus Feat** Insider Trading"
-          }
+              {
+                "type": "paragraph",
+                "content": "**Bonus Feat** Insider Trading"
+              }
             ]
           },
           {
@@ -440,10 +440,10 @@
                 "type": "paragraph",
                 "content": "**Skills** Engineering and Politics"
               },
-          {
-            "type": "paragraph",
-            "content": "**Bonus Feat** Pull Together"
-          }
+              {
+                "type": "paragraph",
+                "content": "**Bonus Feat** Pull Together"
+              }
             ]
           },
           {
@@ -466,10 +466,10 @@
                 "type": "paragraph",
                 "content": "**Skills** Folklore and Magic"
               },
-          {
-            "type": "paragraph",
-            "content": "**Bonus Feat** Practical Magic"
-          }
+              {
+                "type": "paragraph",
+                "content": "**Bonus Feat** Practical Magic"
+              }
             ]
           },
           {
@@ -492,10 +492,10 @@
                 "type": "paragraph",
                 "content": "**Skills** Agriculture and Wilderness"
               },
-          {
-            "type": "paragraph",
-            "content": "**Bonus Feat** Muddle Through"
-          }
+              {
+                "type": "paragraph",
+                "content": "**Bonus Feat** Muddle Through"
+              }
             ]
           }
         ]

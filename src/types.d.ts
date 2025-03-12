@@ -34,7 +34,6 @@ export interface ParagraphData {
 
 export interface ListData {
     type: 'list';
-    id?: string;
     content: string[];
 }
 

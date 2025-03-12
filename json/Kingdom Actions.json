@@ -53,12 +53,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** The people are unsure about the new leader. The leader takes a –1 circumstance penalty to all checks they attempt as part of their activities during the Activity phase of each Kingdom turn. At the end of the next Kingdom turn, the leader can attempt any Loyalty‑based basic skill check to ingratiate themselves with the populace. The leader may attempt this check at the end of each Kingdom turn until they succeed. Success removes this penalty, but a critical failure results in the development detailed in Critical Failure below."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** The people reject the new leader. The leadership role is treated as vacant and you must attempt to reassign it using the New Leadership activity at the start of the next Kingdom turn. Unrest increases by 1."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** The people reject the new leader. The leadership role is treated as vacant and you must attempt to reassign it using the New Leadership activity at the start of the next Kingdom turn. Unrest increases by 1."
           }
         ]
       },
@@ -90,12 +90,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** As success, but the people are unhappy about taxes—increase Unrest by 1 (or by 2 if you attempted to Collect Taxes the previous turn)."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Your tax collectors encounter resistance from the citizens and their attempts to gather taxes are rebuffed. While the tax collectors still manage to gather enough taxes to support essential government needs, they have angered the kingdom’s citizens and encouraged rebellious acts. Increase Unrest by 2, and choose one Ruin to increase by 1."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Your tax collectors encounter resistance from the citizens and their attempts to gather taxes are rebuffed. While the tax collectors still manage to gather enough taxes to support essential government needs, they have angered the kingdom’s citizens and encouraged rebellious acts. Increase Unrest by 2, and choose one Ruin to increase by 1."
           },
           {
             "type": "item",
@@ -120,12 +120,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You gain 1 RP per trade agreement at the start of your next turn."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You gain no benefit, as your traders and merchants met with bad luck on the road. You can’t Manage Trade Agreements for 1 Kingdom turn."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** You gain no benefit, as your traders and merchants met with bad luck on the road. You can’t Manage Trade Agreements for 1 Kingdom turn."
           },
           {
             "type": "item",
@@ -150,12 +150,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You fail to secure the funds you need, and rumors about the kingdom’s potential shortfall of cash cause you to take a –1 circumstance penalty to all Loyaltyand Economy-based checks until the end of your next Kingdom turn."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** As failure, but the rumors spiral out of control. Increase Unrest by 1 and add 1 to a Ruin of your choice."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** As failure, but the rumors spiral out of control. Increase Unrest by 1 and add 1 to a Ruin of your choice."
           },
           {
             "type": "item",
@@ -180,12 +180,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You gain 1 bonus Resource Die at the beginning of your next Kingdom turn."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You gain no bonus Resource Dice (though the Commodity remains depleted). If you Traded Commodities the previous turn, gain 1 Unrest."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** You gain no bonus Resource Dice (though the Commodity remains depleted). If you Traded Commodities the previous turn, gain 1 Unrest."
           }
         ]
       },
@@ -228,12 +228,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** Your investment ends up being used to shore up shortfalls elsewhere. Gain 1d4 RP."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Your investment is embezzled, lost, or otherwise misappropriated. Choose one of the following: either roll 1 Resource Die and gain RP equal to the result and also increase your Crime by an equal amount, or gain 0 RP and increase Crime by 1."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Your investment is embezzled, lost, or otherwise misappropriated. Choose one of the following: either roll 1 Resource Die and gain RP equal to the result and also increase your Crime by an equal amount, or gain 0 RP and increase Crime by 1."
           },
           {
             "type": "item",
@@ -258,12 +258,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** The holiday passes with little enthusiasm, but is still expensive. Immediately roll 1 Resource Die and spend RP equal to the result. If you can’t afford this cost, treat this result as a Critical Failure instead."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Your festival days are poorly organized, and the citizens actively mock your failed attempt to celebrate. During the next turn, reduce your Resource Dice total by 4. The failure also causes you to take a –1 circumstance penalty to Loyalty-based checks until the end of the next Kingdom turn."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Your festival days are poorly organized, and the citizens actively mock your failed attempt to celebrate. During the next turn, reduce your Resource Dice total by 4. The failure also causes you to take a –1 circumstance penalty to Loyalty-based checks until the end of the next Kingdom turn."
           },
           {
             "type": "item",
@@ -288,12 +288,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** Immediately roll 1 Resource Die and gain RP equal to the result. Rumors are backed up with eyewitness accounts. Increase Unrest by 1 and Corruption by 1."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You gain nothing from the Clandestine Business but angry citizens. Increase Unrest by 1d6, Corruption by 2, and one other Ruin of your choice by 1."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** You gain nothing from the Clandestine Business but angry citizens. Increase Unrest by 1d6, Corruption by 2, and one other Ruin of your choice by 1."
           },
           {
             "type": "item",
@@ -318,12 +318,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** Your artisans fail to produce anything noteworthy."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Your artisans not only fail to produce anything noteworthy, but some took advantage of the opportunity to push their own agendas or earn more for themselves by selling to underground markets. Increase one of your Ruins by 1."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Your artisans not only fail to produce anything noteworthy, but some took advantage of the opportunity to push their own agendas or earn more for themselves by selling to underground markets. Increase one of your Ruins by 1."
           },
           {
             "type": "item",
@@ -348,12 +348,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** Your attempt to create a masterpiece fails."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Not only does your attempt to create a masterpiece fail, it does so in a dramatic and humiliating way. Lose 1 Fame or Infamy point; if you have no Fame or Infamy points to lose, instead gain 1d4 Unrest."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Not only does your attempt to create a masterpiece fail, it does so in a dramatic and humiliating way. Lose 1 Fame or Infamy point; if you have no Fame or Infamy points to lose, instead gain 1d4 Unrest."
           },
           {
             "type": "item",
@@ -382,12 +382,12 @@
               {
                 "type": "paragraph",
                 "content": "**Critical Failure** As failure, but your scholars and thinkers are so frustrated that you take a –1 circumstance penalty to Culture-based checks until the end of the next Kingdom turn."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Special** You cannot influence a check with Supernatural Solution and Creative Solution simultaneously."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Special** You cannot influence a check with Supernatural Solution and Creative Solution simultaneously."
           },
           {
             "type": "item",
@@ -423,12 +423,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** Your traders reach their destination but need to sweeten the deal to secure the trade agreement. Immediately roll 2 Resource Dice, and then spend RP equal to the result of this roll. If you do so, you successfully establish a trade agreement, otherwise the attempt fails."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Your trade agreement is a total loss and your traders do not return. Gain 1 Unrest, and until the end of the next Kingdom turn, take a –1 circumstance penalty to all Economy-related checks."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Your trade agreement is a total loss and your traders do not return. Gain 1 Unrest, and until the end of the next Kingdom turn, take a –1 circumstance penalty to all Economy-related checks."
           },
           {
             "type": "item",
@@ -441,12 +441,12 @@
               {
                 "type": "paragraph",
                 "content": "You set aside time to focus attention on aiding another leader in an activity. Choose another leader and a Kingdom skill, then attempt a DC 20 check using the chosen skill. On a success, you grant that leader a +2 circumstance bonus to one kingdom check using that skill, provided that leader attempts the skill check during the same Kingdom turn."
+              },
+              {
+                "type": "paragraph",
+                "content": "The Cooperative Leadership Kingdom feat (page 531) increases the efficiency of this activity."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "The Cooperative Leadership Kingdom feat (page 531) increases the efficiency of this activity."
           },
           {
             "type": "item",
@@ -471,12 +471,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** As success, but you’ve strained your treasury. Take a –1 circumstance penalty to Economy-based checks for the remainder of this Kingdom turn."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Your attempt to Improve Lifestyles backfires horribly as criminal elements in your kingdom abuse your generosity. You take a –1 circumstance penalty to Economy-based checks for the remainder of the Kingdom turn, gain 1 Unrest, and add 1 to a Ruin of your choice."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Your attempt to Improve Lifestyles backfires horribly as criminal elements in your kingdom abuse your generosity. You take a –1 circumstance penalty to Economy-based checks for the remainder of the Kingdom turn, gain 1 Unrest, and add 1 to a Ruin of your choice."
           },
           {
             "type": "item",
@@ -501,12 +501,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You fail to end the continuous event. If you try to end the continuous event again, the cost in RP increases to 2 Resource Dice."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** As failure, but word spreads quickly through the region—you can no longer attempt to end this continuous event by Hiring Adventurers."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** As failure, but word spreads quickly through the region—you can no longer attempt to end this continuous event by Hiring Adventurers."
           },
           {
             "type": "item",
@@ -531,12 +531,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** Your spies fail to learn anything of import, but they are not themselves compromised."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You never hear from your spies again, but someone certainly does! You take a –2 circumstance penalty on all kingdom checks until the end of the next Kingdom turn as counter-infiltration from an unknown enemy tampers with your kingdom’s inner workings."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** You never hear from your spies again, but someone certainly does! You take a –2 circumstance penalty on all kingdom checks until the end of the next Kingdom turn as counter-infiltration from an unknown enemy tampers with your kingdom’s inner workings."
           },
           {
             "type": "item",
@@ -561,12 +561,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** The group refuses to pledge to you at this time. You can attempt to get them to Pledge Fealty next turn. Increase Unrest by 1."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** The group refuses to pledge to you— furthermore, it will never Pledge Fealty to your kingdom, barring significant in-play changes or actions by the PCs (subject to the GM’s approval). The group’s potentially violent rebuff of your offer increases Unrest by 2 and increases a Ruin of your choice by 1."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** The group refuses to pledge to you— furthermore, it will never Pledge Fealty to your kingdom, barring significant in-play changes or actions by the PCs (subject to the GM’s approval). The group’s potentially violent rebuff of your offer increases Unrest by 2 and increases a Ruin of your choice by 1."
           },
           {
             "type": "item",
@@ -591,12 +591,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** Your spellcasters divine no aid."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Your spellcasters provide inaccurate readings of the future. You automatically have a random kingdom event this turn. Roll twice to determine the event that takes place; the GM decides which of the two results occurs."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Your spellcasters provide inaccurate readings of the future. You automatically have a random kingdom event this turn. Roll twice to determine the event that takes place; the GM decides which of the two results occurs."
           },
           {
             "type": "item",
@@ -621,12 +621,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You don’t provide any notable care for the citizens, but at least you don’t make things worse."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Your attempt to provide care backfires. Increase your Unrest or a Ruin of your choice by 1."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Your attempt to provide care backfires. Increase your Unrest or a Ruin of your choice by 1."
           },
           {
             "type": "item",
@@ -651,12 +651,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You gain 1 Commodity of the chosen type."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You gain no Commodities."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** You gain no Commodities."
           },
           {
             "type": "item",
@@ -681,12 +681,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You fail to reduce Unrest."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You not only fail to reduce Unrest, but actually incite further anger among the citizenry. Choose one of the following: increase Unrest by 1d4 or increase two Ruins of your choice by 1."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** You not only fail to reduce Unrest, but actually incite further anger among the citizenry. Choose one of the following: increase Unrest by 1d4 or increase two Ruins of your choice by 1."
           },
           {
             "type": "item",
@@ -718,12 +718,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** The move causes unhappiness. Gain 1 Unrest and increase two Ruins of your choice by 1."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** The people reject the idea of the new capital and demand you move it back. The move is unsuccessful, and your capital remains unchanged. Gain 1d4 Unrest. Increase three Ruins of your choice by 1 and the fourth Ruin by 3."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** The people reject the idea of the new capital and demand you move it back. The move is unsuccessful, and your capital remains unchanged. Gain 1d4 Unrest. Increase three Ruins of your choice by 1 and the fourth Ruin by 3."
           },
           {
             "type": "item",
@@ -752,12 +752,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You fail to reduce the targeted Ruin. You cannot attempt to Repair Reputation on this Ruin for 1 Kingdom turn."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You fail to reduce the targeted Ruin in a particularly public and embarrassing way. Increase Unrest by 1d4, and you cannot attempt to Repair Reputation for 3 Kingdom turns."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** You fail to reduce the targeted Ruin in a particularly public and embarrassing way. Increase Unrest by 1d4, and you cannot attempt to Repair Reputation for 3 Kingdom turns."
           },
           {
             "type": "item",
@@ -789,12 +789,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** Your ally marshals its resources but cannot get aid to you in time to deal with your current situation. At the start of your next Kingdom turn, gain 1d4 RP."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Your ally is tangled up in its own problems and is unable to assist you, is insulted by your request for aid, or might even have an interest in seeing your kingdom struggle against one of your ongoing events. Whatever the case, your pleas for aid make your kingdom look desperate. You gain no aid, but you do increase Unrest by 1d4."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Your ally is tangled up in its own problems and is unable to assist you, is insulted by your request for aid, or might even have an interest in seeing your kingdom struggle against one of your ongoing events. Whatever the case, your pleas for aid make your kingdom look desperate. You gain no aid, but you do increase Unrest by 1d4."
           },
           {
             "type": "item",
@@ -823,12 +823,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** The rest is welcome, but not particularly beneficial in the long term."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** The time is wasted, and when you get back to work, you have to spend extra time catching up. Take a –2 circumstance penalty to your next skill check made as a Leadership activity."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** The time is wasted, and when you get back to work, you have to spend extra time catching up. Take a –2 circumstance penalty to your next skill check made as a Leadership activity."
           },
           {
             "type": "item",
@@ -853,12 +853,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** Your envoys are received, but the target organization isn’t ready to engage in diplomatic relations. If you attempt to Send a Diplomatic Envoy to the group next Kingdom turn, you gain a +2 circumstance bonus to that check."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Disaster! Your envoy fails to reach their destination, is turned back at the border, or is taken prisoner or executed, at the GM’s discretion. The repercussions on your kingdom’s morale and reputation are significant. Choose one of the following results: gain 1d4 Unrest, add 1 to a Ruin of your choice, or immediately roll 2 Resource Dice and spend RP equal to the result. In any event, you cannot attempt to Send a Diplomatic Envoy to this same target for the next 3 Kingdom turns. The first time your kingdom succeeds at establishing diplomatic relations in the campaign, gain 60 kingdom XP as a milestone award (page 538)."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Disaster! Your envoy fails to reach their destination, is turned back at the border, or is taken prisoner or executed, at the GM’s discretion. The repercussions on your kingdom’s morale and reputation are significant. Choose one of the following results: gain 1d4 Unrest, add 1 to a Ruin of your choice, or immediately roll 2 Resource Dice and spend RP equal to the result. In any event, you cannot attempt to Send a Diplomatic Envoy to this same target for the next 3 Kingdom turns. The first time your kingdom succeeds at establishing diplomatic relations in the campaign, gain 60 kingdom XP as a milestone award (page 538)."
           },
           {
             "type": "item",
@@ -879,12 +879,12 @@
               {
                 "type": "paragraph",
                 "content": "**Success** As critical success, but the solution costs the kingdom 1d4 RP to research. This cost is paid now, whether or not you use your supernatural solution. **Failure** Your attempt at researching a supernatural solution costs the kingdom 2d6 RP, but is ultimately a failure, providing no advantage."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** As failure, but your spellcasters’ resources and morale are impacted such that you cannot attempt a Supernatural Solution again for 2 Kingdom turns. **Special** You cannot influence a check with Supernatural Solution and Creative Solution simultaneously."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** As failure, but your spellcasters’ resources and morale are impacted such that you cannot attempt a Supernatural Solution again for 2 Kingdom turns. **Special** You cannot influence a check with Supernatural Solution and Creative Solution simultaneously."
           },
           {
             "type": "item",
@@ -909,12 +909,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You fail to generate RP."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You take a -1 Circumstance Penalty to the next Check you make this turn with the chosen skill."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** You take a -1 Circumstance Penalty to the next Check you make this turn with the chosen skill."
           }
         ]
       },
@@ -957,12 +957,12 @@
               {
                 "type": "paragraph",
                 "content": "**Critical Failure** As failure, but increase Unrest by 3 and automatically experience a Bandit Activity kingdom event instead of a Squatters event."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Special** The Unrest gained from abandoning a hex doubles if it includes a settlement. A settlement in an abandoned hex becomes a Freehold."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Special** The Unrest gained from abandoning a hex doubles if it includes a settlement. A settlement in an abandoned hex becomes a Freehold."
           },
           {
             "type": "item",
@@ -982,12 +982,12 @@
               {
                 "type": "paragraph",
                 "content": "You collect breeding stock from the local wildlife and common herd animals for use as food, mounts, beasts of burden, hides, and other animal byproducts. Spend 2 RP."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Note** This action allows you to create Ranches. Otherwise, except as noted above, this action functions identically to Establish Farmland. A critical failure may result in a Crop Failure event that blights or infests your herds rather than your fields, but resolving the event requires a Wilderness check rather than an Agriculture check."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Note** This action allows you to create Ranches. Otherwise, except as noted above, this action functions identically to Establish Farmland. A critical failure may result in a Crop Failure event that blights or infests your herds rather than your fields, but resolving the event requires a Wilderness check rather than an Agriculture check."
           },
           {
             "type": "item",
@@ -1016,12 +1016,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You establish your Watchtower or Keep and staff it with guards. All Warfare checks in that hex gain a +1 item bonus."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You establish your Watchtower or Keep but discover the location you selected has hidden vulnerabilities or your fortification has construction flaws. Defense checks in that hex gain no bonus for a Watchtower (+1 item bonus for a Keep). Also, your fortification is taken as a provocation by hostileenemies. Make a DC 5 flat check each month for 1d6 months after your critical failure. A failed check causes a Monster Activity event in that hex. This is in addition to any other events that month."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** You establish your Watchtower or Keep but discover the location you selected has hidden vulnerabilities or your fortification has construction flaws. Defense checks in that hex gain no bonus for a Watchtower (+1 item bonus for a Keep). Also, your fortification is taken as a provocation by hostileenemies. Make a DC 5 flat check each month for 1d6 months after your critical failure. A failed check causes a Monster Activity event in that hex. This is in addition to any other events that month."
           },
           {
             "type": "item",
@@ -1057,12 +1057,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You fail to build roads in the hex."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Your attempt to build roads ends in disaster. Not only do you fail to build roads, but you lose several workers to an accident, banditry, a vicious monster, or some other unforeseen occurrence. Gain 1 Unrest."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Your attempt to build roads ends in disaster. Not only do you fail to build roads, but you lose several workers to an accident, banditry, a vicious monster, or some other unforeseen occurrence. Gain 1 Unrest."
           },
           {
             "type": "item",
@@ -1105,12 +1105,12 @@
               {
                 "type": "paragraph",
                 "content": "**Critical Failure** You fail to claim the hex, and a number of early settlers and explorers are lost, causing you to take a –1 circumstance penalty to Stability-based checks until the end of your next Kingdom turn."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Special** At 1st level, when selecting the three activities you take during the Region Activities step of the Activity phase of the Kingdom turn, you may select this activity no more than once. Once your kingdom reaches 4th level, you may select it up to twice per turn, and after reaching 9th level you may select it up to three times per turn. When you successfully claim a hex, gain 10 kingdom XP (see page 540). Many hexes have terrain features that grant benefits to your kingdom when claimed; see Terrain Features on page 535."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Special** At 1st level, when selecting the three activities you take during the Region Activities step of the Activity phase of the Kingdom turn, you may select this activity no more than once. Once your kingdom reaches 4th level, you may select it up to twice per turn, and after reaching 9th level you may select it up to three times per turn. When you successfully claim a hex, gain 10 kingdom XP (see page 540). Many hexes have terrain features that grant benefits to your kingdom when claimed; see Terrain Features on page 535."
           },
           {
             "type": "item",
@@ -1143,12 +1143,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You fail to clear the hex."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You catastrophically fail to clear the hex and several workers lose their lives. Gain 1 Unrest."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** You catastrophically fail to clear the hex and several workers lose their lives. Gain 1 Unrest."
           },
           {
             "type": "item",
@@ -1173,12 +1173,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You gain a +1 status bonus on your next Establish Farmland or Harvest Crops action taken within the next month."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You taint the soil with weeds and must make a DC 6 flat check; on a failure, you destroy a Farmland hex. That hex can be cultivated again with a new Establish Farmland action."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** You taint the soil with weeds and must make a DC 6 flat check; on a failure, you destroy a Farmland hex. That hex can be cultivated again with a new Establish Farmland action."
           },
           {
             "type": "item",
@@ -1210,12 +1210,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You fail to establish a Farmland hex."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You fail to establish a Farmland hex, and your attempt potentially causes the spread of a blight. At the start of each of the next two Event phases, attempt a DC 6 flat check; on a failure, your kingdom experiences a Crop Failure event in this and all adjacent hexes."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** You fail to establish a Farmland hex, and your attempt potentially causes the spread of a blight. At the start of each of the next two Event phases, attempt a DC 6 flat check; on a failure, your kingdom experiences a Crop Failure event in this and all adjacent hexes."
           },
           {
             "type": "item",
@@ -1247,12 +1247,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You establish the settlement, but inefficiently and at great expense. Spend 6d6 RP."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You fail to establish the settlement."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** You fail to establish the settlement."
           },
           {
             "type": "item",
@@ -1284,12 +1284,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You fail to establish a Work Site in the hex."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Not only do you fail to establish a Work Site, but you lose several workers to an accident, banditry, a vicious monster, or some other unforeseen occurrence. Gain 1 Unrest."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Not only do you fail to establish a Work Site, but you lose several workers to an accident, banditry, a vicious monster, or some other unforeseen occurrence. Gain 1 Unrest."
           },
           {
             "type": "item",
@@ -1313,12 +1313,12 @@
               {
                 "type": "paragraph",
                 "content": "You make use of the natural fishing runs, shellfish beds, and migrating sea life to draw forth the bounty of the rivers, lakes, and seas to feed your people. Spend 2 RP for aquatic, coastal, or river in plains, or 4 RP for river terrain on any other terrain."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Note** This action allows you to create Fisheries. Otherwise, except as noted above, this action functions identically to Establish Farmland. A critical failure may result in a Crop Failure event, but resolving the event requires a Nautical check rather than an Agriculture check."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Note** This action allows you to create Fisheries. Otherwise, except as noted above, this action functions identically to Establish Farmland. A critical failure may result in a Crop Failure event, but resolving the event requires a Nautical check rather than an Agriculture check."
           },
           {
             "type": "item",
@@ -1350,12 +1350,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You fail to fortify the hex."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Your attempt ends in disaster. Not only do you fail to build a structure, but you lose several workers to an accident, banditry, a vicious monster, or some other unforeseen occurrence. Gain 1 Unrest."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Your attempt ends in disaster. Not only do you fail to build a structure, but you lose several workers to an accident, banditry, a vicious monster, or some other unforeseen occurrence. Gain 1 Unrest."
           },
           {
             "type": "item",
@@ -1380,12 +1380,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** Gain no Food commodities."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Lose 1d4 Food commodities to spoilage. If you have no Food to lose, you instead gain 1 Unrest."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Lose 1d4 Food commodities to spoilage. If you have no Food to lose, you instead gain 1 Unrest."
           },
           {
             "type": "item",
@@ -1417,12 +1417,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** Gain no Food commodities."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You lose some fishers to tragic accidents; gain 1 Unrest."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** You lose some fishers to tragic accidents; gain 1 Unrest."
           },
           {
             "type": "item",
@@ -1447,12 +1447,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** Gain no Food commodities."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Lose 1d4 Food commodities to spoilage; if you have no Food to lose, you instead gain 1 Unrest."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Lose 1d4 Food commodities to spoilage; if you have no Food to lose, you instead gain 1 Unrest."
           },
           {
             "type": "item",
@@ -1476,12 +1476,12 @@
               {
                 "type": "paragraph",
                 "content": "**Critical Success** The hex gains a river or lake terrain feature (or you change the effects of a previous critical failure at Irrigation in this hex into a failure); work with your GM to determine where these features appear in the hex. In addition, your workers were efficient and quick, and you regain half the RP you spent building the waterways."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Success** As success, but without regaining any RP."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Success** As success, but without regaining any RP."
           },
           {
             "type": "item",
@@ -1491,12 +1491,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You fail to build workable systems or to restore a previous critical failure, and the hex does not gain the river or lake terrain feature."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** As failure, but your attempts at Irrigation are so completely useless that they become breeding grounds for disease. Gain 1 Unrest. From this point onward, at the start of your Kingdom turn’s Event phase, attempt a DC 4 flat check. This flat check’s DC increases by 1 for each hex in your kingdom that contains a critically failed attempt at Irrigation. If you fail this flat check, your kingdom suffers a Plague event in addition to any other event it might have. You can attempt this activity again in a later Kingdom turn to undo a critically failed Irrigation attempt."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** As failure, but your attempts at Irrigation are so completely useless that they become breeding grounds for disease. Gain 1 Unrest. From this point onward, at the start of your Kingdom turn’s Event phase, attempt a DC 4 flat check. This flat check’s DC increases by 1 for each hex in your kingdom that contains a critically failed attempt at Irrigation. If you fail this flat check, your kingdom suffers a Plague event in addition to any other event it might have. You can attempt this activity again in a later Kingdom turn to undo a critically failed Irrigation attempt."
           },
           {
             "type": "item",
@@ -1521,12 +1521,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You reduce the RP cost of the improvement by 1 RP if you are expert or master at Magic, or by 2 RP if you are legendary."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Your magic-wielders interfere with the traditional workers’ designs and efforts, getting in their way more than they help. You take -2 circumstance penalty on Focus checks made to construct that improvement and increase its cost by 2 RP."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Your magic-wielders interfere with the traditional workers’ designs and efforts, getting in their way more than they help. You take -2 circumstance penalty on Focus checks made to construct that improvement and increase its cost by 2 RP."
           },
           {
             "type": "item",
@@ -1551,12 +1551,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** Your team fails to explore the hex sufficiently. If the hex contains an Encounter or Hazard, the team escapes it and reports basic information on it."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Your team fails to explore the hex sufficiently and a number of the team are lost, causing you to take a -1 circumstance penalty to Loyalty-based checks until the end of your next Kingdom turn. If the hex contains an Encounter or Hazard, the team members were lost to it and the survivors can report back basic information on it."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** Your team fails to explore the hex sufficiently and a number of the team are lost, causing you to take a -1 circumstance penalty to Loyalty-based checks until the end of your next Kingdom turn. If the hex contains an Encounter or Hazard, the team members were lost to it and the survivors can report back basic information on it."
           },
           {
             "type": "item",
@@ -1581,12 +1581,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You Reconnoiter the hex, locating any non-Secret terrain discoveries, and you gain a +1 status bonus on the Focus check for a single region action taken in that hex on your current or next Kingdom turn."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You fail to locate any terrain discoveries in that hex, and your inaccurate maps and surveys result in a -2 penalty on any Focus checks related to terrain actions in that hex until you use this action again and obtain a better result (note that this -2 penalty applies on Wilderness checks related to future Send Surveyors actions)."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** You fail to locate any terrain discoveries in that hex, and your inaccurate maps and surveys result in a -2 penalty on any Focus checks related to terrain actions in that hex until you use this action again and obtain a better result (note that this -2 penalty applies on Wilderness checks related to future Send Surveyors actions)."
           }
         ]
       },
@@ -1622,12 +1622,12 @@
               {
                 "type": "paragraph",
                 "content": "**Critical Failure** You build one lot of Houses or Tenements, with cost overruns increasing the price by 1 RP per lot. However, the slipshod construction leads to a rash of fires, collapses, or similar accidents. You must succeed on a Stability check or gain 1 Unrest and lose one Resource die on your next turn repairing these problems."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Special** You can use this action only once per kingdom turn per settlement, and you must still pay the cost of the structure. If the activity was a free activity, it doesn't count against the number of civic activities you can perform that turn."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Special** You can use this action only once per kingdom turn per settlement, and you must still pay the cost of the structure. If the activity was a free activity, it doesn't count against the number of civic activities you can perform that turn."
           },
           {
             "type": "item",
@@ -1660,12 +1660,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You fail to construct or repair the structure. You can try to complete it next Kingdom turn; if you do so, you do not need to re-pay the RP and Commodity cost."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You fail to construct the structure; if you were attempting to repair a damaged structure, it is reduced to Rubble. In either event, Rubble now fills the structure’s lots, which must be cleared with the Demolish activity before you can attempt to Build a Structure in them again."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** You fail to construct the structure; if you were attempting to repair a damaged structure, it is reduced to Rubble. In either event, Rubble now fills the structure’s lots, which must be cleared with the Demolish activity before you can attempt to Build a Structure in them again."
           },
           {
             "type": "item",
@@ -1690,12 +1690,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** You fail to demolish the lot. It remains in Rubble and cannot be used for further construction until you successfully Demolish it."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** As failure, but accidents during the demolition cost you the lives of some of your workers. Gain 1 Unrest."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** As failure, but accidents during the demolition cost you the lives of some of your workers. Gain 1 Unrest."
           },
           {
             "type": "item",
@@ -1724,12 +1724,12 @@
               {
                 "type": "paragraph",
                 "content": "**Critical Failure** Setting up the Industrial Supply fails, and your settlement’s Consumption increases by 50% on your next kingdom turn."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Special** You can use this action only once per kingdom turn per settlement."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Special** You can use this action only once per kingdom turn per settlement."
           },
           {
             "type": "item",
@@ -1754,12 +1754,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** As success, but the reduction is 1 if you are expert or master at Magic, or 2 if you are legendary."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You do not reduce the commodity cost of the improvement."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** You do not reduce the commodity cost of the improvement."
           },
           {
             "type": "item",
@@ -1784,12 +1784,12 @@
               {
                 "type": "paragraph",
                 "content": "**Failure** As success, but you reduce the RP cost of the new improvement by only 25% the cost of the previous improvement if you rebuild the same type of improvement. You do not reduce its cost at all if you build a different improvement."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** As a success, but you do not reduce the RP cost of the new improvement at all. In addition, your defective salvaged materials lead to hidden problems in the new building. You take a -1 penalty on Stability checks for 1d4 months in this settlement, and each month there is a 25% chance the rebuild improvement collapses and is destroyed."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Critical Failure** As a success, but you do not reduce the RP cost of the new improvement at all. In addition, your defective salvaged materials lead to hidden problems in the new building. You take a -1 penalty on Stability checks for 1d4 months in this settlement, and each month there is a 25% chance the rebuild improvement collapses and is destroyed."
           },
           {
             "type": "item",
@@ -1818,12 +1818,12 @@
               {
                 "type": "paragraph",
                 "content": "**Critical Failure** Setting up the Supply Network fails, and your settlement’s Consumption increases by 50% on your next kingdom turn. In addition, there is a 25% chance of a Bandit Activity kingdom event on your next kingdom turn."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Special** A village can only be connected to up to 2 hexes outside its normal influence, a town can connect to up to 4, and a city can connect to up to 6, and a metropolis can connect to up to 8. When a hex gained through this activity enters the settlement's normal influence (such as when the settlement's size increases), it no longer counts against this limit."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Special** A village can only be connected to up to 2 hexes outside its normal influence, a town can connect to up to 4, and a city can connect to up to 6, and a metropolis can connect to up to 8. When a hex gained through this activity enters the settlement's normal influence (such as when the settlement's size increases), it no longer counts against this limit."
           },
           {
             "type": "item",
@@ -1852,12 +1852,12 @@
               {
                 "type": "paragraph",
                 "content": "**Critical Failure** Criminal elements tipped off to your marketeering rob some of the participating merchants, leading to a drop in trade. You take a -1 penalty on all Markets in that settlement and a -1 penalty on all Trade checks in your kingdom for 1d4 months. Increase your Crime Ruin score by 1."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Special** You can use this action only once per kingdom turn."
               }
             ]
-          },
-          {
-            "type": "paragraph",
-            "content": "**Special** You can use this action only once per kingdom turn."
           }
         ]
       }
