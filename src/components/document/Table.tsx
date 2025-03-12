@@ -2,7 +2,7 @@ import { useLayoutEffect } from "react";
 import { TableData } from "../../types";
 import { notifications } from "@mantine/notifications";
 
-function Table({ data }: { data: TableData }) {
+function Table({ data, search, preview }: { data: TableData, search?: string, preview?: boolean }) {
   useLayoutEffect(() => {
     const handleScrollToElement = () => {
       if (window.location.hash === `#${data.id}` && data.id) {
@@ -35,7 +35,7 @@ function Table({ data }: { data: TableData }) {
 
   return (
     <>
-      {data.id && (
+      {!preview && data.id && (
         <div
           className="anchor"
           onClick={() => {
@@ -59,12 +59,22 @@ function Table({ data }: { data: TableData }) {
           #
         </div>
       )}
-      <table id={data.id}>
+      <table id={!preview ? data.id : undefined}>
         <thead>
           <tr>
             {data.columns.map((column, index) => (
               <th key={index} style={{ textAlign: column.align }}>
-                {column.content}
+                {search ? (
+                  column.content.split(new RegExp(`(${search})`, 'i')).map((part, i) =>
+                    part.toLowerCase() === search.toLowerCase() ? (
+                      <mark key={i}>{part}</mark>
+                    ) : (
+                      part
+                    )
+                  )
+                ) : (
+                  column.content
+                )}
               </th>
             ))}
           </tr>
@@ -74,7 +84,17 @@ function Table({ data }: { data: TableData }) {
             <tr key={index}>
               {row.map((cell, index) => (
                 <td key={index} style={{ textAlign: data.columns[index].align }}>
-                  {cell}
+                  {search ? (
+                    cell.split(new RegExp(`(${search})`, 'i')).map((part, i) =>
+                      part.toLowerCase() === search.toLowerCase() ? (
+                        <mark key={i}>{part}</mark>
+                      ) : (
+                        part
+                      )
+                    )
+                  ) : (
+                    cell
+                  )}
                 </td>
               ))}
             </tr>

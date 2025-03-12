@@ -2,8 +2,9 @@ import { ActionIcon, Burger, Group, Title, useMantineColorScheme } from "@mantin
 import Search from "../search/Search";
 import { IconMoonStars } from "@tabler/icons-react";
 import { IconSun } from "@tabler/icons-react";
+import { ParsedElement } from "../../types";
 
-function Header({ opened, toggle }: { opened: boolean; toggle: () => void }) {
+function Header({ opened, toggle, rulesets, setDocumentSearch }: { opened: boolean; toggle: () => void, rulesets: Record<string, ParsedElement[]>, setDocumentSearch: (search: string) => void }) {
   const { colorScheme, toggleColorScheme } = useMantineColorScheme();
 
   const handleToggleColorScheme = () => {
@@ -18,7 +19,7 @@ function Header({ opened, toggle }: { opened: boolean; toggle: () => void }) {
       <Title size="md" order={1} style={{ margin: 'auto 0' }}>
         Kingdom Rules
       </Title>
-      <Search flex={1} />
+      <Search flex={1} rulesets={rulesets} setDocumentSearch={setDocumentSearch} />
       <ActionIcon
         variant="subtle"
         onClick={handleToggleColorScheme}

@@ -1046,8 +1046,9 @@ small {
 
 .mark,
 mark {
-  padding: .2em;
-  background-color: #fcf8e3
+  /* padding-top: 0.2em;
+  padding-bottom: 0.2em; */
+  background-color: yellow;
 }
 
 .list-unstyled {
@@ -10319,7 +10320,7 @@ body {
 }
 
 * {
-  line-height: 1;
+  /* line-height: 1; */
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -11891,6 +11892,7 @@ h5+table {
   font-style: italic;
   font-family: monospace;
   font-size: 1.5em;
+  margin-top: -0.2em;
 }
 
 .anchor:has(+ table) {
@@ -11915,4 +11917,25 @@ h5+table {
 
 .dark hr {
   border-top: 1px solid #fff;
+}
+
+.search-preview {
+  padding: 8px;
+}
+
+.search-preview:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.dark .search-preview:nth-child(even) {
+  background-color: #222;
+}
+
+.search-preview:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.dark .search-preview:hover {
+  background-color: #444;
 }

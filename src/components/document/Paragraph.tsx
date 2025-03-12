@@ -1,8 +1,9 @@
 import { useLayoutEffect } from "react";
 import { ParagraphData } from "../../types";
 import { notifications } from "@mantine/notifications";
+import React from "react";
 
-function Paragraph({ data }: { data: ParagraphData }) {
+function Paragraph({ data, search, preview }: { data: ParagraphData, search?: string, preview?: boolean }) {
   useLayoutEffect(() => {
     const handleScrollToElement = () => {
       if (window.location.hash === `#${data.id}` && data.id) {
@@ -35,7 +36,7 @@ function Paragraph({ data }: { data: ParagraphData }) {
 
   return (
     <>
-      {data.id && (
+      {!preview && data.id && (
         <div
           className="anchor"
           onClick={() => {
@@ -59,14 +60,40 @@ function Paragraph({ data }: { data: ParagraphData }) {
           #
         </div>
       )}
-      <p id={data.id} className={data.content.startsWith("**") ? "hanging" : ""}>
+      <p id={!preview ? data.id : undefined} className={data.content.startsWith("**") ? "hanging" : ""}>
         {data.content.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/).map((text, index) => {
+          let formattedText;
           if (text.startsWith("**") && text.endsWith("**")) {
-            return <strong key={index}>{text.slice(2, -2)}</strong>;
+            formattedText = <strong key={index}>{text.slice(2, -2)}</strong>;
           } else if (text.startsWith("*") && text.endsWith("*")) {
-            return <em key={index}>{text.slice(1, -1)}</em>;
+            formattedText = <em key={index}>{text.slice(1, -1)}</em>;
+          } else {
+            formattedText = text;
           }
-          return text;
+
+          if (search) {
+            if (typeof formattedText === 'string') {
+              return formattedText.split(new RegExp(`(${search})`, 'i')).map((part, i) =>
+                part.toLowerCase() === search.toLowerCase() ? (
+                  <mark key={i}>{part}</mark>
+                ) : (
+                  part
+                )
+              );
+            } else {
+              return React.cloneElement(formattedText, {},
+                formattedText.props.children.split(new RegExp(`(${search})`, 'i')).map((part: string, i: number) =>
+                  part.toLowerCase() === search.toLowerCase() ? (
+                    <mark key={i}>{part}</mark>
+                  ) : (
+                    part
+                  )
+                )
+              );
+            }
+          }
+
+          return formattedText;
         })}
       </p>
     </>

@@ -45,6 +45,7 @@ const RULESETS: Record<string, ParsedElement[]> = {
 function App() {
   const [opened, { toggle }] = useDisclosure(false);
   const [ruleset, setRuleset] = useState<string>("Kingdom Actions");
+  const [documentSearch, setDocumentSearch] = useState<string>("");
 
   return (
     <Router>
@@ -54,21 +55,21 @@ function App() {
         layout="alt"
       >
         <AppShell.Header>
-          <Header opened={opened} toggle={toggle} />
+          <Header opened={opened} toggle={toggle} rulesets={RULESETS} setDocumentSearch={setDocumentSearch} />
         </AppShell.Header>
         <AppShell.Navbar p="md">
-          <Sidebar rulesets={Object.keys(RULESETS)} setRuleset={setRuleset} toggle={toggle} />
+          <Sidebar rulesets={Object.keys(RULESETS)} setRuleset={setRuleset} toggle={toggle} currentRuleset={ruleset} />
         </AppShell.Navbar>
         <AppShell.Main>
           <Routes>
             {Object.keys(RULESETS).map((key) => (
               <Route
                 path={`/${key.replace(/\s+/g, '-')}`}
-                element={<Body ruleset={RULESETS[key]} />}
+                element={<Body ruleset={RULESETS[key]} search={documentSearch} />}
                 key={key}
               />
             ))}
-            <Route path="/" element={<Body ruleset={RULESETS[ruleset]} />} />
+            <Route path="/" element={<Body ruleset={RULESETS[ruleset]} search={documentSearch} />} />
           </Routes>
         </AppShell.Main>
       </AppShell>

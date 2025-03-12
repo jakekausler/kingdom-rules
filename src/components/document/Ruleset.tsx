@@ -4,7 +4,7 @@ import Content from "./Content";
 import { ActionIcon, Affix } from "@mantine/core";
 import { IconArrowUp } from "@tabler/icons-react";
 
-function Ruleset({ ruleset }: { ruleset: ParsedElement[] }) {
+function Ruleset({ ruleset, search }: { ruleset: ParsedElement[], search?: string }) {
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
@@ -13,10 +13,13 @@ function Ruleset({ ruleset }: { ruleset: ParsedElement[] }) {
     scrollToTop();
   }, [ruleset]);
 
+  useEffect(() => {
+  }, [search]);
+
   return (
     <div className="bg-paper page d-flex flex-wrap a4" style={{ marginBottom: 20 }}>
       <div className="content">
-        <Content data={ruleset} />
+        <Content data={ruleset} search={search} />
       </div>
       <Affix position={{ bottom: 20, right: 20 }}>
         <ActionIcon variant="filled" color="blue" onClick={scrollToTop}>
