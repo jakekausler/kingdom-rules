@@ -60,7 +60,7 @@ function Paragraph({ data, search, preview }: { data: ParagraphData, search?: st
           #
         </div>
       )}
-      <p id={!preview ? data.id : undefined} className={data.content.startsWith("**") ? "hanging" : ""}>
+      <p id={!preview ? data.id : undefined} className={data.content.startsWith("**") ? "hang" : ""}>
         {data.content.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/).map((text, index) => {
           let formattedText;
           if (text.startsWith("**") && text.endsWith("**")) {

@@ -33,14 +33,14 @@ const RULESETS: Record<string, ParsedElement[]> = {
   "Settlement Structures": settlementStructures as ParsedElement[],
 };
 
-// TODO: Add a search bar to the navbar
+// // TODO: Add a search bar to the navbar
 // // TODO: Scroll to top when ruleset changes
 // // TODO: Add a "back to top" button
 // // TODO: Add a color scheme toggle and save preference
 // // TODO: Add dark colors
 // // TODO: Pages should change the URL and be able to open in new tabs
 // TODO: Support links within the data to pages and/or anchors
-// TODO: Add anchors to each heading, item, and table
+// // TODO: Add anchors to each heading, item, and table
 
 function App() {
   const [opened, { toggle }] = useDisclosure(false);

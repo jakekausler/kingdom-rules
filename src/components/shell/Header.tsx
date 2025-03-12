@@ -1,4 +1,4 @@
-import { ActionIcon, Burger, Group, Title, useMantineColorScheme } from "@mantine/core";
+import { ActionIcon, Burger, Group, useMantineColorScheme } from "@mantine/core";
 import Search from "../search/Search";
 import { IconMoonStars } from "@tabler/icons-react";
 import { IconSun } from "@tabler/icons-react";
@@ -16,9 +16,6 @@ function Header({ opened, toggle, rulesets, setDocumentSearch }: { opened: boole
   return (
     <Group w="100%" px="xs" h="100%">
       <Burger hiddenFrom="sm" opened={opened} onClick={toggle} />
-      <Title size="md" order={1} style={{ margin: 'auto 0' }}>
-        Kingdom Rules
-      </Title>
       <Search flex={1} rulesets={rulesets} setDocumentSearch={setDocumentSearch} />
       <ActionIcon
         variant="subtle"

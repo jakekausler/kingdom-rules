@@ -1,7 +1,9 @@
-import { Input, useMantineColorScheme, useMantineTheme } from "@mantine/core";
+import { useMantineColorScheme, useMantineTheme, ActionIcon, TextInput, CloseButton } from "@mantine/core";
+import { useMediaQuery } from "@mantine/hooks";
 import { ParsedElement, SearchResult } from "../../types";
 import { useEffect, useState, useRef } from "react";
 import SearchResults from "./SearchResults";
+import { IconX } from "@tabler/icons-react";
 
 const searchCache: Record<string, SearchResult[]> = {};
 const searchCacheTime: Record<string, number> = {};
@@ -96,6 +98,8 @@ function Search({ flex, rulesets, setDocumentSearch }: { flex: number, rulesets:
   const inputRef = useRef<HTMLInputElement>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
+  const isSmallScreen = useMediaQuery('(max-width: 768px)');
+
   useEffect(() => {
     for (const ruleset of Object.values(rulesets)) {
       ruleset.forEach(element => createLowercaseCache(element));
@@ -128,7 +132,6 @@ function Search({ flex, rulesets, setDocumentSearch }: { flex: number, rulesets:
         searchCache[search] = res;
         searchCacheTime[search] = Date.now();
       }
-      console.log(results);
     } else {
       setResults([]);
     }
@@ -159,7 +162,7 @@ function Search({ flex, rulesets, setDocumentSearch }: { flex: number, rulesets:
 
   return (
     <div style={{ position: 'relative', flex: flex }}>
-      <Input
+      <TextInput
         ref={inputRef}
         size="xs"
         mt={5}
@@ -168,6 +171,14 @@ function Search({ flex, rulesets, setDocumentSearch }: { flex: number, rulesets:
         value={search}
         onChange={handleSearch}
         onFocus={() => search.length > 3 && setDropdownOpen(true)}
+        rightSection={
+          <CloseButton
+            onClick={() => {
+              setSearch('');
+              setDocumentSearch('');
+            }}
+          />
+        }
       />
       <div
         ref={dropdownRef}
@@ -181,8 +192,17 @@ function Search({ flex, rulesets, setDocumentSearch }: { flex: number, rulesets:
           zIndex: 1000,
           display: dropdownOpen ? 'block' : 'none',
           borderRadius: 4,
+          padding: '10px',
         }}
       >
+        <ActionIcon
+          style={{ position: 'absolute', top: 5, right: isSmallScreen ? 5 : 40 }}
+          onClick={() => setDropdownOpen(false)}
+          bg={colorScheme === 'dark' ? '#ffda9b' : '#5D0000'}
+          c={colorScheme === 'dark' ? '#000000' : '#ffffff'}
+        >
+          <IconX size={16} />
+        </ActionIcon>
         <SearchResults results={results} search={search} closeDropdown={() => setDropdownOpen(false)} />
       </div>
     </div>
