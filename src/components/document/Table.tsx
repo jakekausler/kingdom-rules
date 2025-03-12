@@ -2,7 +2,7 @@ import { TableData } from "../../types";
 
 function Table({ data }: { data: TableData }) {
   return (
-    <table>
+    <table id={data.id}>
       <thead>
         <tr>
           {data.columns.map((column, index) => (

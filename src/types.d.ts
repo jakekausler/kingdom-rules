@@ -5,12 +5,14 @@ export interface TableColumn {
 
 export interface TableData {
     type: 'table';
+    id?: string;
     columns: TableColumn[];
     data: string[][];
 }
 
 export interface HeadingData {
     type: 'heading';
+    id?: string;
     heading: string;
     level: number;
     content: ParsedElement[];
@@ -18,6 +20,7 @@ export interface HeadingData {
 
 export interface ItemData {
     type: 'item';
+    id?: string;
     heading: string;
     subheading: string;
     content: ParsedElement[];
@@ -25,11 +28,13 @@ export interface ItemData {
 
 export interface ParagraphData {
     type: 'paragraph';
+    id?: string;
     content: string;
 }
 
 export interface ListData {
     type: 'list';
+    id?: string;
     content: string[];
 }
 
