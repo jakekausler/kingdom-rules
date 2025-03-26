@@ -42,6 +42,7 @@ const RULESETS: Record<string, ParsedElement[]> = {
 // TODO: Support links within the data to pages and/or anchors
 // // TODO: Add anchors to each heading, item, and table
 // TODO: Don't display side content on smaller screens. Have the clipboard happen when clicking the anchor link
+// TODO: Scroll to top is displaying over the sidebar
 
 function App() {
   const [opened, { toggle }] = useDisclosure(false);
