@@ -11851,11 +11851,19 @@ h5+table {
 }
 
 #result a {
-  color: rgb(172, 13, 74)!important;
+  color: #5D0000!important;
 }
 
 #result a:hover {
-  color: rgb(211, 126, 14)!important;
+  color: rgb(172, 13, 74)!important;
+}
+
+#result.dark a {
+  color: #ffda9b!important;
+}
+
+#result.dark a:hover {
+  color: #806e45!important;
 }
 
 #result .rules p,

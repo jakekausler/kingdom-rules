@@ -10,26 +10,39 @@ const searchCacheTime: Record<string, number> = {};
 const searchCacheDuration = 1000 * 60 * 5; // 5 minutes
 
 function createLowercaseCache(parsedElement: ParsedElement) {
+  // Helper function to process text and handle links, bold, and italic
+  const processText = (text: string) => {
+    const processedContent = text
+      .replace(/\*\*([^*]+)\*\*/g, '$1')  // Handle bold text
+      .replace(/\*([^*]+)\*/g, '$1')      // Handle italic text
+      .replace(/<<([^|]+)\|[^>]+>>/g, '$1'); // Handle links
+    return processedContent.toLowerCase();
+  };
+
   if (parsedElement.type === 'table') {
-    parsedElement.lowercaseData = parsedElement.data.map(row => row.map(cell => cell.toLowerCase()));
-    parsedElement.columns = parsedElement.columns.map(column => ({ ...column, lowercaseContent: column.content.toLowerCase() }));
+    parsedElement.lowercaseData = parsedElement.data.map(row =>
+      row.map(cell => processText(cell))
+    );
+    parsedElement.columns = parsedElement.columns.map(column => ({
+      ...column,
+      lowercaseContent: processText(column.content)
+    }));
   } else if (parsedElement.type === 'heading') {
-    parsedElement.lowercaseHeading = parsedElement.heading.toLowerCase();
+    parsedElement.lowercaseHeading = processText(parsedElement.heading);
     parsedElement.content.forEach(element => createLowercaseCache(element));
   } else if (parsedElement.type === 'item') {
-    parsedElement.lowercaseHeading = parsedElement.heading.toLowerCase();
-    parsedElement.lowercaseSubheading = parsedElement.subheading.toLowerCase();
+    parsedElement.lowercaseHeading = processText(parsedElement.heading);
+    parsedElement.lowercaseSubheading = processText(parsedElement.subheading);
     parsedElement.content.forEach(element => createLowercaseCache(element));
   } else if (parsedElement.type === 'paragraph') {
-    parsedElement.lowercaseContent = parsedElement.content.toLowerCase();
+    parsedElement.lowercaseContent = processText(parsedElement.content);
   } else if (parsedElement.type === 'list') {
-    parsedElement.lowercaseContent = parsedElement.content.map(item => item.toLowerCase());
+    parsedElement.lowercaseContent = parsedElement.content.map(item => processText(item));
   } else if (parsedElement.type === 'traits') {
-    parsedElement.lowercaseContent = parsedElement.content.map(item => item.toLowerCase());
+    parsedElement.lowercaseContent = parsedElement.content.map(item => processText(item));
   }
 }
 
-// Example condition functions
 const conditionFunctions: Record<string, (search: string, element: ParsedElement) => boolean> = {
   table: (search, element) => (
     element.type === 'table' && (

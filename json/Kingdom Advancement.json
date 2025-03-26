@@ -10,7 +10,7 @@
       },
       {
         "type": "paragraph",
-        "content": "At the end of a Kingdom turn, if the kingdom has at least 1,000 XP and has not yet reached its maximum level, increase the kingdom’s level by 1 and deduct 1,000 from its current XP total. (The kingdom’s level can’t increase by more than 1 on a single Kingdom turn.) Note the kingdom’s new level on the kingdom sheet. If the kingdom has any leftover XP, they are retained and count toward gaining the next level."
+        "content": "At the <<end of a Kingdom turn|Kingdom-Turn#XPPhase>>, if the kingdom has at least 1,000 XP and has not yet reached its maximum level, increase the kingdom’s level by 1 and deduct 1,000 from its current XP total. (The kingdom’s level can’t increase by more than 1 on a single Kingdom turn.) Note the kingdom’s new level on the kingdom sheet. If the kingdom has any leftover XP, they are retained and count toward gaining the next level."
       },
       {
         "type": "paragraph",
@@ -22,7 +22,7 @@
       },
       {
         "type": "paragraph",
-        "content": "As the kingdom advances, it gains the abilities described on the next pages. Abilities gained at levels higher than first list the level at which they are gained next to their name. A summary of these abilities is on the last page of this document."
+        "content": "As the kingdom advances, it gains more abilities. Abilities gained at levels higher than first list the level at which they are gained next to their name. <<A summary of these abilities is at the end of this page|#SummaryOfKingdomAdvancementTable>>."
       },
       {
         "type": "heading",
@@ -31,7 +31,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "The more powerful a kingdom grows, the more difficult it becomes to control it. The base Control DC for your kingdom is set by the kingdom’s level—fortunately, as you increase in level, your ability to successfully utilize your skills grows as well."
+            "content": "The more powerful a kingdom grows, the more difficult it becomes to control it. The base <<Control DC|Kingdom-Rules#ControlDC>> for your kingdom is set by the kingdom’s level—fortunately, as you increase in level, your ability to successfully utilize your skills grows as well."
           }
         ],
         "id": "ControlDC"
@@ -43,10 +43,10 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "Your kingdom gains the benefits of your selected charter, government, and heartland."
+            "content": "Your kingdom gains the benefits of your selected <<charter|Kingdom-Creation#SelectACharter>>, <<government|Kingdom-Creation#ChooseAGovernment>>, and <<heartland|Kingdom-Creation#ChooseAHeartland>>."
           }
         ],
-        "id": "Charter,Government,AndHeartland"
+        "id": "CharterGovernmentAndHeartland"
       },
       {
         "type": "heading",
@@ -55,7 +55,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "At 1st level, a kingdom receives the trained proficiency rank in six Kingdom skills gained from your initial choice of charter, heartland, and government and in up to four additional Kingdom skills determined by your invested leaders, giving you a proficiency bonus to checks using these skills equal to your kingdom level plus 2. Proficiencies cannot be changed, even if the kingdom’s government or leaders later change."
+            "content": "At 1st level, a kingdom receives the trained proficiency rank in six Kingdom skills gained from your initial choice of <<charter|Kingdom-Creation#SelectACharter>>, <<heartland|Kingdom-Creation#ChooseAHeartland>>, and <<government|Kingdom-Creation#ChooseAGovernment>> and in four additional Kingdom skills determined by your <<invested leaders|Leadership-Roles#KeyAbility>>, giving you a proficiency bonus to checks using these skills equal to your kingdom level plus 2. Proficiencies cannot be changed, even if the kingdom’s government or leaders later change."
           }
         ],
         "id": "InitialProficiencies"
@@ -67,7 +67,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "Your heartland’s terrain becomes your kingdom’s favored land—the wilderness terrain that your people feel the strongest emotional ties to and to which your resource gatherers tend to flock. Once per Kingdom turn, during the Region Activities step of the Activity phase, you can attempt two Region activities simultaneously as long as both activities take place in the same hex and that hex contains the same terrain as your heartland. You take a –2 penalty to Kingdom skill checks made during these two activities."
+            "content": "Your <<heartland’s|Kingdom-Creation#ChooseAHeartland>> terrain becomes your kingdom’s favored land—the wilderness terrain that your people feel the strongest emotional ties to and to which your resource gatherers tend to flock. Once per Kingdom turn, during the <<Region Activities|Kingdom-Turn#RegionActivities>> step of the <<Activity phase|Kingdom-Turn#ActivityPhase>>, you can attempt two <<Region activities|Kingdom-Turn#RegionActivities>> simultaneously as long as both activities take place in the same hex and that hex contains the same terrain as your <<heartland|Kingdom-Creation#ChooseAHeartland>>. You take a –2 penalty to Kingdom skill checks made during these two activities."
           }
         ],
         "id": "FavoredLand"
@@ -79,11 +79,11 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "You can establish villages in your kingdom immediately (see Settlement Creation). At 3rd level, you can expand villages into towns. At 9th level, you can expand towns into cities. And at 15th level, you can expand cities into metropolises."
+            "content": "You can establish villages in your kingdom immediately (see <<Settlement Creation|Settlement-Creation>>). At 3rd level, you can expand villages into towns. At 9th level, you can expand towns into cities. And at 15th level, you can expand cities into metropolises."
           },
           {
             "type": "paragraph",
-            "content": "As villages grow into larger settlements, you not only gain more room to build, but the maximum item bonus you can gain from that settlement’s structures increases as well (see table in Settlement Rules)."
+            "content": "As villages grow into larger <<settlements|Settlement-Rules>>, you not only gain more room to build, but the <<maximum item bonus|Settlement-Rules#MaximumItemBonus>> you can gain from that settlement’s <<structures|Settlement-Structures>> increases as well (see <<table in Settlement Rules|Settlement-Rules#SettlementTypesTable>>)."
           }
         ],
         "id": "SettlementConstruction"
@@ -95,7 +95,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "At 2nd level, and then every 2 levels thereafter, the kingdom gains a Skill feat."
+            "content": "At 2nd level, and then every 2 levels thereafter, the kingdom gains a <<Skill feat|Kingdom-Feats#SkillFeats>>."
           }
         ],
         "id": "SkillFeats"
@@ -135,7 +135,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "At 3rd level and every 4 levels thereafter, your kingdom gains a General feat."
+            "content": "At 3rd level and every 4 levels thereafter, your kingdom gains a <<General feat|Kingdom-Feats#GeneralFeats>>."
           }
         ],
         "id": "GeneralFeats"
@@ -147,11 +147,11 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "Your kingdom is better at expanding its territory. You gain a +2 circumstance bonus to skill checks made to Claim Hex and can attempt to Claim Hex up to twice during a Kingdom turn."
+            "content": "Your kingdom is better at expanding its territory. You gain a +2 circumstance bonus to skill checks made to <<Claim Hex|Kingdom-Actions#ClaimHex>> and can attempt to <<Claim Hex|Kingdom-Actions#ClaimHex>> up to twice during a Kingdom turn."
           },
           {
             "type": "paragraph",
-            "content": "At 9th level, you can attempt to Claim Hex up to three times during a Kingdom turn."
+            "content": "At 9th level, you can attempt to <<Claim Hex|Kingdom-Actions#ClaimHex>> up to three times during a Kingdom turn."
           }
         ],
         "id": "ExpansionExpert"
@@ -163,11 +163,11 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "Your people celebrate your leadership by indulging you with feasts and finery. All PCs associated with the kingdom enjoy a Fine standard of living (Pathfinder Core Rulebook 294) at no cost whenever they’re in the kingdom. Any PCs in hostile wilderness, a monster‑filled dungeon, or otherwise cut off from their citizens must provide their own sustenance as usual even if they are within the boundaries of their kingdom."
+            "content": "Your people celebrate your leadership by indulging you with feasts and finery. All PCs associated with the kingdom enjoy a <<Fine standard of living|https://2e.aonprd.com/Rules.aspx?ID=2218>> at no cost whenever they’re in the kingdom. Any PCs in hostile wilderness, a monster‑filled dungeon, or otherwise cut off from their citizens must provide their own sustenance as usual even if they are within the boundaries of their kingdom."
           },
           {
             "type": "paragraph",
-            "content": "You gain a +1 circumstance bonus to all checks made to Craft or Earn Income while in your kingdom."
+            "content": "You gain a +1 circumstance bonus to all checks made to <<Craft|https://2e.aonprd.com/Actions.aspx?ID=2385>> or <<Earn Income|https://2e.aonprd.com/Skills.aspx?ID=21&General=true>> while in your kingdom."
           }
         ],
         "id": "FineLiving"
@@ -191,11 +191,11 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "At 5th level and every 3 levels thereafter, your kingdom becomes more resistant to Ruin. Choose one of the four Ruin categories and increase its threshold by 2."
+            "content": "At 5th level and every 3 levels thereafter, your kingdom becomes more resistant to <<Ruin|Kingdom-Rules#Ruin>>. Choose one of the four <<Ruin|Kingdom-Rules#Ruin>> categories and increase its threshold by 2."
           },
           {
             "type": "paragraph",
-            "content": "When you do so, reset that Ruin’s penalty to 0. See the Kingdom Rules for more information about Ruin."
+            "content": "When you do so, reset that <<Ruin’s penalty|Kingdom-Rules#RuinPenalty>> to 0."
           }
         ],
         "id": "RuinResistance"
@@ -207,7 +207,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "At 6th level your kingdom spends more time investing in its settlements. Each turn you gain one free civic action that may be spent in any settlement."
+            "content": "At 6th level your kingdom spends more time investing in its <<settlements|Settlement-Rules>>. Each turn you gain one free <<civic action|Kingdom-Turn#CivicActivities>> that may be spent in any <<settlement|Settlement-Rules>>."
           },
           {
             "type": "paragraph",
@@ -223,7 +223,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "Invested leadership roles in your kingdom now grant a +2 status bonus to kingdom checks associated with their leadership role’s key ability."
+            "content": "<<Invested leadership roles|Leadership-Roles#KeyAbility>> in your kingdom now grant a +2 status bonus to kingdom checks associated with their leadership role’s <<key ability|Leadership-Roles#KeyAbility>>."
           },
           {
             "type": "paragraph",
@@ -239,26 +239,14 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "Your people lavish you with every creature comfort. This is identical to Fine Living, but all PC leaders enjoy an Extravagant standard of living (Core Rulebook 294) at no cost whenever they’re in the kingdom."
+            "content": "Your people lavish you with every creature comfort. This is identical to <<Fine Living|https://2e.aonprd.com/Rules.aspx?ID=2218>>, but all PC leaders enjoy an <<Extravagant standard of living|https://2e.aonprd.com/Rules.aspx?ID=2218>> at no cost whenever they’re in the kingdom."
           },
           {
             "type": "paragraph",
-            "content": "You gain a +2 circumstance bonus to all checks made to Craft or Earn Income while in your kingdom."
+            "content": "You gain a +2 circumstance bonus to all checks made to <<Craft|https://2e.aonprd.com/Actions.aspx?ID=2385>> or <<Earn Income|https://2e.aonprd.com/Skills.aspx?ID=21&General=true>> while in your kingdom."
           }
         ],
         "id": "LifeOfLuxury"
-      },
-      {
-        "type": "heading",
-        "heading": "Civic Planning (12th)",
-        "level": 2,
-        "content": [
-          {
-            "type": "paragraph",
-            "content": "During the Civic Activities step of the Activities phase of a Kingdom turn, one settlement of the party’s choice can attempt two Civic activities rather than one. The second Civic activity occurs after all other settlements have taken their individual Civic activities."
-          }
-        ],
-        "id": "CivicPlanning"
       },
       {
         "type": "heading",
@@ -267,7 +255,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "At 13th level your nation has such a grasp of transforming the land that you can take an additional regional activity, bringing the total number of Region Activities you can take to 4."
+            "content": "At 13th level your nation has such a grasp of transforming the land that you can take an additional <<regional activity|Kingdom-Turn#RegionActivities>>, bringing the total number of <<Region Activities|Kingdom-Turn#RegionActivities>> you can take to 4."
           }
         ],
         "id": "TameTheWilds"
@@ -279,7 +267,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "Your kingdom is one of the world’s prominent nations. The first time in a Kingdom turn when your kingdom would gain Unrest or Ruin, ignore that increase. You can ignore additional increases to Unrest or Ruin later in the same turn as well, but you must spend a Fame or Infamy point each time you do so. Your Fame increases by 5."
+            "content": "Your kingdom is one of the world’s prominent nations. The first time in a Kingdom turn when your kingdom would gain <<Unrest|Kingdom-Rules#Unrest>> or <<Ruin|Kingdom-Rules#Ruin>>, ignore that increase. You can ignore additional increases to <<Unrest|Kingdom-Rules#Unrest>> or <<Ruin|Kingdom-Rules#Ruin>> later in the same turn as well, but you must spend a <<Fame|Kingdom-Rules#FameAndInfamy>> or <<Infamy|Kingdom-Rules#FameAndInfamy>> point each time you do so. Your <<Fame|Kingdom-Rules#FameAndInfamy>> increases by 5."
           }
         ],
         "id": "EnvyOfTheWorld"
@@ -312,102 +300,102 @@
           [
             "1",
             "14",
-            "Charter, Government, Heartland, Initial Proficiences, Favored Land, Settlement Construction (village)"
+            "<<Charter|#CharterGovernmentAndHeartland>>, <<Government|#CharterGovernmentAndHeartland>>, <<Heartland|#CharterGovernmentAndHeartland>>, <<Initial Proficiences|#InitialProficiencies>>, <<Favored Land|#FavoredLand>>, <<Settlement Construction (village)|#SettlementConstruction>>"
           ],
           [
             "2",
             "15",
-            "Skill Feat, Skill Increase, Untrained Improvisation"
+            "<<Skill Feat|#SkillFeats>>, <<Skill Increase|#SkillIncrease>>, <<Untrained Improvisation|#UntrainedImprovisation>>"
           ],
           [
             "3",
             "16",
-            "General Feat, Settlement Construction (town), Skill Increasae"
+            "<<General Feat|#GeneralFeats>>, <<Settlement Construction (town)|#SettlementConstruction>>, <<Skill Increase|#SkillIncrease>>"
           ],
           [
             "4",
             "18",
-            "Expansion Expert, Fine Living, Skill Feat, Skill Increase"
+            "<<Expansion Expert|#ExpansionExpert>>, <<Fine Living|#FineLiving>>, <<Skill Feat|#SkillFeats>>, <<Skill Increase|#SkillIncrease>>"
           ],
           [
             "5",
             "20",
-            "Ability Boosts, Ruin Resistance, Skill Increase"
+            "<<Ability Boosts|#AbilityBoosts>>, <<Ruin Resistance|#RuinResistance>>, <<Skill Increase|#SkillIncrease>>"
           ],
           [
             "6",
             "22",
-            "Skill Feat, Skill Increase, Urban Develoment (1 / turn)"
+            "<<Skill Feat|#SkillFeats>>, <<Skill Increase|#SkillIncrease>>, <<Urban Develoment (1 / turn)|#UrbanDevelopment>>"
           ],
           [
             "7",
             "23",
-            "General Feat, Skill Increase, Untrained Improvisation (full level)"
+            "<<General Feat|#GeneralFeats>>, <<Skill Increase|#SkillIncrease>>, <<Untrained Improvisation (full level)|#UntrainedImprovisation>>"
           ],
           [
             "8",
             "24",
-            "Experienced Leasdership (+2), Ruin Resistance, Skill Feat, Skill Increase"
+            "<<Experienced Leadership (+2)|#ExperiencedLeadership>>, <<Ruin Resistance|#RuinResistance>>, <<Skill Feat|#SkillFeats>>, <<Skill Increase|#SkillIncrease>>"
           ],
           [
             "9",
             "26",
-            "Expansion Expert (3 / turn), Settlement Construction (city), Skill Increase"
+            "<<Expansion Expert (3 / turn)|#ExpansionExpert>>, <<Settlement Construction (city)|#SettlementConstruction>>, <<Skill Increase|#SkillIncrease>>"
           ],
           [
             "10",
             "27",
-            "Ability Boosts, Life of Luxury, Skill Feat, Skill Increase"
+            "<<Ability Boosts|#AbilityBoosts>>, <<Life of Luxury|#LifeOfLuxury>>, <<Skill Feat|#SkillFeats>>, <<Skill Increase|#SkillIncrease>>"
           ],
           [
             "11",
             "28",
-            "General Feat, Ruin Resistance, Skill Increase, Urban Develoment (2 / turn)"
+            "<<General Feat|#GeneralFeats>>, <<Ruin Resistance|#RuinResistance>>, <<Skill Increase|#SkillIncrease>>, <<Urban Develoment (2 / turn)|#UrbanDevelopment>>"
           ],
           [
             "12",
             "30",
-            "Civic Planning, Skill Feat, Skill Increase"
+            "<<Skill Feat|#SkillFeats>>, <<Skill Increase|#SkillIncrease>>"
           ],
           [
             "13",
             "31",
-            "Skill Increase, Tame the Wilds"
+            "<<Skill Increase|#SkillIncrease>>, <<Tame the Wilds|#TameTheWilds>>"
           ],
           [
             "14",
             "32",
-            "Ruin Resistance, Skill Feat, Skill Increase"
+            "<<Ruin Resistance|#RuinResistance>>, <<Skill Feat|#SkillFeats>>, <<Skill Increase|#SkillIncrease>>"
           ],
           [
             "15",
             "34",
-            "Ability Boosts, General Feat, Settlement Construction (metropolis), Skill Increase"
+            "<<Ability Boosts|#AbilityBoosts>>, <<General Feat|#GeneralFeats>>, <<Settlement Construction (metropolis)|#SettlementConstruction>>, <<Skill Increase|#SkillIncrease>>"
           ],
           [
             "16",
             "35",
-            "Experienced Leadership (+3), Skill Feat, Skill Increase, Urban Develoment (3 / turn)"
+            "<<Experienced Leadership (+3)|#ExperiencedLeadership>>, <<Skill Feat|#SkillFeats>>, <<Skill Increase|#SkillIncrease>>, <<Urban Develoment (3 / turn)|#UrbanDevelopment>>"
           ],
           [
             "17",
             "36",
-            "Ruin Resistance, Skill Increase"
+            "<<Ruin Resistance|#RuinResistance>>, <<Skill Increase|#SkillIncrease>>"
           ],
           [
             "18",
             "38",
-            "Skill Feat, Skill Increase"
+            "<<Skill Feat|#SkillFeats>>, <<Skill Increase|#SkillIncrease>>"
           ],
           [
             "19",
             "39",
-            "General Feat, Skill Increase"
+            "<<General Feat|#GeneralFeats>>, <<Skill Increase|#SkillIncrease>>"
           ],
           [
             "20",
             "40",
-            "Ability Boosts, Envy of the World, Ruin Resistance, Skill Feat, Skill Increase"
+            "<<Ability Boosts|#AbilityBoosts>>, <<Envy of the World|#EnvyOfTheWorld>>, <<Ruin Resistance|#RuinResistance>>, <<Skill Feat|#SkillFeats>>, <<Skill Increase|#SkillIncrease>>"
           ]
         ],
         "id": "SummaryOfKingdomAdvancementTable"
