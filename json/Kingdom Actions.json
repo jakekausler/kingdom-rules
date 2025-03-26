@@ -1113,15 +1113,7 @@
               },
               {
                 "type": "hr"
-              }
-            ],
-            "id": "ClaimHex"
-          },
-          {
-            "type": "item",
-            "heading": "",
-            "subheading": "",
-            "content": [
+              },
               {
                 "type": "paragraph",
                 "content": "Your surveyors fully explore the hex and attempt to add it into your kingdom’s domain. Spend 1 RP and then attempt a basic Exploration, Intrigue, Magic, or Wilderness check."
@@ -1146,7 +1138,8 @@
                 "type": "paragraph",
                 "content": "**Special** At 1st level, when selecting the three activities you take during the Region Activities step of the Activity phase of the Kingdom turn, you may select this activity no more than once. Once your kingdom reaches 4th level, you may select it up to twice per turn, and after reaching 9th level you may select it up to three times per turn. When you successfully claim a hex, gain 10 kingdom XP (see page 540). Many hexes have terrain features that grant benefits to your kingdom when claimed; see Terrain Features on page 535."
               }
-            ]
+            ],
+            "id": "ClaimHex"
           },
           {
             "type": "item",
@@ -1526,15 +1519,7 @@
               {
                 "type": "paragraph",
                 "content": "**Success** As success, but without regaining any RP."
-              }
-            ],
-            "id": "Irrigation"
-          },
-          {
-            "type": "item",
-            "heading": "",
-            "subheading": "",
-            "content": [
+              },
               {
                 "type": "paragraph",
                 "content": "**Failure** You fail to build workable systems or to restore a previous critical failure, and the hex does not gain the river or lake terrain feature."
@@ -1543,7 +1528,8 @@
                 "type": "paragraph",
                 "content": "**Critical Failure** As failure, but your attempts at Irrigation are so completely useless that they become breeding grounds for disease. Gain 1 Unrest. From this point onward, at the start of your Kingdom turn’s Event phase, attempt a DC 4 flat check. This flat check’s DC increases by 1 for each hex in your kingdom that contains a critically failed attempt at Irrigation. If you fail this flat check, your kingdom suffers a Plague event in addition to any other event it might have. You can attempt this activity again in a later Kingdom turn to undo a critically failed Irrigation attempt."
               }
-            ]
+            ],
+            "id": "Irrigation"
           },
           {
             "type": "item",
@@ -1920,6 +1906,261 @@
           }
         ],
         "id": "CivicPhase"
+      },
+      {
+        "type": "heading",
+        "heading": "Warfare Phase",
+        "level": 2,
+        "content": [
+          {
+            "type": "item",
+            "heading": "Deploy Army",
+            "subheading": "",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "The army moves through your kingdom or beyond. Since this travel occurs over the course of the entire month that preceded the Kingdom turn, the ground an army covers when it deploys can be quite extensive. You can Deploy an Army with an Exploration, Boating, or Magic check. When you use an Exploration check, choose a location within 20 hexes of the army’s current hex. If the army’s starting point and ending point are connected by a road, increase the result one degree of success. Count roadless hexes that contain swamps or mountains, or each hex where you must cross a river or lake without the aid of a bridge, as two hexes.. You can issue orders to force march. Doing so grants a +4 circumstance bonus on the check, but causes the army to increase its weary condition by 1 (or by 2, if you fail the check)."
+              },
+              {
+                "type": "paragraph",
+                "content": "When you use a Boating check, the army’s starting point and ending point must be connected by a body of water; choose any location within 20 hexes along this route. You must be at least master in Magic to attempt a Magic check. When you do so, choose any location within 30 hexes of the army’s current hex, then roll your check. If the army’s deployment causes it to cross your kingdom’s border, the DC increases by 5. If the army’s deployment causes it to cross an enemy kingdom’s border, the DC instead increases by 10."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Success** The army arrives much more quickly than you anticipated; it arrives at its destination and then becomes efficient."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Success** The army arrives at its destination."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Failure** The army arrives at its destination, but ran into some sort of trouble along the way. Increase the army’s weary condition by 1 and attempt a DC 6 flat check; on a failure, reduce the army’s HP by 1."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Rather than arriving at its destination, the army becomes lost until it recovers from this condition. Increase Unrest by 1d4, and attempt a DC 11 flat check; on a failure, reduce the army’s HP by 1."
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "heading": "Disband Army",
+            "subheading": "",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": "You can choose to disband an army with no check needed. If the army consisted of conscripts from your kingdom, the soldiers revert to being citizens. If the army was recruited from creatures encountered in the wilds, they return to their homes. A disbanded army no longer contributes to your kingdom’sConsumption."
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "heading": "Garrison Army",
+            "subheading": "",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Requirement** The army is in the same hex as a Refuge, Settlement, or Work Site."
+              },
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "You move an army into a fortification and assign them to guard it. In order to garrison, the army must be located in a hex that contains a Refuge, Settlement, or Work Site. If you’re garrisoning the army in a Refuge hex, attempt a basic Defense check. If you’re garrisoning the army in a settlement, attempt a basic Politics check. If you’re garrisoning the army in a Work Site hex, attempt a basic Engineering check. This check’s DC increases by 5 if the hex is not part of your kingdom, or by 10 if the location is part of an enemy kingdom."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Success** The army becomes fortified until it is deployed. Additionally, the efficiency of the garrisoning reduces this army’s Consumption by 2 (to a minimum of 1) until it is deployed."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Success** The army becomes fortified until it is deployed."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Failure** The army becomes fortified until the next Kingdom turn begins, at which point you must use this activity again to maintain the fortified condition."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Your army clashes with local citizens, abuses their authority, lets their watchful readiness slack, and/or provokes confrontations where they are not needed. It does not become fortified, and you cannot attempt to garrison that army at this location again for 4 Kingdom turns. Increase Unrest by 1."
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "heading": "Offensive Gambit",
+            "subheading": "",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "**Requirement** You have at least one army in the same hex as an enemy army."
+              },
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "You order an attack against an enemy army, causing a war encounter to begin after this Kingdom turn ends. No check is necessary if you wish to engage the enemy without attempting to gain an advantage in initiative. If you want to gain an advantage by surprising the enemy, attempt an Intrigue check. If you want to gain an advantage by intimidating the enemy, attempt a Warfare check. In either case, the DC is equal to the enemy army’s Scouting DC."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Success** Your approach surprises or intimidates the enemy. Your armies in this hex gain a +2 circumstance bonus on their initiative checks, and one enemy army of the party’s choice in this hex becomes shaken 1."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Success** Your approach gives you an advantage. Your armies in this hex gain a +2 circumstance bonus on their initiative checks."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Failure** You gain no advantage in the battle."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Not only do you fail to gain advantage, but the enemy forces have anticipated the attack. Enemy armies in this hex at the time of the Offensive Gambit gain a +4 circumstance bonus on their initiative checks in any resulting war encounters."
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "heading": "Outfit Army",
+            "subheading": "",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "You provide your army with better gear. Choose what sort of gear you wish to provide your army with from the list beginning on page 574. The level of the gear chosen must be equal to or less than the army’s level. If you’re crafting or purchasing gear, the level of the gear chosen must be equal to or less than your kingdom level. If you’re distributing resources gained from battle, the level of the gear chosen must be equal to or less than the highest level of an enemy army defeated in that battle."
+              },
+              {
+                "type": "paragraph",
+                "content": "If you’re purchasing the gear, this activity requires a basic Trade check and costs the standard amount of RP for the gear; you cannot purchase magic gear unless your kingdom is at least expert rank in Magic."
+              },
+              {
+                "type": "paragraph",
+                "content": "If you’re distributing gear gained from battle, this activity requires a basic Warfare check and does not cost RP."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Success** The gear proved particularly easy to outfit, and the army becomes efficient."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Success** The gear is sufficient, and your army becomes outfitted with it immediately."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Failure** The gear proves to be unusable and the attempt to outfit the army fails. If you spent RP on the check, it is refunded."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** As failure, but spent RP is not refunded."
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "heading": "Recover Army",
+            "subheading": "",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "When an army endures ill fortune, it can become afflicted by negative conditions. You can use the Recover Army activity to work at removing an affliction with a basic skill check (this DC increases by 5 if you are attempting to Recover from the defeated condition); the skill required for the check depends on the affliction (see the table on page 569)."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Success** You reduce the affliction’s value by 2 (or in the case of a damaged army, increase its HP by 2 up to its maximum). If the affliction does not have a value, it is removed."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Success** As critical success but you reduce the affliction’s value by 1 (or in the case of a damaged army, increase its HP by 1 up to its maximum)."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Failure** You fail to remove the affliction."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** You fail to remove the affliction and your soldier’s lowered morale spreads discontent; increase Unrest by 1. If you were attempting to recover a defeated army, the army is destroyed."
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "heading": "Recruit Army",
+            "subheading": "",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "Note that you pursue this activity during the Leadership step of the Activity phase. Either you recruit an army from your kingdom’s citizens, or you secure the allegiance of a specialized army you encountered in the Stolen Lands. If you’re recruiting an army from your kingdom’s citizens, choose one of the basic armies listed at the start of page 570 and attempt a Warfare check against the army’s Recruitment DC. If you’re securing a specialized army, you must attempt a Statecraft check against the Recruitment DC; statistics for these armies appear starting on page 571."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Success** You recruit the army; it becomes efficient."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Success** You recruit the army."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Failure** You fail to recruit the army."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** Many of the individuals in the army you attempted to recruit took offense at the attempt. Gain 1 Unrest, and you cannot attempt to recruit an army again until the next Kingdom turn."
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "heading": "Train Army",
+            "subheading": "",
+            "content": [
+              {
+                "type": "hr"
+              },
+              {
+                "type": "paragraph",
+                "content": "You train an army in the use of a tactic. Choose one of the tactics from those listed starting on page 575, then attempt a Scholarship or Warfare check against the tactic’s Training DC. If your army has already learned its maximum number of tactics, the newly learned tactic replaces a previously learned tactic of your choice."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Success** The army learns the tactic and then becomes efficient."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Success** The army learns the tactic."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Failure** The army fails to learn the tactic."
+              },
+              {
+                "type": "paragraph",
+                "content": "**Critical Failure** The army not only fails to learn the tactic but becomes frustrated and exhausted from the training; increase the army’s weary condition by 1."
+              }
+            ]
+          }
+        ],
+        "id": "WarfarePhase"
       }
     ],
     "id": "KingdomActions"

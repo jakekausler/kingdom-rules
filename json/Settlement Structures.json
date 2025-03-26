@@ -532,7 +532,7 @@
               },
               {
                 "type": "paragraph",
-                "content": "**Item Bonus** +2 item bonus to Rest and Relax using Arts and to Create a Masterpiece. While in a settlement with a Bardic college, you gain a +3 item bonus to Lore and Occultism checks made to Recall Knowledge while Investigating and to all art or music-related checks while Researching (see the Pathfinder Gamemastery Guide). Treat the settlement’s level as two levels higher than its actual level for the purposes of determining what occult magic items or items related to the arts, music, or the bard class are available for sale in that settlement. This does not stack with itself but does stack with similar increases from other structures."
+                "content": "**Item Bonus** +2 item bonus to Rest and Relax using Arts and to Create a Masterpiece. While in a settlement with a Bardic college, you gain a +3 item bonus to Lore and Occultism checks made to Recall Knowledge while Investigating and to all art or music-related checks while Researching (see the Pathfinder Gamemastery Guide)."
               }
             ],
             "id": "BardicCollege"
@@ -817,7 +817,7 @@
               },
               {
                 "type": "paragraph",
-                "content": "**Item Bonus** +1 item bonus to any one Focus."
+                "content": "**Item Bonus** +1 *circumstance* bonus to any one Focus."
               },
               {
                 "type": "paragraph",
@@ -1079,7 +1079,7 @@
               },
               {
                 "type": "paragraph",
-                "content": "**Construction** Arts, Community, Faith, or Warfare (master) DC 34"
+                "content": "**Construction** Arts (Master), Community (Master), Faith (Master), or Warfare (master) DC 34"
               },
               {
                 "type": "paragraph",
@@ -2225,59 +2225,6 @@
           },
           {
             "type": "item",
-            "heading": "Lighthouse",
-            "subheading": "Structure 5",
-            "content": [
-              {
-                "type": "hr"
-              },
-              {
-                "type": "traits",
-                "content": [
-                  "Infrastructure",
-                  "Edifice"
-                ]
-              },
-              {
-                "type": "paragraph",
-                "content": "A high tower with a signal light to guide ships at sea and keep watch on waves and weather."
-              },
-              {
-                "type": "hr"
-              },
-              {
-                "type": "paragraph",
-                "content": "**Lots** 1; **Cost** 4 Ore, 8 Stone"
-              },
-              {
-                "type": "paragraph",
-                "content": "**Monthly Cost** 6 RP / 4 Months"
-              },
-              {
-                "type": "paragraph",
-                "content": "**XP** 20; **Population** 10; **Size** Town"
-              },
-              {
-                "type": "paragraph",
-                "content": "**Construction** Nautical (trained) DC 20"
-              },
-              {
-                "type": "paragraph",
-                "content": "**Item Bonus** +1 item bonus to Go Fishing and Manage Trade Agreements if your trade route passes through water hexes."
-              },
-              {
-                "type": "paragraph",
-                "content": "**Effect** If using the optional Trade Routes rules, if you establish a trade route from a city with a Lighthouse, water hexes count as one-fourth (rather than one-half ) when calculating Distance Modifier for the route."
-              },
-              {
-                "type": "paragraph",
-                "content": "**Special** A lighthouse must be built on a water border at the edge of an Urban Grid."
-              }
-            ],
-            "id": "Lighthouse"
-          },
-          {
-            "type": "item",
             "heading": "Lumberyard",
             "subheading": "Structure 3",
             "content": [
@@ -2844,7 +2791,7 @@
               },
               {
                 "type": "paragraph",
-                "content": "**Effect** The first time you build a monastery each Kingdom turn, reduce Unrest by 1 and reduce Corruption by 1. Choose one type of Lore for your monastery to study; while in a settlement containing a monastery, you gain a +1 item bonus to Lore checks of that type. Treat the settlement’s level as one level higher than its actual level for the purpose of determining what divine magic items or magic items related to the monk class are available for sale in that settlement; this does not stack with similar effects from other buildings."
+                "content": "**Effect** The first time you build a monastery each Kingdom turn, reduce Unrest by 1 and reduce Corruption by 1. Choose one type of Lore for your monastery to study; while in a settlement containing a monastery, you gain a +1 item bonus to Lore checks of that type."
               }
             ],
             "id": "Monastery"
@@ -3415,7 +3362,7 @@
               },
               {
                 "type": "paragraph",
-                "content": "**Item Bonus** +1 item bonus to Go Fishing"
+                "content": "**Item Bonus** +1 item bonus to Fishing Fleet, Go Fishing"
               },
               {
                 "type": "paragraph",
@@ -3871,7 +3818,7 @@
               },
               {
                 "type": "paragraph",
-                "content": "**Item Bonus** +1 item bonus to Establish Trade Agreement and Supply Network"
+                "content": "**Item Bonus** +1 item bonus to Breed Livestock, Establish Trade Agreement and Supply Network"
               }
             ],
             "id": "Stable"
@@ -3915,7 +3862,7 @@
               },
               {
                 "type": "paragraph",
-                "content": "**Item Bonus** +1 item bonus to Gather Livestock"
+                "content": "**Item Bonus** +1 item bonus to Breed Livestock, Gather Livestock"
               },
               {
                 "type": "paragraph",
@@ -4011,7 +3958,7 @@
               },
               {
                 "type": "paragraph",
-                "content": "**Item Bonus** +1 to Trade Commodities"
+                "content": "**Item Bonus** +1 to Breed Livestock, Trade Commodities"
               },
               {
                 "type": "paragraph",
@@ -4802,7 +4749,7 @@
               },
               {
                 "type": "paragraph",
-                "content": "**Item Bonus** +1 item bonus to Go Fishing, and to Establish Trade Agreement and Rest and Relax using Boating"
+                "content": "**Item Bonus** +1 item bonus to Fishing Fleet, Go Fishing, and to Establish Trade Agreement and Rest and Relax using Boating"
               },
               {
                 "type": "paragraph",

@@ -349,9 +349,7 @@
               "These Terrain Features can overlap with any and all other features: Bridge, Landmark, Refuge, Resource",
               "A hex can have at most one of these: Farmland, Fishery, Freehold, Ranch, Ruins, Settlement, Structure, Work Site.",
               "A Settlement can be built in a hex that contains Ruins or a Structure. The Ruins/Structure are incorporated into the Settlement and once a Settlement is built the hex ceases to have the Ruins or Structure feature.",
-              "A Free Hold can be brought into your kingdom in which case it becomes a Settlement instead.",
-              "*Fame* +1 on Focus checks to Celebrate Holiday, Quell Unrest, or Request Foreign Aid.",
-              "*Infamy* +1 on Focus checks to Collect Taxes, but -1 on Focus checks to Rest and Relax or Request Foreign Aid."
+              "A Free Hold can be brought into your kingdom in which case it becomes a Settlement instead."
             ]
           },
           {
@@ -437,6 +435,13 @@
           {
             "type": "paragraph",
             "content": "**Effects of Fame and Infamy** Your kingdom’s Fame and Infamy affect relationships with other kingdoms and grants the following circumstance bonuses or penalties for every 10 points of Fame or Infamy (rounding down)."
+          },
+          {
+            "type": "list",
+            "content": [
+              "*Fame* +1 on Focus checks to Celebrate Holiday, Quell Unrest, or Request Foreign Aid.",
+              "*Infamy* +1 on Focus checks to Collect Taxes, but -1 on Focus checks to Rest and Relax or Request Foreign Aid."
+            ]
           },
           {
             "type": "paragraph",
