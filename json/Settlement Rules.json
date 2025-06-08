@@ -36,18 +36,15 @@
               },
               {
                 "type": "paragraph",
-                "content": "**Land Borders** By default, all of your <<settlement’s|Settlement-Rules>> borders are unremarkable transitions from urban to hinterland—these are known as Land Borders.\nYou take a cumulative –1 item penalty on Trade checks for each <<settlement|Settlement-Rules>> in your kingdom that has no Land Borders, unless it has at least one Water Border with a <<Bridge|Kingdom-Rules#Bridge>>.",
-                "id": "LandBorder"
+                "content": "**Land Borders** By default, all of your <<settlement’s|Settlement-Rules>> borders are unremarkable transitions from urban to hinterland—these are known as Land Borders.\nYou take a cumulative –1 item penalty on Trade checks for each <<settlement|Settlement-Rules>> in your kingdom that has no Land Borders, unless it has at least one Water Border with a <<Bridge|Kingdom-Rules#Bridge>>."
               },
               {
                 "type": "paragraph",
-                "content": "**Water Borders** When you place a <<settlement|Settlement-Rules>> in a hex that has lake, river, or swamp terrain, you can locate it so that it has Water Borders. Water Borders provide natural defenses to your <<settlement|Settlement-Rules>> during Warfare, and some <<structures|Settlement-Structures>> can only be constructed in lots adjacent to Water Borders. However, crossing Water Borders that lack <<Bridges|Settlement-Structures#Bridge>> takes a long time (see <<Navigating an Urban Grid|Settlement-Rules#TheUrbanGrid>> below).\nIf a <<settlement|Settlement-Rules>> has only Water Borders, it is on an island; until you build at least one <<Bridge|Kingdom-Rules#Bridge>>, that <<settlement’s|Settlement-Rules>> <<influence|Settlement-Rules#Influence>> is 0.",
-                "id": "WaterBorder"
+                "content": "**Water Borders** When you place a <<settlement|Settlement-Rules>> in a hex that has lake, river, or swamp terrain, you can locate it so that it has Water Borders. Water Borders provide natural defenses to your <<settlement|Settlement-Rules>> during Warfare, and some <<structures|Settlement-Structures>> can only be constructed in lots adjacent to Water Borders. However, crossing Water Borders that lack <<Bridges|Settlement-Structures#Bridge>> takes a long time (see <<Navigating an Urban Grid|Settlement-Rules#TheUrbanGrid>> below).\nIf a <<settlement|Settlement-Rules>> has only Water Borders, it is on an island; until you build at least one <<Bridge|Kingdom-Rules#Bridge>>, that <<settlement’s|Settlement-Rules>> <<influence|Settlement-Rules#Influence>> is 0."
               },
               {
                 "type": "paragraph",
-                "content": "**Walled Borders** Building <<Walls|Settlement-Structures#WallWooden>> on your borders boosts your <<settlement’s|Settlement-Rules>> defense in certain events and in Warfare.",
-                "id": "WaterBorder"
+                "content": "**Walled Borders** Building <<Walls|Settlement-Structures#WallWooden>> on your borders boosts your <<settlement’s|Settlement-Rules>> defense in certain events and in Warfare."
               }
             ],
             "id": "UrbanGridBorders"
@@ -59,8 +56,7 @@
             "content": [
               {
                 "type": "paragraph",
-                "content": "You can simulate travel in a <<settlement|Settlement-Rules>> using the <<Urban Grid|Settlement-Rules#TheUrbanGrid>> to approximate distances. Since moving through a <<settlement|Settlement-Rules>> requires a character to follow twisting roads, navigate crowds, or endure minor distractions along the way, it takes 15 minutes to move from one lot to an adjacent lot, or to cross a border (including exiting the <<settlement|Settlement-Rules>>). If the <<settlement|Settlement-Rules>> has <<Paved Streets|Settlement-Structures#PavedStreets>>, this travel time is reduced to 5 minutes. Crossing a <<Water Border|Settlement-Rules#WaterBorder>> that doesn’t have a <<Bridge|Kingdom-Rules#Bridge>> takes an hour.",
-                "id": "WaterBorder"
+                "content": "You can simulate travel in a <<settlement|Settlement-Rules>> using the <<Urban Grid|Settlement-Rules#TheUrbanGrid>> to approximate distances. Since moving through a <<settlement|Settlement-Rules>> requires a character to follow twisting roads, navigate crowds, or endure minor distractions along the way, it takes 15 minutes to move from one lot to an adjacent lot, or to cross a border (including exiting the <<settlement|Settlement-Rules>>). If the <<settlement|Settlement-Rules>> has <<Paved Streets|Settlement-Structures#PavedStreets>>, this travel time is reduced to 5 minutes. Crossing a <<Water Border|Settlement-Rules#WaterBorder>> that doesn’t have a <<Bridge|Kingdom-Rules#Bridge>> takes an hour."
               }
             ],
             "id": "NavigatingAnUrbanGrid"
@@ -75,8 +71,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "As your kingdom levels up and your <<settlements|Settlement-Rules>> grow, a <<settlement’s|Settlement-Rules>> type can change, providing different benefits and costs to your kingdom.",
-            "id": "WaterBorder"
+            "content": "As your kingdom levels up and your <<settlements|Settlement-Rules>> grow, a <<settlement’s|Settlement-Rules>> type can change, providing different benefits and costs to your kingdom."
           },
           {
             "type": "table",
@@ -141,8 +136,7 @@
             "content": [
               {
                 "type": "paragraph",
-                "content": "This indicates the type of <<settlement|Settlement-Rules>>, with the minimum kingdom level to support such a <<settlement|Settlement-Rules>> in parenthesis.",
-                "id": "WaterBorder"
+                "content": "This indicates the type of <<settlement|Settlement-Rules>>, with the minimum kingdom level to support such a <<settlement|Settlement-Rules>> in parenthesis."
               },
               {
                 "type": "paragraph",
@@ -179,8 +173,7 @@
             "content": [
               {
                 "type": "paragraph",
-                "content": "This indicates the maximum number of blocks the <<settlement|Settlement-Rules>> can occupy in an <<Urban Grid|Settlement-Rules#TheUrbanGrid>>.",
-                "id": "Metropolis"
+                "content": "This indicates the maximum number of blocks the <<settlement|Settlement-Rules>> can occupy in an <<Urban Grid|Settlement-Rules#TheUrbanGrid>>."
               }
             ],
             "id": "Blocks"
@@ -192,8 +185,7 @@
             "content": [
               {
                 "type": "paragraph",
-                "content": "<<Consumption|Settlement-Rules#Consumption>> is a numerical value that indicates the Food <<commodities|Kingdom-Rules#Commodities>> the <<settlement|Settlement-Rules>> requires in order to remain viable and functional. The number given here shows the <<settlement’s|Settlement-Rules>> base <<consumption|Settlement-Rules#Consumption>>; specific <<structures|Settlement-Structures>> in the <<settlements|Settlement-Rules>> can increase or decrease its <<Consumption|Settlement-Rules#Consumption>>.",
-                "id": "Metropolis"
+                "content": "<<Consumption|Settlement-Rules#Consumption>> is a numerical value that indicates the Food <<commodities|Kingdom-Rules#Commodities>> the <<settlement|Settlement-Rules>> requires in order to remain viable and functional. The number given here shows the <<settlement’s|Settlement-Rules>> base <<consumption|Settlement-Rules#Consumption>>; specific <<structures|Settlement-Structures>> in the <<settlements|Settlement-Rules>> can increase or decrease its <<Consumption|Settlement-Rules#Consumption>>."
               }
             ],
             "id": "Consumption"
@@ -205,13 +197,11 @@
             "content": [
               {
                 "type": "paragraph",
-                "content": "Many <<structures|Settlement-Structures>> within a <<settlement|Settlement-Rules>> grant an item bonus to specific kingdom activities. Normally, item bonuses do not stack, but if you build multiple <<structures|Settlement-Structures>> that grant an Item Bonus to a specific Kingdom Skill Activity, their item bonuses stack up to this limit.",
-                "id": "Metropolis"
+                "content": "Many <<structures|Settlement-Structures>> within a <<settlement|Settlement-Rules>> grant an item bonus to specific kingdom activities. Normally, item bonuses do not stack, but if you build multiple <<structures|Settlement-Structures>> that grant an Item Bonus to a specific Kingdom Skill Activity, their item bonuses stack up to this limit."
               },
               {
                 "type": "paragraph",
-                "content": "For example, if you build a <<Brewery|Settlement-Structures#Brewery>> and a <<Marketplace|Settlement-Structures#Marketplace>> (each of which grants a +1 Item Bonus to <<Establish Trade Agreement|Kingdom-Actions#EstablishTradeAgreement>>) in a <<village|Settlement-Rules#Village>> (with a maximum item bonus of +1), you can only apply one of the item bonuses to <<Establish Trade Agreement|Kingdom-Actions#EstablishTradeAgreement>>. However, if they were built in a <<city|Settlement-Rules#City>> (with a maximum item bonus of +2), you could apply both item bonuses to the activity.",
-                "id": "Metropolis"
+                "content": "For example, if you build a <<Brewery|Settlement-Structures#Brewery>> and a <<Marketplace|Settlement-Structures#Marketplace>> (each of which grants a +1 Item Bonus to <<Establish Trade Agreement|Kingdom-Actions#EstablishTradeAgreement>>) in a <<village|Settlement-Rules#Village>> (with a maximum item bonus of +1), you can only apply one of the item bonuses to <<Establish Trade Agreement|Kingdom-Actions#EstablishTradeAgreement>>. However, if they were built in a <<city|Settlement-Rules#City>> (with a maximum item bonus of +2), you could apply both item bonuses to the activity."
               }
             ],
             "id": "MaximumItemBonus"
@@ -223,18 +213,15 @@
             "content": [
               {
                 "type": "paragraph",
-                "content": "A <<settlement’s|Settlement-Rules>> influence area is the area around a <<settlement|Settlement-Rules>> where meaningful economic and productive activity can occur, as well as where the <<settlement’s|Settlement-Rules>> beneficial effects extend. The numeric value indicates the number of hexes that the <<settlement’s|Settlement-Rules>> influence extends. Thus, a <<village|Settlement-Rules#Village>> only influences the hex it’s located in, while a <<town|Settlement-Rules#Town>> influences all adjacent hexes. If a <<settlement|Settlement-Rules>> has only <<Water Borders|Settlement-Rules#WaterBorder>> and no <<Bridges|Settlement-Structures#Bridge>>, that <<settlement’s|Settlement-Rules>> influence is 0 regardless of its <<settlement|Settlement-Rules>> type.",
-                "id": "Metropolis"
+                "content": "A <<settlement’s|Settlement-Rules>> influence area is the area around a <<settlement|Settlement-Rules>> where meaningful economic and productive activity can occur, as well as where the <<settlement’s|Settlement-Rules>> beneficial effects extend. The numeric value indicates the number of hexes that the <<settlement’s|Settlement-Rules>> influence extends. Thus, a <<village|Settlement-Rules#Village>> only influences the hex it’s located in, while a <<town|Settlement-Rules#Town>> influences all adjacent hexes. If a <<settlement|Settlement-Rules>> has only <<Water Borders|Settlement-Rules#WaterBorder>> and no <<Bridges|Settlement-Structures#Bridge>>, that <<settlement’s|Settlement-Rules>> influence is 0 regardless of its <<settlement|Settlement-Rules>> type."
               },
               {
                 "type": "paragraph",
-                "content": "You can use the <<Civic activity|Kingdom-Actions#CivicPhase>> <<Supply Network|Kingdom-Actions#SupplyNetwork>> to add additional hexes to a <<settlement’s|Settlement-Rules>> influence. The <<settlement|Settlement-Rules>>'s size category limits the maximum number of hexes that can be added in this way. A <<village|Settlement-Rules#Village>> can only be connected to up to 2 hexes outside its normal <<influence|Settlement-Rules#Influence>>, a <<town|Settlement-Rules#Town>> can connect to up to 4, a <<city|Settlement-Rules#City>> can connect to up to 6, and a <<metropolis|Settlement-Rules#Metropolis>> can connect to up to 8. When a hex gained through this activity enters the <<settlement|Settlement-Rules>>'s normal influence (such as when the <<settlement|Settlement-Rules>>'s size increases), it no longer counts against this limit.",
-                "id": "Metropolis"
+                "content": "You can use the <<Civic activity|Kingdom-Actions#CivicPhase>> <<Supply Network|Kingdom-Actions#SupplyNetwork>> to add additional hexes to a <<settlement’s|Settlement-Rules>> influence. The <<settlement|Settlement-Rules>>'s size category limits the maximum number of hexes that can be added in this way. A <<village|Settlement-Rules#Village>> can only be connected to up to 2 hexes outside its normal <<influence|Settlement-Rules#Influence>>, a <<town|Settlement-Rules#Town>> can connect to up to 4, a <<city|Settlement-Rules#City>> can connect to up to 6, and a <<metropolis|Settlement-Rules#Metropolis>> can connect to up to 8. When a hex gained through this activity enters the <<settlement|Settlement-Rules>>'s normal influence (such as when the <<settlement|Settlement-Rules>>'s size increases), it no longer counts against this limit."
               },
               {
                 "type": "paragraph",
-                "content": "Hexes not <<claimed|Kingdom-Actions#ClaimHex>> by your kingdom are never part of your <<settlements’|Settlement-Rules>> influence areas, even if they are within the distance noted above. A hex can be influenced by multiple <<settlements|Settlement-Rules>>.",
-                "id": "Metropolis"
+                "content": "Hexes not <<claimed|Kingdom-Actions#ClaimHex>> by your kingdom are never part of your <<settlements’|Settlement-Rules>> influence areas, even if they are within the distance noted above. A hex can be influenced by multiple <<settlements|Settlement-Rules>>."
               }
             ],
             "id": "Influence"
@@ -249,18 +236,15 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "As a <<settlement|Settlement-Rules>> gains <<structures|Settlement-Structures>>, it might increase one or more market levels of a <<settlement|Settlement-Rules>>. There are eight market types, each of which expands which items are readily available to buy (and sell) in a <<settlement|Settlement-Rules>>.",
-            "id": "Metropolis"
+            "content": "As a <<settlement|Settlement-Rules>> gains <<structures|Settlement-Structures>>, it might increase one or more market levels of a <<settlement|Settlement-Rules>>. There are eight market types, each of which expands which items are readily available to buy (and sell) in a <<settlement|Settlement-Rules>>."
           },
           {
             "type": "paragraph",
-            "content": "The eight market types and what types of items it affects are in the <<table below|#MarketLevelsTable>>. The GM is the final arbiter of what market an item would be in. Common items of the market level or lower can be bought or sold  the <<settlement|Settlement-Rules>>.",
-            "id": "Metropolis"
+            "content": "The eight market types and what types of items it affects are in the <<table below|#MarketLevelsTable>>. The GM is the final arbiter of what market an item would be in. Common items of the market level or lower can be bought or sold  the <<settlement|Settlement-Rules>>."
           },
           {
             "type": "paragraph",
-            "content": "Your <<settlement’s|Settlement-Rules>> market level may be temporarily or permanently adjusted by kingdom events or actions. A market level can exceed the kingdom's level, but not by more than 4 (for example at kingdom level 5, no market can be higher than level 9). No more than two buildings of the same type can affect a <<settlement|Settlement-Rules>>'s market level, or one if the building is an Edifice.",
-            "id": "Metropolis"
+            "content": "Your <<settlement’s|Settlement-Rules>> market level may be temporarily or permanently adjusted by kingdom events or actions. A market level can exceed the kingdom's level, but not by more than 4 (for example at kingdom level 5, no market can be higher than level 9). No more than two buildings of the same type can affect a <<settlement|Settlement-Rules>>'s market level, or one if the building is an Edifice."
           },
           {
             "type": "table",

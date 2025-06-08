@@ -35,46 +35,38 @@
           },
           {
             "type": "paragraph",
-            "content": "**Description** This gives a brief description of the army.",
-            "id": "RecruitmentDC"
+            "content": "**Description** This gives a brief description of the army."
           },
           {
             "type": "hr"
           },
           {
             "type": "paragraph",
-            "content": "**AC** This lists the army's Armor Class; **Saves** Armies have two saving throws: a Maneuver save and a Morale save. **Maneuver** This modifier applies to all checks made by the army to maneuver, be it to execute a complex <<tactic|Army-Tactics>> or to minimize damage and effects from unusual physical dangers; **Morale** This modifier applies to all checks made by the army to avoid becoming <<shaken|Army-Conditions#Shaken>> or to resist effects that undermine cooperation, bravery, loyalty, and such.",
-            "id": "RecruitmentDC"
+            "content": "**AC** This lists the army's Armor Class; **Saves** Armies have two saving throws: a Maneuver save and a Morale save. **Maneuver** This modifier applies to all checks made by the army to maneuver, be it to execute a complex <<tactic|Army-Tactics>> or to minimize damage and effects from unusual physical dangers; **Morale** This modifier applies to all checks made by the army to avoid becoming <<shaken|Army-Conditions#Shaken>> or to resist effects that undermine cooperation, bravery, loyalty, and such."
           },
           {
             "type": "paragraph",
-            "content": "**HP** This lists the army's Hit Points. When an army's Hit Points reach zero, it becomes <<defeated|Army-Conditions#Defeated>>. An army cannot be reduced to fewer than 0 Hit Points. The army's Rout Threshold (RT) is listed in parenthesis after its Hit Points. RT is typically half its maximum HP. An army that is resistant to fear or is particularly brave generally has a lower RT, while the rare army composed of creatures that are entirely immune to fear won't have an RT listed at all.",
-            "id": "RecruitmentDC"
+            "content": "**HP** This lists the army's Hit Points. When an army's Hit Points reach zero, it becomes <<defeated|Army-Conditions#Defeated>>. An army cannot be reduced to fewer than 0 Hit Points. The army's Rout Threshold (RT) is listed in parenthesis after its Hit Points. RT is typically half its maximum HP. An army that is resistant to fear or is particularly brave generally has a lower RT, while the rare army composed of creatures that are entirely immune to fear won't have an RT listed at all."
           },
           {
             "type": "paragraph",
-            "content": "**Melee** The name of the attack the army uses for a melee Strike, followed by the attack modifier. An army inflicts 1 point of damage on a hit and 2 points on a critical hit. Melee Strikes can only be used against <<engaged|Army-Conditions#Engaged>> armies.",
-            "id": "RecruitmentDC"
+            "content": "**Melee** The name of the attack the army uses for a melee Strike, followed by the attack modifier. An army inflicts 1 point of damage on a hit and 2 points on a critical hit. Melee Strikes can only be used against <<engaged|Army-Conditions#Engaged>> armies."
           },
           {
             "type": "paragraph",
-            "content": "**Ranged** The name of the attack the army uses for a ranged Strike, followed by the attack modifier. An army inflicts 1 point of damage on a hit and 2 points on a critical hit. An army can use its ranged Strike up to 5 times in each <<war encounter|War-Encounters>> before its ammunition is depleted (unless it has the <<Increased Ammunition|Army-Tactics#IncreasedAmmunition>> tactic). An army automatically replenishes its ranged Strike shots at the end of a <<war encounter|War-Encounters>>.",
-            "id": "RecruitmentDC"
+            "content": "**Ranged** The name of the attack the army uses for a ranged Strike, followed by the attack modifier. An army inflicts 1 point of damage on a hit and 2 points on a critical hit. An army can use its ranged Strike up to 5 times in each <<war encounter|War-Encounters>> before its ammunition is depleted (unless it has the <<Increased Ammunition|Army-Tactics#IncreasedAmmunition>> tactic). An army automatically replenishes its ranged Strike shots at the end of a <<war encounter|War-Encounters>>."
           },
           {
             "type": "paragraph",
-            "content": "**Tactics** Any <<tactics|Army-Tactics>> known by the army are listed here.",
-            "id": "RecruitmentDC"
+            "content": "**Tactics** Any <<tactics|Army-Tactics>> known by the army are listed here."
           },
           {
             "type": "paragraph",
-            "content": "**Gear** Any <<gear|Army-Gear>> outfitted by the army is listed here.",
-            "id": "RecruitmentDC"
+            "content": "**Gear** Any <<gear|Army-Gear>> outfitted by the army is listed here."
           },
           {
             "type": "paragraph",
-            "content": "**Special Abilities** Additional unique abilities possessed by the army are detailed here.",
-            "id": "RecruitmentDC"
+            "content": "**Special Abilities** Additional unique abilities possessed by the army are detailed here."
           }
         ],
         "id": "SampleArmyStatBlock"
@@ -89,8 +81,7 @@
     "content": [
       {
         "type": "paragraph",
-        "content": "The statistics for each of the basic armies present them at their minimum level.",
-        "id": "RecruitmentDC"
+        "content": "The statistics for each of the basic armies present them at their minimum level."
       },
       {
         "type": "item",
@@ -108,33 +99,27 @@
           },
           {
             "type": "paragraph",
-            "content": "**Scouting** +7",
-            "id": "RecruitmentDC"
+            "content": "**Scouting** +7"
           },
           {
             "type": "paragraph",
-            "content": "**Recruitment** DC 15; **Consumption** 1",
-            "id": "RecruitmentDC"
+            "content": "**Recruitment** DC 15; **Consumption** 1"
           },
           {
             "type": "paragraph",
-            "content": "**Description** This is a platoon of armored soldiers armed with melee weapons.",
-            "id": "RecruitmentDC"
+            "content": "**Description** This is a platoon of armored soldiers armed with melee weapons."
           },
           {
             "type": "paragraph",
-            "content": "**AC** 16; **Maneuver** +4 (low); **Morale** +10 (high)",
-            "id": "RecruitmentDC"
+            "content": "**AC** 16; **Maneuver** +4 (low); **Morale** +10 (high)"
           },
           {
             "type": "paragraph",
-            "content": "**HP** 4 (RT 2)",
-            "id": "RecruitmentDC"
+            "content": "**HP** 4 (RT 2)"
           },
           {
             "type": "paragraph",
-            "content": "**Melee** weapons +9",
-            "id": "RecruitmentDC"
+            "content": "**Melee** weapons +9"
           }
         ],
         "id": "Infantry"
@@ -155,33 +140,27 @@
           },
           {
             "type": "paragraph",
-            "content": "**Scouting** +9",
-            "id": "RecruitmentDC"
+            "content": "**Scouting** +9"
           },
           {
             "type": "paragraph",
-            "content": "**Recruitment** DC 18; **Consumption** 2",
-            "id": "RecruitmentDC"
+            "content": "**Recruitment** DC 18; **Consumption** 2"
           },
           {
             "type": "paragraph",
-            "content": "**Description** Cavalry consists of armored soldiers armed with melee weapons and mounted on horses.",
-            "id": "RecruitmentDC"
+            "content": "**Description** Cavalry consists of armored soldiers armed with melee weapons and mounted on horses."
           },
           {
             "type": "paragraph",
-            "content": "**AC** 19; **Maneuver** +12 (high); **Morale** +6 (low)",
-            "id": "RecruitmentDC"
+            "content": "**AC** 19; **Maneuver** +12 (high); **Morale** +6 (low)"
           },
           {
             "type": "paragraph",
-            "content": "**HP** 4 (RT 2)",
-            "id": "RecruitmentDC"
+            "content": "**HP** 4 (RT 2)"
           },
           {
             "type": "paragraph",
-            "content": "**Melee** weapons +12",
-            "id": "RecruitmentDC"
+            "content": "**Melee** weapons +12"
           },
           {
             "type": "paragraph",
@@ -207,33 +186,27 @@
           },
           {
             "type": "paragraph",
-            "content": "**Scouting** +12",
-            "id": "Overrun"
+            "content": "**Scouting** +12"
           },
           {
             "type": "paragraph",
-            "content": "**Recruitment** DC 20; **Consumption** 1",
-            "id": "Overrun"
+            "content": "**Recruitment** DC 20; **Consumption** 1"
           },
           {
             "type": "paragraph",
-            "content": "**Description** Skirmishers are lightly armored, but their ability to move quickly and to focus on individual tactics rather than working as a unit make them more resilient in other ways. A skirmisher army's AC is two lower than normal for its level, but its Maneuver and Morale are two higher than normal for its level.",
-            "id": "Overrun"
+            "content": "**Description** Skirmishers are lightly armored, but their ability to move quickly and to focus on individual tactics rather than working as a unit make them more resilient in other ways. A skirmisher army's AC is two lower than normal for its level, but its Maneuver and Morale are two higher than normal for its level."
           },
           {
             "type": "paragraph",
-            "content": "**AC** 20; **Maneuver** +17 (high); **Morale** +11 (low)",
-            "id": "Overrun"
+            "content": "**AC** 20; **Maneuver** +17 (high); **Morale** +11 (low)"
           },
           {
             "type": "paragraph",
-            "content": "**HP** 4 (RT 2)",
-            "id": "Overrun"
+            "content": "**HP** 4 (RT 2)"
           },
           {
             "type": "paragraph",
-            "content": "**Melee** weapons +15",
-            "id": "Overrun"
+            "content": "**Melee** weapons +15"
           }
         ],
         "id": "Skirmishers"
@@ -254,33 +227,27 @@
           },
           {
             "type": "paragraph",
-            "content": "**Scouting** +15",
-            "id": "Overrun"
+            "content": "**Scouting** +15"
           },
           {
             "type": "paragraph",
-            "content": "**Recruitment** DC 23; **Consumption** 1",
-            "id": "Overrun"
+            "content": "**Recruitment** DC 23; **Consumption** 1"
           },
           {
             "type": "paragraph",
-            "content": "**Description** A siege engine army consists of several catapults, ballistae, trebuchets, or other mechanized engines of war.",
-            "id": "Overrun"
+            "content": "**Description** A siege engine army consists of several catapults, ballistae, trebuchets, or other mechanized engines of war."
           },
           {
             "type": "paragraph",
-            "content": "**AC** 25; **Maneuver** +12 (low); **Morale** +18 (high)",
-            "id": "Overrun"
+            "content": "**AC** 25; **Maneuver** +12 (low); **Morale** +18 (high)"
           },
           {
             "type": "paragraph",
-            "content": "**HP** 6 (RT 3)",
-            "id": "Overrun"
+            "content": "**HP** 6 (RT 3)"
           },
           {
             "type": "paragraph",
-            "content": "**Ranged** siege engine +15 (5 shots)",
-            "id": "Overrun"
+            "content": "**Ranged** siege engine +15 (5 shots)"
           },
           {
             "type": "paragraph",
@@ -300,23 +267,19 @@
     "content": [
       {
         "type": "paragraph",
-        "content": "To recruit a specialized army, you must first <<establish diplomatic relations|Kingdom-Rules#DiplomaticRelations>> with the associated group, after which you can attempt the <<Recruit Army|Kingdom-Actions#RecruitArmy>> activity using a Statecraft check. Only one specialized army can be recruited from each group. The level listed for each army indicates the minimum kingdom level at which the army can be recruited. The GM has the stat blocks for each specialized army.",
-        "id": "EnginesOfWar"
+        "content": "To recruit a specialized army, you must first <<establish diplomatic relations|Kingdom-Rules#DiplomaticRelations>> with the associated group, after which you can attempt the <<Recruit Army|Kingdom-Actions#RecruitArmy>> activity using a Statecraft check. Only one specialized army can be recruited from each group. The level listed for each army indicates the minimum kingdom level at which the army can be recruited. The GM has the stat blocks for each specialized army."
       },
       {
         "type": "paragraph",
-        "content": "**DC and Modifier Adjustments** As with <<basic armies|#BasicArmies>>, specialized armies immediately adjust upward in level to match the level of the PCs' kingdom, but unlike basic armies, the DCs and checks for specialized armies have different baselines. In stat blocks for specialized armies, the DCs and modifiers are given for that army at its minimum level, followed by an adjustment value in parenthesis. When the PCs recruit a specialized army at a level above its minimum, calculate its DCs and modifiers by starting with the values for a <<basic army of that level from the table|Warfare-Rules#BasicArmiesByLevelTable>> then applying the adjustment values given here.",
-        "id": "EnginesOfWar"
+        "content": "**DC and Modifier Adjustments** As with <<basic armies|#BasicArmies>>, specialized armies immediately adjust upward in level to match the level of the PCs' kingdom, but unlike basic armies, the DCs and checks for specialized armies have different baselines. In stat blocks for specialized armies, the DCs and modifiers are given for that army at its minimum level, followed by an adjustment value in parenthesis. When the PCs recruit a specialized army at a level above its minimum, calculate its DCs and modifiers by starting with the values for a <<basic army of that level from the table|Warfare-Rules#BasicArmiesByLevelTable>> then applying the adjustment values given here."
       },
       {
         "type": "paragraph",
-        "content": "**Darkvision** Many of the specialized armies possess the <<Darkvision|Army-Tactics#Darkvision>> <<tactic|Army-Tactics>> —they gain this <<tactic|Army-Tactics>> for free, and it does not count against the maximum <<tactics|Army-Tactics>> they can possess.",
-        "id": "EnginesOfWar"
+        "content": "**Darkvision** Many of the specialized armies possess the <<Darkvision|Army-Tactics#Darkvision>> <<tactic|Army-Tactics>> —they gain this <<tactic|Army-Tactics>> for free, and it does not count against the maximum <<tactics|Army-Tactics>> they can possess."
       },
       {
         "type": "paragraph",
-        "content": "**Unique Tactics** Specialized armies possess at least one unique <<tactic|Army-Tactics>>. These tactics count against the maximum <<tactics|Army-Tactics>> the army can know, and these unique <<tactics|Army-Tactics>> cannot be replaced.",
-        "id": "EnginesOfWar"
+        "content": "**Unique Tactics** Specialized armies possess at least one unique <<tactic|Army-Tactics>>. These tactics count against the maximum <<tactics|Army-Tactics>> the army can know, and these unique <<tactics|Army-Tactics>> cannot be replaced."
       }
     ],
     "id": "SpecializedArmies"

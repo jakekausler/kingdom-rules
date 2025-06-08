@@ -1,24 +1,41 @@
 import { Button, useMantineColorScheme } from "@mantine/core";
 import { useNavigate } from "react-router-dom";
 
-function Sidebar({ rulesets, setRuleset, toggle, currentRuleset }: { rulesets: string[]; setRuleset: (ruleset: string) => void; toggle: () => void, currentRuleset: string }) {
+function Sidebar({
+  pages,
+  setPage,
+  toggle,
+  currentPage,
+}: {
+  pages: string[];
+  setPage: (page: string) => void;
+  toggle: () => void;
+  currentPage: string;
+}) {
   const navigate = useNavigate();
   const colorScheme = useMantineColorScheme().colorScheme;
 
   return (
     <>
-      {rulesets.map((key) => (
+      {pages.map((key) => (
         <Button
           m="xs"
           variant="subtle"
           key={key}
           onClick={() => {
-            setRuleset(key);
+            setPage(key);
             toggle();
-            navigate(`/${key.replace(/\s+/g, '-')}`);
+            navigate(`/${key.replace(/\s+/g, "-")}`);
           }}
           style={{
-            color: currentRuleset === key ? colorScheme === 'dark' ? '#806e45' : '#A76652' : colorScheme === 'dark' ? '#ffda9b' : '#5D0000',
+            color:
+              currentPage === key
+                ? colorScheme === "dark"
+                  ? "#806e45"
+                  : "#A76652"
+                : colorScheme === "dark"
+                  ? "#ffda9b"
+                  : "#5D0000",
           }}
         >
           {key}
@@ -29,3 +46,4 @@ function Sidebar({ rulesets, setRuleset, toggle, currentRuleset }: { rulesets: s
 }
 
 export default Sidebar;
+

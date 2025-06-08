@@ -91,8 +91,7 @@
       },
       {
         "type": "paragraph",
-        "content": "**Commodity Storage** This number indicates the maximum units of a specific <<Commodity|Kingdom-Rules#Commodities>> that can be stored in a kingdom. Building specialized <<structures|Settlement-Structures>> can increase this number on a per-<<Commodity|Kingdom-Rules#Commodities>> basis.",
-        "id": "ControlDC"
+        "content": "**Commodity Storage** This number indicates the maximum units of a specific <<Commodity|Kingdom-Rules#Commodities>> that can be stored in a kingdom. Building specialized <<structures|Settlement-Structures>> can increase this number on a per-<<Commodity|Kingdom-Rules#Commodities>> basis."
       },
       {
         "type": "table",
@@ -155,8 +154,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "A kingdom’s economy is based on the sum of the productive activity of its citizens, and that activity is reflected in a quantity of resources that the kingdom can tap into each month. These resources are represented by <<Resource Points|Kingdom-Rules#ResourcePoints>> (see below) which are determined by Resource Dice, with the number of dice being equal to the nation’s level + 4. When a kingdom is first founded, each Resource Die is a d4, but as the kingdom advances in Size, its Resource Die increases to d6, d8, d10, or d12 (see the <<Kingdom Size table|Kingdom-Rules#KingdomPropertiesTable>>).",
-            "id": "ControlDC"
+            "content": "A kingdom’s economy is based on the sum of the productive activity of its citizens, and that activity is reflected in a quantity of resources that the kingdom can tap into each month. These resources are represented by <<Resource Points|Kingdom-Rules#ResourcePoints>> (see below) which are determined by Resource Dice, with the number of dice being equal to the nation’s level + 4. When a kingdom is first founded, each Resource Die is a d4, but as the kingdom advances in Size, its Resource Die increases to d6, d8, d10, or d12 (see the <<Kingdom Size table|Kingdom-Rules#KingdomPropertiesTable>>)."
           }
         ],
         "id": "ResourceDice"
@@ -168,13 +166,11 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "A kingdom’s Resource Points (RP) represent a combination of the work of a kingdom’s citizens and the time spent on jobs, talent, labor, tools, and funds to handle this toil. Resource points do not directly represent amounts of coins in a treasury, but rather an abstraction of the nation’s total amount of available funds to handle tasks. Since luck and demand play a part in a kingdom’s resources, the exact total of RP a kingdom will have each turn varies; a new total of RP is rolled at the start of each Kingdom turn using <<Resource Dice|Kingdom-Rules#ResourceDice>>. Any RP not spent by the end of that turn <<convert to kingdom XP|Kingdom-Turn#XPPhase>>.",
-            "id": "ControlDC"
+            "content": "A kingdom’s Resource Points (RP) represent a combination of the work of a kingdom’s citizens and the time spent on jobs, talent, labor, tools, and funds to handle this toil. Resource points do not directly represent amounts of coins in a treasury, but rather an abstraction of the nation’s total amount of available funds to handle tasks. Since luck and demand play a part in a kingdom’s resources, the exact total of RP a kingdom will have each turn varies; a new total of RP is rolled at the start of each Kingdom turn using <<Resource Dice|Kingdom-Rules#ResourceDice>>. Any RP not spent by the end of that turn <<convert to kingdom XP|Kingdom-Turn#XPPhase>>."
           },
           {
             "type": "paragraph",
-            "content": "Whenever the kingdom is forced to spend RP that would drop it below 0, spend all the RP the kingdom has and then increase a <<Ruin|Kingdom-Rules#Ruin>> of the PCs’ choice by 1.",
-            "id": "ControlDC"
+            "content": "Whenever the kingdom is forced to spend RP that would drop it below 0, spend all the RP the kingdom has and then increase a <<Ruin|Kingdom-Rules#Ruin>> of the PCs’ choice by 1."
           }
         ],
         "id": "ResourcePoints"
@@ -186,33 +182,27 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "As bad luck, natural disasters, unexpected shortages, or even warfare damage a kingdom, it becomes Ruined in one of four categories opposing the kingdom’s four ability scores. Ruin rises and falls as Kingdom turns progress, but if it rises too high, it can cause lasting or even permanent harm to the kingdom.",
-            "id": "ControlDC"
+            "content": "As bad luck, natural disasters, unexpected shortages, or even warfare damage a kingdom, it becomes Ruined in one of four categories opposing the kingdom’s four ability scores. Ruin rises and falls as Kingdom turns progress, but if it rises too high, it can cause lasting or even permanent harm to the kingdom."
           },
           {
             "type": "paragraph",
-            "content": "Culture is opposed by **Corruption**, which represents citizens falling to debauchery, delving into forbidden lore, pursuing unethical research practices, or destroying their own heritage and history.",
-            "id": "ControlDC"
+            "content": "Culture is opposed by **Corruption**, which represents citizens falling to debauchery, delving into forbidden lore, pursuing unethical research practices, or destroying their own heritage and history."
           },
           {
             "type": "paragraph",
-            "content": "Economy is opposed by **Crime**, which includes theft, smuggling, and enterprises that suffocate prosperity.",
-            "id": "ControlDC"
+            "content": "Economy is opposed by **Crime**, which includes theft, smuggling, and enterprises that suffocate prosperity."
           },
           {
             "type": "paragraph",
-            "content": "Stability is opposed by **Decay**, representing physical harm, neglect, or degradation of the kingdom, its people, and its infra<<structure|Settlement-Structures>>.",
-            "id": "ControlDC"
+            "content": "Stability is opposed by **Decay**, representing physical harm, neglect, or degradation of the kingdom, its people, and its infra<<structure|Settlement-Structures>>."
           },
           {
             "type": "paragraph",
-            "content": "Loyalty is opposed by **Strife**, which includes acts of treachery, subterfuge, bribery, violence, abuse of power, and infighting between groups.",
-            "id": "ControlDC"
+            "content": "Loyalty is opposed by **Strife**, which includes acts of treachery, subterfuge, bribery, violence, abuse of power, and infighting between groups."
           },
           {
             "type": "paragraph",
-            "content": "**Accruing Ruin** As Ruin accumulates, the categories gain points. These point totals are persistent, decreasing only in specific circumstances, but most often when a Ruin’s point total exceeds that Ruin’s threshold. Other events can reduce or increase a Ruin’s point total as well—typically as the result of kingdom activities or events. Ruin’s point total as well—typically as the result of kingdom activities or events.",
-            "id": "ControlDC"
+            "content": "**Accruing Ruin** As Ruin accumulates, the categories gain points. These point totals are persistent, decreasing only in specific circumstances, but most often when a Ruin’s point total exceeds that Ruin’s threshold. Other events can reduce or increase a Ruin’s point total as well—typically as the result of kingdom activities or events. Ruin’s point total as well—typically as the result of kingdom activities or events."
           },
           {
             "type": "paragraph",
@@ -226,8 +216,7 @@
           },
           {
             "type": "paragraph",
-            "content": "**Reducing Ruin Penalties** When a kingdom reaches 5th level, and then again every 3 levels thereafter, it gains Ruin resistance; each time it does so, it has the opportunity to reduce an existing Ruin penalty to 0. This is an extremely effective way to manage a Ruin penalty that’s crept particularly high, but it’s also an extremely limited resource, as a kingdom will only get, at most, 6 opportunities to adjust a Ruin penalty in this way over the course of a campaign. The <<Repair Reputation|Kingdom-Actions#RepairReputation>> activity can reduce existing Ruin penalties, although at a much slower rate. Other activities or events can reduce Ruin penalties as well, as detailed in the text for each. Finally, if circumstances ever allow for a Ruin’s points to be reduced and that particular Ruin is already at 0 points, instead of reducing Ruin to a negative value you can instead attempt a DC 16 flat check; on a success, reduce that Ruin’s penalty by 1 to a minimum of 0.",
-            "id": "RuinPenalty"
+            "content": "**Reducing Ruin Penalties** When a kingdom reaches 5th level, and then again every 3 levels thereafter, it gains Ruin resistance; each time it does so, it has the opportunity to reduce an existing Ruin penalty to 0. This is an extremely effective way to manage a Ruin penalty that’s crept particularly high, but it’s also an extremely limited resource, as a kingdom will only get, at most, 6 opportunities to adjust a Ruin penalty in this way over the course of a campaign. The <<Repair Reputation|Kingdom-Actions#RepairReputation>> activity can reduce existing Ruin penalties, although at a much slower rate. Other activities or events can reduce Ruin penalties as well, as detailed in the text for each. Finally, if circumstances ever allow for a Ruin’s points to be reduced and that particular Ruin is already at 0 points, instead of reducing Ruin to a negative value you can instead attempt a DC 16 flat check; on a success, reduce that Ruin’s penalty by 1 to a minimum of 0."
           }
         ],
         "id": "Ruin"
@@ -239,28 +228,23 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "Unrest represents unhappiness among the kingdom’s citizens, who show their lack of confidence in the leadership by balking at edicts, refusing to follow commands, and disrupting local economies through boycotts, walkouts, and refusal to talk to emissaries. Unrest is a persistent value that remains from turn to turn and can be adjusted during Kingdom turns as events play out.",
-            "id": "RuinPenalty"
+            "content": "Unrest represents unhappiness among the kingdom’s citizens, who show their lack of confidence in the leadership by balking at edicts, refusing to follow commands, and disrupting local economies through boycotts, walkouts, and refusal to talk to emissaries. Unrest is a persistent value that remains from turn to turn and can be adjusted during Kingdom turns as events play out."
           },
           {
             "type": "paragraph",
-            "content": "**Unrest 1** If a kingdom has at least 1 point of Unrest, take a –1 status penalty to all kingdom checks.",
-            "id": "RuinPenalty"
+            "content": "**Unrest 1** If a kingdom has at least 1 point of Unrest, take a –1 status penalty to all kingdom checks."
           },
           {
             "type": "paragraph",
-            "content": "**Unrest 5** If a kingdom has 5 or more points of Unrest, take a –2 status penalty to all kingdom checks.",
-            "id": "RuinPenalty"
+            "content": "**Unrest 5** If a kingdom has 5 or more points of Unrest, take a –2 status penalty to all kingdom checks."
           },
           {
             "type": "paragraph",
-            "content": "**Unrest 10** If a kingdom has 10 or more points of Unrest, take a –3 status penalty to all kingdom checks.",
-            "id": "RuinPenalty"
+            "content": "**Unrest 10** If a kingdom has 10 or more points of Unrest, take a –3 status penalty to all kingdom checks."
           },
           {
             "type": "paragraph",
-            "content": "**Unrest 15** If a kingdom has 15 or more points of Unrest, take a –4 status penalty to all kingdom checks.",
-            "id": "RuinPenalty"
+            "content": "**Unrest 15** If a kingdom has 15 or more points of Unrest, take a –4 status penalty to all kingdom checks."
           }
         ],
         "id": "Unrest"
@@ -272,8 +256,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "A kingdom grows one hex at a time on the Stolen Lands map, via <<Region activities|Kingdom-Turn#RegionActivities>> like <<Claim Hex|Kingdom-Actions#ClaimHex>> and <<Clear Hex|Kingdom-Actions#ClearHex>>. The PCs can pursue these activities during the <<Activity phase|Kingdom-Turn#ActivityPhase>> of each Kingdom turn.",
-            "id": "RuinPenalty"
+            "content": "A kingdom grows one hex at a time on the Stolen Lands map, via <<Region activities|Kingdom-Turn#RegionActivities>> like <<Claim Hex|Kingdom-Actions#ClaimHex>> and <<Clear Hex|Kingdom-Actions#ClearHex>>. The PCs can pursue these activities during the <<Activity phase|Kingdom-Turn#ActivityPhase>> of each Kingdom turn."
           }
         ],
         "id": "ExpandingAKingdom"
@@ -285,18 +268,15 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "It’s possible to lose control of a hex. When this happens, the kingdom immediately loses any benefits from <<terrain improvements|Kingdom-Rules#TerrainFeatures>> in that hex, and all <<settlements|Settlement-Rules>> in that hex become <<Freehold|Kingdom-Rules#Freehold>>s. Monsters may move into an abandoned hex, increasing the chance for random encounters, and if you wish to reclaim the hex, you may need to <<clear|Kingdom-Actions#ClearHex>> it first of hostile creatures. Each hex lost decreases a kingdom’s <<Size|Kingdom-Rules#KingdomPropertiesTable>> by 1. This affects the kingdom’s statistics, such as the type of its <<Resource Die|Kingdom-Rules#ResourceDice>>.",
-            "id": "RuinPenalty"
+            "content": "It’s possible to lose control of a hex. When this happens, the kingdom immediately loses any benefits from <<terrain improvements|Kingdom-Rules#TerrainFeatures>> in that hex, and all <<settlements|Settlement-Rules>> in that hex become <<Freehold|Kingdom-Rules#Freehold>>s. Monsters may move into an abandoned hex, increasing the chance for random encounters, and if you wish to reclaim the hex, you may need to <<clear|Kingdom-Actions#ClearHex>> it first of hostile creatures. Each hex lost decreases a kingdom’s <<Size|Kingdom-Rules#KingdomPropertiesTable>> by 1. This affects the kingdom’s statistics, such as the type of its <<Resource Die|Kingdom-Rules#ResourceDice>>."
           },
           {
             "type": "paragraph",
-            "content": "If one or more hexes are lost in such a way that it breaks the connection between parts of a kingdom, so that all of the hexes are no longer contiguous with other hexes of the kingdom, whatever portion of the territory contains the capital becomes the primary territory and the rest of the kingdom becomes its secondary territory. All Kingdom skill checks made to resolve issues associated with secondary territories take a –4 circumstance penalty. When a kingdom starts a turn with any number of secondary territories, increase <<Unrest|Kingdom-Rules#Unrest>> by 1. Once a secondary territory is connected to the primary territory via at least one hex, it becomes part of the primary territory. These penalties also apply if you gain a hex that is not connected to your kingdom (for example, by a <<Pledge of Fealty|Kingdom-Actions#PledgeOfFealty>>).",
-            "id": "RuinPenalty"
+            "content": "If one or more hexes are lost in such a way that it breaks the connection between parts of a kingdom, so that all of the hexes are no longer contiguous with other hexes of the kingdom, whatever portion of the territory contains the capital becomes the primary territory and the rest of the kingdom becomes its secondary territory. All Kingdom skill checks made to resolve issues associated with secondary territories take a –4 circumstance penalty. When a kingdom starts a turn with any number of secondary territories, increase <<Unrest|Kingdom-Rules#Unrest>> by 1. Once a secondary territory is connected to the primary territory via at least one hex, it becomes part of the primary territory. These penalties also apply if you gain a hex that is not connected to your kingdom (for example, by a <<Pledge of Fealty|Kingdom-Actions#PledgeOfFealty>>)."
           },
           {
             "type": "paragraph",
-            "content": "If a kingdom is reduced to 0 hexes, whether through <<Unrest|Kingdom-Rules#Unrest>>, a disaster, war with another kingdom, or any other effect, the PCs are at risk of having their rule end. On their next Kingdom turn, they must <<claim|Kingdom-Actions#ClaimHex>> at least one new hex and <<establish|Kingdom-Actions#EstablishSettlement>> or <<claim|Kingdom-Actions#ClaimHex>> at least one <<settlement|Settlement-Rules>>, or their kingdom is considered totally destroyed, and they must start over. In this case, you should have the PCs undertake a new adventure of your design to secure a new <<charter|Kingdom-Creation#SelectACharter>>.",
-            "id": "RuinPenalty"
+            "content": "If a kingdom is reduced to 0 hexes, whether through <<Unrest|Kingdom-Rules#Unrest>>, a disaster, war with another kingdom, or any other effect, the PCs are at risk of having their rule end. On their next Kingdom turn, they must <<claim|Kingdom-Actions#ClaimHex>> at least one new hex and <<establish|Kingdom-Actions#EstablishSettlement>> or <<claim|Kingdom-Actions#ClaimHex>> at least one <<settlement|Settlement-Rules>>, or their kingdom is considered totally destroyed, and they must start over. In this case, you should have the PCs undertake a new adventure of your design to secure a new <<charter|Kingdom-Creation#SelectACharter>>."
           }
         ],
         "id": "LosingHexes"
@@ -308,8 +288,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "Diplomatic relations refers to acts of leadership that engage with other nations. In order to begin diplomatic relations with another group, PCs must first successfully <<Send a Diplomatic Envoy|Kingdom-Actions#SendDiplomaticEnvoy>> to the target group. When they <<establish diplomatic relations|#DiplomaticRelations>> with a group, record the name of that group on the kingdom sheet. Once the PCs have established diplomatic relations with a group, they can use the <<Establish Trade Agreement|Kingdom-Actions#EstablishTradeAgreement>> and <<Request Foreign Aid|Kingdom-Actions#RequestForeignAid>> <<Leadership activities|Kingdom-Actions#LeadershipPhase>>.",
-            "id": "RuinPenalty"
+            "content": "Diplomatic relations refers to acts of leadership that engage with other nations. In order to begin diplomatic relations with another group, PCs must first successfully <<Send a Diplomatic Envoy|Kingdom-Actions#SendDiplomaticEnvoy>> to the target group. When they <<establish diplomatic relations|#DiplomaticRelations>> with a group, record the name of that group on the kingdom sheet. Once the PCs have established diplomatic relations with a group, they can use the <<Establish Trade Agreement|Kingdom-Actions#EstablishTradeAgreement>> and <<Request Foreign Aid|Kingdom-Actions#RequestForeignAid>> <<Leadership activities|Kingdom-Actions#LeadershipPhase>>."
           },
           {
             "type": "paragraph",
@@ -326,8 +305,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "The PCs can bolster their kingdom’s economy by <<Establishing Trade Agreements|Kingdom-Actions#EstablishTradeAgreement>> with other groups with whom they have diplomatic relations. To do so, they must first successfully perform the <<Establish Trade Agreement|Kingdom-Actions#EstablishTradeAgreement>> activity. There is no need to record the actual physical route of the Trade Agreement on the map, nor does distance play a significant factor.",
-            "id": "NegotiationDC"
+            "content": "The PCs can bolster their kingdom’s economy by <<Establishing Trade Agreements|Kingdom-Actions#EstablishTradeAgreement>> with other groups with whom they have diplomatic relations. To do so, they must first successfully perform the <<Establish Trade Agreement|Kingdom-Actions#EstablishTradeAgreement>> activity. There is no need to record the actual physical route of the Trade Agreement on the map, nor does distance play a significant factor."
           }
         ],
         "id": "TradeAgreements"
@@ -339,43 +317,35 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "As a kingdom grows, it stockpiles resources beyond those required for day-to-day life. These resources are known as <<Commodities|Kingdom-Rules#Commodities>> and are used to build <<structures|Settlement-Structures>> in <<settlements|Settlement-Rules>>, to trade for <<RP|Kingdom-Rules#ResourcePoints>> using the <<Trade Commodities|Kingdom-Actions#TradeCommodities>> activity, or to expend during kingdom events.",
-            "id": "NegotiationDC"
+            "content": "As a kingdom grows, it stockpiles resources beyond those required for day-to-day life. These resources are known as <<Commodities|Kingdom-Rules#Commodities>> and are used to build <<structures|Settlement-Structures>> in <<settlements|Settlement-Rules>>, to trade for <<RP|Kingdom-Rules#ResourcePoints>> using the <<Trade Commodities|Kingdom-Actions#TradeCommodities>> activity, or to expend during kingdom events."
           },
           {
             "type": "paragraph",
-            "content": "The types of Commodities that are available include Food, Lumber, Luxuries, Ore, and Stone. As kingdoms accumulate or expend these Commodities track the numbers on the kingdom sheet. Unless specialized storage improvements have been built in its <<settlements|Settlement-Rules>>, a kingdom is limited to a maximum number of stored <<Commodities|Kingdom-Rules#Commodities>> in each category as determined by its <<Size|Kingdom-Rules#KingdomPropertiesTable>> (see the <<Kingdom Size table|Kingdom-Rules#KingdomPropertiesTable>>). Commodities gathered in excess of this storage limit are lost.",
-            "id": "NegotiationDC"
+            "content": "The types of Commodities that are available include Food, Lumber, Luxuries, Ore, and Stone. As kingdoms accumulate or expend these Commodities track the numbers on the kingdom sheet. Unless specialized storage improvements have been built in its <<settlements|Settlement-Rules>>, a kingdom is limited to a maximum number of stored <<Commodities|Kingdom-Rules#Commodities>> in each category as determined by its <<Size|Kingdom-Rules#KingdomPropertiesTable>> (see the <<Kingdom Size table|Kingdom-Rules#KingdomPropertiesTable>>). Commodities gathered in excess of this storage limit are lost."
           },
           {
             "type": "paragraph",
-            "content": "Each type of Commodity can be gathered by special activities as detailed below, but Commodities can also be discovered via kingdom events or while exploring the Stolen Lands, earned as rewards for quests, purchased from allies via <<Purchase Commodities|Kingdom-Actions#PurchaseCommodities>>, or acquired via <<Establishing Trade Agreements|Kingdom-Actions#EstablishTradeAgreement>>.",
-            "id": "NegotiationDC"
+            "content": "Each type of Commodity can be gathered by special activities as detailed below, but Commodities can also be discovered via kingdom events or while exploring the Stolen Lands, earned as rewards for quests, purchased from allies via <<Purchase Commodities|Kingdom-Actions#PurchaseCommodities>>, or acquired via <<Establishing Trade Agreements|Kingdom-Actions#EstablishTradeAgreement>>."
           },
           {
             "type": "paragraph",
-            "content": "**Food** stockpiles are expended to pay for <<Consumption|Settlement-Rules#Consumption>> during the <<Upkeep phase|Kingdom-Turn#UpkeepPhase>> of a Kingdom turn, but also when faced with famines or other disasters, and to keep armies fed during times of war (as described in those events). Food is gathered with <<Harvest Crops|Kingdom-Actions#HarvestCrops>>, <<Go Fishing|Kingdom-Actions#GoFishing>>, or <<Gather Livestock|Kingdom-Actions#GatherLivestock>>.</p>",
-            "id": "NegotiationDC"
+            "content": "**Food** stockpiles are expended to pay for <<Consumption|Settlement-Rules#Consumption>> during the <<Upkeep phase|Kingdom-Turn#UpkeepPhase>> of a Kingdom turn, but also when faced with famines or other disasters, and to keep armies fed during times of war (as described in those events). Food is gathered with <<Harvest Crops|Kingdom-Actions#HarvestCrops>>, <<Go Fishing|Kingdom-Actions#GoFishing>>, or <<Gather Livestock|Kingdom-Actions#GatherLivestock>>.</p>"
           },
           {
             "type": "paragraph",
-            "content": "**Lumber** is used to build <<structures|Settlement-Structures>> during the <<Civic Activities|Kingdom-Actions#CivicPhase>> step of the <<Activity phase|Kingdom-Turn#ActivityPhase>> of a Kingdom turn, and it is gathered from lumber camps built by <<Establish Work Site|Kingdom-Actions#EstablishWorkSite>>.",
-            "id": "NegotiationDC"
+            "content": "**Lumber** is used to build <<structures|Settlement-Structures>> during the <<Civic Activities|Kingdom-Actions#CivicPhase>> step of the <<Activity phase|Kingdom-Turn#ActivityPhase>> of a Kingdom turn, and it is gathered from lumber camps built by <<Establish Work Site|Kingdom-Actions#EstablishWorkSite>>."
           },
           {
             "type": "paragraph",
-            "content": "**Luxuries** are used to build specialized <<structures|Settlement-Structures>> or are expended during certain encounters, generally those with high stakes or magical effects. Luxuries can be found during adventuring, created via <<Craft Luxuries|Kingdom-Actions#CraftLuxuries>>, or earned during certain events.",
-            "id": "NegotiationDC"
+            "content": "**Luxuries** are used to build specialized <<structures|Settlement-Structures>> or are expended during certain encounters, generally those with high stakes or magical effects. Luxuries can be found during adventuring, created via <<Craft Luxuries|Kingdom-Actions#CraftLuxuries>>, or earned during certain events."
           },
           {
             "type": "paragraph",
-            "content": "**Ore** is used to build <<structures|Settlement-Structures>>. Ore is gathered from mines built by <<Establish Work Site|Kingdom-Actions#EstablishWorkSite>>.",
-            "id": "NegotiationDC"
+            "content": "**Ore** is used to build <<structures|Settlement-Structures>>. Ore is gathered from mines built by <<Establish Work Site|Kingdom-Actions#EstablishWorkSite>>."
           },
           {
             "type": "paragraph",
-            "content": "**Stone** is used to build <<structures|Settlement-Structures>> and is gathered from quarries built by <<Establish Work Site|Kingdom-Actions#EstablishWorkSite>>.",
-            "id": "NegotiationDC"
+            "content": "**Stone** is used to build <<structures|Settlement-Structures>> and is gathered from quarries built by <<Establish Work Site|Kingdom-Actions#EstablishWorkSite>>."
           }
         ],
         "id": "Commodities"
@@ -387,13 +357,11 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "Many hexes have features that grant benefits once <<claimed|Kingdom-Actions#ClaimHex>>. In some cases, certain <<Region activities|Kingdom-Turn#RegionActivities>> must be taken before a hex’s benefits can be enjoyed. These terrain features offer unique opportunities for a kingdom to add something special to its national character and may improve one or more of the <<kingdom’s statistics|Kingdom-Rules#KingdomProperties>>. Some hexes offer one‑of-a-kind benefits which are fully described within the adventure itself; more common terrain features are presented here.",
-            "id": "NegotiationDC"
+            "content": "Many hexes have features that grant benefits once <<claimed|Kingdom-Actions#ClaimHex>>. In some cases, certain <<Region activities|Kingdom-Turn#RegionActivities>> must be taken before a hex’s benefits can be enjoyed. These terrain features offer unique opportunities for a kingdom to add something special to its national character and may improve one or more of the <<kingdom’s statistics|Kingdom-Rules#KingdomProperties>>. Some hexes offer one‑of-a-kind benefits which are fully described within the adventure itself; more common terrain features are presented here."
           },
           {
             "type": "paragraph",
-            "content": "A single hex is limited in what terrain features can overlap:",
-            "id": "NegotiationDC"
+            "content": "A single hex is limited in what terrain features can overlap:"
           },
           {
             "type": "list",
@@ -406,8 +374,7 @@
           },
           {
             "type": "paragraph",
-            "content": "To switch between any of the Terrain Features in the Restricted list the existing Feature must first be removed with the <<Clear Hex|Kingdom-Actions#ClearHex>> Activity before the new Terrain Feature can be constructed.",
-            "id": "NegotiationDC"
+            "content": "To switch between any of the Terrain Features in the Restricted list the existing Feature must first be removed with the <<Clear Hex|Kingdom-Actions#ClearHex>> Activity before the new Terrain Feature can be constructed."
           },
           {
             "type": "paragraph",
@@ -479,33 +446,27 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "Fame represents a positive perception of a kingdom—it’s seen as a place of culture, learning, peace, and honor—as well as reflecting its measure of success in diplomacy, trade, and battle. Infamy represents a negative perception of a kingdom—it’s perceived as treacherous, corrupt, prejudiced, ruthlessly warmongering, and villainous.",
-            "id": "WorkSite"
+            "content": "Fame represents a positive perception of a kingdom—it’s seen as a place of culture, learning, peace, and honor—as well as reflecting its measure of success in diplomacy, trade, and battle. Infamy represents a negative perception of a kingdom—it’s perceived as treacherous, corrupt, prejudiced, ruthlessly warmongering, and villainous."
           },
           {
             "type": "paragraph",
-            "content": "Constructing certain improvements, taking certain actions in kingdom management or in the course of an adventuring campaign, and experiencing kingdom events can increase or decrease your Fame or Infamy. While these modifiers may be expressed as a + or -, adjustments to your Fame or Infamy are not bonuses or penalties. Rather, they add to or subtract from your current Fame or Infamy much like damage reduces your character’s hit points and healing increases them.",
-            "id": "WorkSite"
+            "content": "Constructing certain improvements, taking certain actions in kingdom management or in the course of an adventuring campaign, and experiencing kingdom events can increase or decrease your Fame or Infamy. While these modifiers may be expressed as a + or -, adjustments to your Fame or Infamy are not bonuses or penalties. Rather, they add to or subtract from your current Fame or Infamy much like damage reduces your character’s hit points and healing increases them."
           },
           {
             "type": "paragraph",
-            "content": "**Starting Values** When you found a kingdom, it starts with Fame 1 and Infamy 0. Fame and Infamy cannot go below 0. Certain buildings (such as <<Arenas|Settlement-Structures#Arena>> and <<Castles|Settlement-Structures#Castle>>) increase Fame. Some events (such as Squatters or a Visiting Celebrity) can increase or reduce Fame or Infamy.",
-            "id": "WorkSite"
+            "content": "**Starting Values** When you found a kingdom, it starts with Fame 1 and Infamy 0. Fame and Infamy cannot go below 0. Certain buildings (such as <<Arenas|Settlement-Structures#Arena>> and <<Castles|Settlement-Structures#Castle>>) increase Fame. Some events (such as Squatters or a Visiting Celebrity) can increase or reduce Fame or Infamy."
           },
           {
             "type": "paragraph",
-            "content": "**Level and Size Increases** Whenever your kingdom gains a level or its <<Size|Kingdom-Rules#KingdomPropertiesTable>> increases to 11, 26, 51, and 101, Fame increases by 1.",
-            "id": "WorkSite"
+            "content": "**Level and Size Increases** Whenever your kingdom gains a level or its <<Size|Kingdom-Rules#KingdomPropertiesTable>> increases to 11, 26, 51, and 101, Fame increases by 1."
           },
           {
             "type": "paragraph",
-            "content": "**Improvement and Ruin Scores** Each time your <<ruin penalty|Kingdom-Rules#RuinPenalty>> increases from one of your <<Ruin Scores|Kingdom-Rules#Ruin>> reaching the <<Ruin Penalty|Kingdom-Rules#RuinPenalty>>, you gain 1 point of <<Infamy|Kingdom-Rules#FameAndInfamy>>. Each time your Arts, Community, Scholarship, or Statecraft Skill training increases or you become a master or legendary in any skill, you gain 1 point of Fame.",
-            "id": "WorkSite"
+            "content": "**Improvement and Ruin Scores** Each time your <<ruin penalty|Kingdom-Rules#RuinPenalty>> increases from one of your <<Ruin Scores|Kingdom-Rules#Ruin>> reaching the <<Ruin Penalty|Kingdom-Rules#RuinPenalty>>, you gain 1 point of <<Infamy|Kingdom-Rules#FameAndInfamy>>. Each time your Arts, Community, Scholarship, or Statecraft Skill training increases or you become a master or legendary in any skill, you gain 1 point of Fame."
           },
           {
             "type": "paragraph",
-            "content": "**Effects of Fame and Infamy** Your kingdom’s Fame and Infamy affect relationships with other kingdoms and grants the following circumstance bonuses or penalties for every 10 points of Fame or Infamy (rounding down).",
-            "id": "WorkSite"
+            "content": "**Effects of Fame and Infamy** Your kingdom’s Fame and Infamy affect relationships with other kingdoms and grants the following circumstance bonuses or penalties for every 10 points of Fame or Infamy (rounding down)."
           },
           {
             "type": "list",
@@ -516,8 +477,7 @@
           },
           {
             "type": "paragraph",
-            "content": "**Expending Fame and Infamy** You can expend Fame and Infamy points as a free action, though each action can taken only once per turn. Spent Fame is permanently lost. Spent Infamy is regained at the end of your turn and is increased by 1, and at the end of any turn in which you expend Infamy, you gain 1 point to a random <<Ruin|Kingdom-Rules#Ruin>> Score.\nYou can expend 2 points to reroll a Skill check. You must use the second result. In addition, if your kingdom is about to fall into <<Anarchy|Kingdom-Turn#Anarchy>> or increase your <<Ruin Penalty|Kingdom-Rules#RuinPenalty>>, you can spend 3 points reduce <<Unrest|Kingdom-Rules#Unrest>> or your <<Ruin Score|Kingdom-Rules#Ruin>> to 1 point below the value where <<anarchy|Kingdom-Turn#Anarchy>> or attribute loss would occur.",
-            "id": "WorkSite"
+            "content": "**Expending Fame and Infamy** You can expend Fame and Infamy points as a free action, though each action can taken only once per turn. Spent Fame is permanently lost. Spent Infamy is regained at the end of your turn and is increased by 1, and at the end of any turn in which you expend Infamy, you gain 1 point to a random <<Ruin|Kingdom-Rules#Ruin>> Score.\nYou can expend 2 points to reroll a Skill check. You must use the second result. In addition, if your kingdom is about to fall into <<Anarchy|Kingdom-Turn#Anarchy>> or increase your <<Ruin Penalty|Kingdom-Rules#RuinPenalty>>, you can spend 3 points reduce <<Unrest|Kingdom-Rules#Unrest>> or your <<Ruin Score|Kingdom-Rules#Ruin>> to 1 point below the value where <<anarchy|Kingdom-Turn#Anarchy>> or attribute loss would occur."
           }
         ],
         "id": "FameAndInfamy"

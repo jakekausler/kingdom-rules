@@ -1,3 +1,4 @@
+import React from "react";
 import { AppShell } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { useState } from "react";
@@ -19,6 +20,8 @@ import settlementStructures from "../json/Settlement Structures.json";
 import Body from "./components/shell/Body";
 import Header from "./components/shell/Header";
 import Sidebar from "./components/shell/Sidebar";
+import FindStructures from "./components/filters/findStructures";
+import FindActions from "./components/filters/findActions";
 
 const RULESETS: Record<string, ParsedElement[]> = {
   "Kingdom Actions": kingdomActions as ParsedElement[],
@@ -33,45 +36,75 @@ const RULESETS: Record<string, ParsedElement[]> = {
   "Settlement Structures": settlementStructures as ParsedElement[],
 };
 
-// // TODO: Add a search bar to the navbar
-// // TODO: Scroll to top when ruleset changes
-// // TODO: Add a "back to top" button
-// // TODO: Add a color scheme toggle and save preference
-// // TODO: Add dark colors
-// // TODO: Pages should change the URL and be able to open in new tabs
-// TODO: Support links within the data to pages and/or anchors
+const nonRulesetPages: Record<string, React.FC> = {
+  "Find Structures": FindStructures,
+  "Find Actions": FindActions,
+};
+
 // // TODO: Add anchors to each heading, item, and table
 // TODO: Don't display side content on smaller screens. Have the clipboard happen when clicking the anchor link
 // TODO: Scroll to top is displaying over the sidebar
 
 function App() {
   const [opened, { toggle }] = useDisclosure(false);
-  const [ruleset, setRuleset] = useState<string>("Kingdom Actions");
+  const [page, setPage] = useState<string>("Kingdom Actions");
   const [documentSearch, setDocumentSearch] = useState<string>("");
 
   return (
     <Router>
       <AppShell
         header={{ height: 40 }}
-        navbar={{ width: 300, breakpoint: "sm", collapsed: { mobile: !opened } }}
+        navbar={{
+          width: 300,
+          breakpoint: "sm",
+          collapsed: { mobile: !opened },
+        }}
         layout="alt"
       >
         <AppShell.Header>
-          <Header opened={opened} toggle={toggle} rulesets={RULESETS} setDocumentSearch={setDocumentSearch} />
+          <Header
+            opened={opened}
+            toggle={toggle}
+            rulesets={RULESETS}
+            setDocumentSearch={setDocumentSearch}
+          />
         </AppShell.Header>
         <AppShell.Navbar p="md">
-          <Sidebar rulesets={Object.keys(RULESETS)} setRuleset={setRuleset} toggle={toggle} currentRuleset={ruleset} />
+          <Sidebar
+            pages={Object.keys(RULESETS).concat(Object.keys(nonRulesetPages))}
+            setPage={setPage}
+            toggle={toggle}
+            currentPage={page}
+          />
         </AppShell.Navbar>
         <AppShell.Main>
           <Routes>
             {Object.keys(RULESETS).map((key) => (
               <Route
-                path={`/${key.replace(/\s+/g, '-')}`}
-                element={<Body ruleset={RULESETS[key]} search={documentSearch} />}
+                path={`/${key.replace(/\s+/g, "-")}`}
+                element={
+                  <Body ruleset={RULESETS[key]} search={documentSearch} />
+                }
                 key={key}
               />
             ))}
-            <Route path="/" element={<Body ruleset={RULESETS[ruleset]} search={documentSearch} />} />
+            {Object.keys(nonRulesetPages).map((key) => (
+              <Route
+                path={`/${key.replace(/\s+/g, "-")}`}
+                element={React.createElement(nonRulesetPages[key])}
+                key={key}
+              />
+            ))}
+            <Route
+              path="/"
+              element={
+                RULESETS[page] ? (
+                  <Body ruleset={RULESETS[page]} search={documentSearch} />
+                ) : (
+                  React.createElement(nonRulesetPages[page])
+                )
+              }
+            />
           </Routes>
         </AppShell.Main>
       </AppShell>

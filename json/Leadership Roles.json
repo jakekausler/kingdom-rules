@@ -45,8 +45,7 @@
           },
           {
             "type": "paragraph",
-            "content": "**Key Ability** This lists the kingdom ability score that is most impacted by the leader. When this role is invested, all Kingdom skill checks based on this ability gain a +1 status bonus. This bonus increases to +2 when the kingdom reaches 8th level, and then to +3 when the kingdom reaches 16th level.\nSince status bonuses from leaders don’t stack, you may want to invest one role that benefits each of the 4 kingdom abilities—but since each leadership role offers other unique benefits to the kingdom, spreading out the roles in that way may not always be the best choice!",
-            "id": "KeyAbility"
+            "content": "**Key Ability** This lists the kingdom ability score that is most impacted by the leader. When this role is invested, all Kingdom skill checks based on this ability gain a +1 status bonus. This bonus increases to +2 when the kingdom reaches 8th level, and then to +3 when the kingdom reaches 16th level.\nSince status bonuses from leaders don’t stack, you may want to invest one role that benefits each of the 4 kingdom abilities—but since each leadership role offers other unique benefits to the kingdom, spreading out the roles in that way may not always be the best choice!"
           },
           {
             "type": "paragraph",
@@ -66,21 +65,18 @@
           },
           {
             "type": "paragraph",
-            "content": "The Ruler performs the kingdom’s most important ceremonies, is the kingdom’s chief diplomatic officer, serves as the signatory for all laws affecting the entire kingdom, pardons criminals when appropriate, and is responsible for appointing characters to all other high positions in the kingdom’s government.",
-            "id": "VacancyPenalty"
+            "content": "The Ruler performs the kingdom’s most important ceremonies, is the kingdom’s chief diplomatic officer, serves as the signatory for all laws affecting the entire kingdom, pardons criminals when appropriate, and is responsible for appointing characters to all other high positions in the kingdom’s government."
           },
           {
             "type": "hr"
           },
           {
             "type": "paragraph",
-            "content": "**Key Ability** Loyalty",
-            "id": "VacancyPenalty"
+            "content": "**Key Ability** Loyalty"
           },
           {
             "type": "paragraph",
-            "content": "**Vacancy Penalty** –1 to all checks (this stacks with any other vacancy penalty); gain 1d4 <<Unrest|Kingdom-Rules#Unrest>> at the start of the Kingdom turn; <<Control DC|Kingdom-Rules#ControlDC>> increases by 2",
-            "id": "VacancyPenalty"
+            "content": "**Vacancy Penalty** –1 to all checks (this stacks with any other vacancy penalty); gain 1d4 <<Unrest|Kingdom-Rules#Unrest>> at the start of the Kingdom turn; <<Control DC|Kingdom-Rules#ControlDC>> increases by 2"
           }
         ],
         "id": "Ruler"
@@ -95,21 +91,18 @@
           },
           {
             "type": "paragraph",
-            "content": "The Counselor is a liaison between government and citizens. They study issues with academic analysis but also interpret the desires of the citizenry and present proclamations to the people in understandable ways. They also serve as an advisor to the other leaders, particularly to the <<Ruler|Leadership-Roles#Ruler>>.",
-            "id": "VacancyPenalty"
+            "content": "The Counselor is a liaison between government and citizens. They study issues with academic analysis but also interpret the desires of the citizenry and present proclamations to the people in understandable ways. They also serve as an advisor to the other leaders, particularly to the <<Ruler|Leadership-Roles#Ruler>>."
           },
           {
             "type": "hr"
           },
           {
             "type": "paragraph",
-            "content": "**Key Ability** Culture",
-            "id": "VacancyPenalty"
+            "content": "**Key Ability** Culture"
           },
           {
             "type": "paragraph",
-            "content": "**Vacancy Penalty** –1 to all Culture-based checks",
-            "id": "VacancyPenalty"
+            "content": "**Vacancy Penalty** –1 to all Culture-based checks"
           }
         ],
         "id": "Counselor"
@@ -124,21 +117,18 @@
           },
           {
             "type": "paragraph",
-            "content": "The General leads the kingdom’s military, heading its armies and managing subordinate military commanders. The General is responsible for looking after the needs of the kingdom’s military and directing them in times of war.",
-            "id": "VacancyPenalty"
+            "content": "The General leads the kingdom’s military, heading its armies and managing subordinate military commanders. The General is responsible for looking after the needs of the kingdom’s military and directing them in times of war."
           },
           {
             "type": "hr"
           },
           {
             "type": "paragraph",
-            "content": "**Key Ability** Loyalty",
-            "id": "VacancyPenalty"
+            "content": "**Key Ability** Loyalty"
           },
           {
             "type": "paragraph",
-            "content": "**Vacancy Penalty** –4 to all <<Warfare activities|Kingdom-Turn#ArmyActivities>>",
-            "id": "VacancyPenalty"
+            "content": "**Vacancy Penalty** –4 to all <<Warfare activities|Kingdom-Turn#ArmyActivities>>"
           }
         ],
         "id": "General"
@@ -153,21 +143,18 @@
           },
           {
             "type": "paragraph",
-            "content": "The Emissary keeps state secrets, oversees clandestine intrigues, and deals with criminal elements within the kingdom. They manage foreign policy and interactions with other kingdoms, as well as the interactions of political organizations and power brokers at home. Whether or not your emissary is a public figure or someone who manipulates events behind the scenes, their role in the kingdom remains the same.",
-            "id": "VacancyPenalty"
+            "content": "The Emissary keeps state secrets, oversees clandestine intrigues, and deals with criminal elements within the kingdom. They manage foreign policy and interactions with other kingdoms, as well as the interactions of political organizations and power brokers at home. Whether or not your emissary is a public figure or someone who manipulates events behind the scenes, their role in the kingdom remains the same."
           },
           {
             "type": "hr"
           },
           {
             "type": "paragraph",
-            "content": "**Key Ability** Loyalty",
-            "id": "VacancyPenalty"
+            "content": "**Key Ability** Loyalty"
           },
           {
             "type": "paragraph",
-            "content": "**Vacancy Penalty** –1 to all Loyalty-based checks",
-            "id": "VacancyPenalty"
+            "content": "**Vacancy Penalty** –1 to all Loyalty-based checks"
           }
         ],
         "id": "Emissary"
@@ -182,21 +169,18 @@
           },
           {
             "type": "paragraph",
-            "content": "The Magister is in charge of all things magical in the kingdom, attending to how the supernatural affects ordinary citizens. They promote higher learning in the arts of magic, whether arcane, divine, occult, or primal. They oversee any aspects of governmental bureaucracy in which magic can be of service to the kingdom’s needs and interests.",
-            "id": "VacancyPenalty"
+            "content": "The Magister is in charge of all things magical in the kingdom, attending to how the supernatural affects ordinary citizens. They promote higher learning in the arts of magic, whether arcane, divine, occult, or primal. They oversee any aspects of governmental bureaucracy in which magic can be of service to the kingdom’s needs and interests."
           },
           {
             "type": "hr"
           },
           {
             "type": "paragraph",
-            "content": "**Key Ability** Culture",
-            "id": "VacancyPenalty"
+            "content": "**Key Ability** Culture"
           },
           {
             "type": "paragraph",
-            "content": "**Vacancy Penalty** –4 to all <<Warfare activities|Kingdom-Turn#ArmyActivities>>",
-            "id": "VacancyPenalty"
+            "content": "**Vacancy Penalty** –4 to all <<Warfare activities|Kingdom-Turn#ArmyActivities>>"
           }
         ],
         "id": "Magister"
@@ -211,21 +195,18 @@
           },
           {
             "type": "paragraph",
-            "content": "The Treasurer monitors the kingdom’s funds and the state of business and industry, as well as the citizens’ confidence in the economy and the growth of the nation’s manufacturing capacity. They work to ensure a fair market for all, investigate those who take advantage of the system, and handle taxation issues.",
-            "id": "VacancyPenalty"
+            "content": "The Treasurer monitors the kingdom’s funds and the state of business and industry, as well as the citizens’ confidence in the economy and the growth of the nation’s manufacturing capacity. They work to ensure a fair market for all, investigate those who take advantage of the system, and handle taxation issues."
           },
           {
             "type": "hr"
           },
           {
             "type": "paragraph",
-            "content": "**Key Ability** Economy",
-            "id": "VacancyPenalty"
+            "content": "**Key Ability** Economy"
           },
           {
             "type": "paragraph",
-            "content": "**Vacancy Penalty** –1 to all Economy-based checks",
-            "id": "VacancyPenalty"
+            "content": "**Vacancy Penalty** –1 to all Economy-based checks"
           }
         ],
         "id": "Treasurer"
@@ -240,21 +221,18 @@
           },
           {
             "type": "paragraph",
-            "content": "The Viceroy plans and implements the kingdom’s expansion and development, both in its territories and its <<settlements|Settlement-Rules>>. They manage the infrastructure of the nation, overseeing major capital improvements and growing the networks that connect the hinterlands with the cities at the nation’s heart, helping keep the kingdom moving and growing.",
-            "id": "VacancyPenalty"
+            "content": "The Viceroy plans and implements the kingdom’s expansion and development, both in its territories and its <<settlements|Settlement-Rules>>. They manage the infrastructure of the nation, overseeing major capital improvements and growing the networks that connect the hinterlands with the cities at the nation’s heart, helping keep the kingdom moving and growing."
           },
           {
             "type": "hr"
           },
           {
             "type": "paragraph",
-            "content": "**Key Ability** Economy",
-            "id": "VacancyPenalty"
+            "content": "**Key Ability** Economy"
           },
           {
             "type": "paragraph",
-            "content": "**Vacancy Penalty** –1 to all Stability-based checks",
-            "id": "VacancyPenalty"
+            "content": "**Vacancy Penalty** –1 to all Stability-based checks"
           }
         ],
         "id": "Viceroy"
@@ -269,21 +247,18 @@
           },
           {
             "type": "paragraph",
-            "content": "The Warden monitors the safety, security, and overall health of the kingdom, its lands, and its borders. They manage scouts and patrols in the countryside, respond to local threats and menaces as needed, and oversee the kingdom’s overall defense and health.",
-            "id": "VacancyPenalty"
+            "content": "The Warden monitors the safety, security, and overall health of the kingdom, its lands, and its borders. They manage scouts and patrols in the countryside, respond to local threats and menaces as needed, and oversee the kingdom’s overall defense and health."
           },
           {
             "type": "hr"
           },
           {
             "type": "paragraph",
-            "content": "**Key Ability** Stability",
-            "id": "VacancyPenalty"
+            "content": "**Key Ability** Stability"
           },
           {
             "type": "paragraph",
-            "content": "**Vacancy Penalty** –4 to all <<Region activities|Kingdom-Turn#RegionActivities>>",
-            "id": "VacancyPenalty"
+            "content": "**Vacancy Penalty** –4 to all <<Region activities|Kingdom-Turn#RegionActivities>>"
           }
         ],
         "id": "Warden"

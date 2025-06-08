@@ -15,7 +15,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "During the Upkeep phase, you adjust your kingdom’s statistics based on activities you have taken during the previous month. Remember that you earn 1 <<Fame|Kingdom-Rules#FameAndInfamy>> or <<Infamy|Kingdom-Rules#FameAndInfamy>> point at the start of your turn."
+            "content": "During the Upkeep phase, you adjust your kingdom’s statistics based on activities you have taken during the previous month."
           },
           {
             "type": "heading",
@@ -35,7 +35,51 @@
           },
           {
             "type": "heading",
-            "heading": "Step 2: Adjust Unrest",
+            "heading": "Step 2: Resource Collection",
+            "level": 3,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": "The exact amount of resources you have to draw upon each Kingdom turn varies, as each month there are countless unexpected boons and setbacks throughout each citizen’s life that can impact how they can bolster your national plans."
+              },
+              {
+                "type": "paragraph",
+                "content": "First, determine the number of <<Resource Dice|Kingdom-Rules#ResourceDice>> you are entitled to roll for the current Kingdom turn by adding your kingdom level + 4 to any bonus dice or penalty dice you gained from the previous turn. You cannot have fewer than 0 <<Resource Dice|Kingdom-Rules#ResourceDice>>."
+              },
+              {
+                "type": "paragraph",
+                "content": "Next, roll your <<Resource Dice|Kingdom-Rules#ResourceDice>> to determine how many <<Resource Points (RP)|Kingdom-Rules#ResourcePoints>> you have available during this turn. Your <<RP|Kingdom-Rules#ResourcePoints>> is equal to the roll result. (<<RP|Kingdom-Rules#ResourcePoints>> remaining at the end of your turn can be converted into kingdom <<Experience Points|Kingdom-Turn#XPPhase>>.)"
+              },
+              {
+                "type": "paragraph",
+                "content": "Finally, if you have any <<Work Sites|Kingdom-Rules#WorkSite>> established in your kingdom, gather <<Commodities|Kingdom-Rules#Commodities>>. You gain 1 <<Commodity|Kingdom-Rules#Commodities>> from each <<Work Site|Kingdom-Rules#WorkSite>>, or double that if the <<Work Site|Kingdom-Rules#WorkSite>> is in a <<Resource|Kingdom-Rules#Resource>> hex. Any <<Commodities|Kingdom-Rules#Commodities>> gathered in excess of your <<storage capacity|Kingdom-Rules#Commodities>> are lost."
+              }
+            ],
+            "id": "ResourceCollection"
+          },
+          {
+            "type": "heading",
+            "heading": "Step 3: Structure Advancement",
+            "level": 3,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": "On your first Kingdom turn, you have no structures under construction; skip to the next step."
+              },
+              {
+                "type": "paragraph",
+                "content": "You may advance any number of <<structures|Settlement-Structures>> that are under construction in your kingdom. When you do so, spend the monthly <<RP|Kingdom-Rules#ResourcePoints>> for the <<structure|Settlement-Structures>> and reduce the remaining <<construction time|Kingdom-Turn#StructuresAdvancement>> by 1 month. If the <<structure|Settlement-Structures>> is complete, its effects are applied immediately and any bonuses are applied."
+              },
+              {
+                "type": "paragraph",
+                "content": "If you have any buildings that were under construction that you did not advance, subtract the number of buildings you did not advance from the number of <<settlements|Settlement-Rules>> in your kingdom. If the number is greater than 0, you gain that much <<Unrest|Kingdom-Rules#Unrest>> as your citizens begin to think your kingdom is taking on too many projects. For example, if you have 3 <<settlements|Settlement-Rules>> and 5 buildings under construction that you did not advance, you gain 2 <<Unrest|Kingdom-Rules#Unrest>>."
+              }
+            ],
+            "id": "StructuresAdvancement"
+          },
+          {
+            "type": "heading",
+            "heading": "Step 4: Adjust Unrest",
             "level": 3,
             "content": [
               {
@@ -60,77 +104,27 @@
           },
           {
             "type": "heading",
-            "heading": "Step 3: Resource Collection",
+            "heading": "Step 5: Pay Consumption",
             "level": 3,
             "content": [
               {
                 "type": "paragraph",
-                "content": "The exact amount of resources you have to draw upon each Kingdom turn varies, as each month there are countless unexpected boons and setbacks throughout each citizen’s life that can impact how they can bolster your national plans.",
-                "id": "Anarchy"
+                "content": "Your <<settlements|Settlement-Rules>> and armies require a certain amount of provisions, supplies, and funding, as well as all the basic necessities of life."
               },
               {
                 "type": "paragraph",
-                "content": "First, determine the number of <<Resource Dice|Kingdom-Rules#ResourceDice>> you are entitled to roll for the current Kingdom turn by adding your kingdom level + 4 to any bonus dice or penalty dice you gained from the previous turn. You cannot have fewer than 0 <<Resource Dice|Kingdom-Rules#ResourceDice>>.",
-                "id": "Anarchy"
+                "content": "On your first Kingdom turn, your kingdom’s <<Consumption|Settlement-Rules#Consumption>> score is 0; skip to the next step."
               },
               {
                 "type": "paragraph",
-                "content": "Next, roll your <<Resource Dice|Kingdom-Rules#ResourceDice>> to determine how many <<Resource Points (RP)|Kingdom-Rules#ResourcePoints>> you have available during this turn. Your <<RP|Kingdom-Rules#ResourcePoints>> is equal to the roll result. (<<RP|Kingdom-Rules#ResourcePoints>> remaining at the end of your turn can be converted into kingdom <<Experience Points|Kingdom-Turn#XPPhase>>.)",
-                "id": "Anarchy"
+                "content": "On all other turns, calculate your kingdom’s <<Consumption|Settlement-Rules#Consumption>> score. This is the total of your <<settlements’|Settlement-Rules>> <<Consumption|Settlement-Rules#Consumption>> scores plus your armies’ <<Consumption|Settlement-Rules#Consumption>> scores minus the number of <<Farmland|Kingdom-Rules#Farmland>> hexes you have within <<influence|Settlement-Rules#Influence>> range of your <<settlements|Settlement-Rules>>, plus any modifiers from kingdom events."
               },
               {
                 "type": "paragraph",
-                "content": "Finally, if you have any <<Work Sites|Kingdom-Rules#WorkSite>> established in your kingdom, gather <<Commodities|Kingdom-Rules#Commodities>>. You gain 1 <<Commodity|Kingdom-Rules#Commodities>> from each <<Work Site|Kingdom-Rules#WorkSite>>, or double that if the <<Work Site|Kingdom-Rules#WorkSite>> is in a <<Resource|Kingdom-Rules#Resource>> hex. Any <<Commodities|Kingdom-Rules#Commodities>> gathered in excess of your <<storage capacity|Kingdom-Rules#Commodities>> are lost.",
-                "id": "Anarchy"
-              }
-            ],
-            "id": "ResourceCollection"
-          },
-          {
-            "type": "heading",
-            "heading": "Step 4: Pay Consumption",
-            "level": 3,
-            "content": [
-              {
-                "type": "paragraph",
-                "content": "Your <<settlements|Settlement-Rules>> and armies require a certain amount of provisions, supplies, and funding, as well as all the basic necessities of life.",
-                "id": "Anarchy"
-              },
-              {
-                "type": "paragraph",
-                "content": "On your first Kingdom turn, your kingdom’s <<Consumption|Settlement-Rules#Consumption>> score is 0; skip to the next step.",
-                "id": "Anarchy"
-              },
-              {
-                "type": "paragraph",
-                "content": "On all other turns, calculate your kingdom’s <<Consumption|Settlement-Rules#Consumption>> score. This is the total of your <<settlements’|Settlement-Rules>> <<Consumption|Settlement-Rules#Consumption>> scores plus your armies’ <<Consumption|Settlement-Rules#Consumption>> scores minus the number of <<Farmland|Kingdom-Rules#Farmland>> hexes you have within <<influence|Settlement-Rules#Influence>> range of your <<settlements|Settlement-Rules>>, plus any modifiers from kingdom events.",
-                "id": "Anarchy"
-              },
-              {
-                "type": "paragraph",
-                "content": "Spend Food <<Commodities|Kingdom-Rules#Commodities>> equal to your kingdom’s <<Consumption|Settlement-Rules#Consumption>>. If you can’t or choose not to spend this <<Commodity|Kingdom-Rules#Commodities>> cost, you can either spend 5 <<RP|Kingdom-Rules#ResourcePoints>> per point of unpaid <<Consumption|Settlement-Rules#Consumption>> or increase <<Unrest|Kingdom-Rules#Unrest>> by 1d4.",
-                "id": "Anarchy"
+                "content": "Spend Food <<Commodities|Kingdom-Rules#Commodities>> equal to your kingdom’s <<Consumption|Settlement-Rules#Consumption>>. If you can’t or choose not to spend this <<Commodity|Kingdom-Rules#Commodities>> cost, you can either spend 5 <<RP|Kingdom-Rules#ResourcePoints>> per point of unpaid <<Consumption|Settlement-Rules#Consumption>> or increase <<Unrest|Kingdom-Rules#Unrest>> by 1d4."
               }
             ],
             "id": "PayConsumption"
-          },
-          {
-            "type": "heading",
-            "heading": "Step 5: Structure Advancement",
-            "level": 3,
-            "content": [
-              {
-                "type": "paragraph",
-                "content": "You may advance any number of <<structures|Settlement-Structures>> that are under construction in your kingdom. When you do so, spend the monthly <<RP|Kingdom-Rules#ResourcePoints>> for the <<structure|Settlement-Structures>> and reduce the remaining <<construction time|Kingdom-Turn#StructuresAdvancement>> by 1 month. If the <<structure|Settlement-Structures>> is complete, its effects are applied immediately and any bonuses are applied.",
-                "id": "Anarchy"
-              },
-              {
-                "type": "paragraph",
-                "content": "If you have any buildings that were under construction that you did not advance, subtract the number of buildings you did not advance from the number of <<settlements|Settlement-Rules>> in your kingdom. If the number is greater than 0, you gain that much <<Unrest|Kingdom-Rules#Unrest>> as your citizens begin to think your kingdom is taking on too many projects. For example, if you have 3 <<settlements|Settlement-Rules>> and 5 buildings under construction that you did not advance, you gain 2 <<Unrest|Kingdom-Rules#Unrest>>.",
-                "id": "Anarchy"
-              }
-            ],
-            "id": "StructuresAdvancement"
           }
         ],
         "id": "UpkeepPhase"
@@ -142,8 +136,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "The Commerce phase is when the kingdom generates revenue or makes <<trade agreements|Kingdom-Rules#TradeAgreements>>.",
-            "id": "Anarchy"
+            "content": "The Commerce phase is when the kingdom generates revenue or makes <<trade agreements|Kingdom-Rules#TradeAgreements>>."
           },
           {
             "type": "heading",
@@ -152,8 +145,7 @@
             "content": [
               {
                 "type": "paragraph",
-                "content": "You can <<Collect Taxes|Kingdom-Actions#CollectTaxes>> once per Kingdom turn to attempt to bolster your Economy-based checks for the remainder of the Kingdom turn. If you don’t attempt to <<Collect Taxes|Kingdom-Actions#CollectTaxes>>, you can instead attempt a DC 11 flat check; on a success, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1.",
-                "id": "Anarchy"
+                "content": "You can <<Collect Taxes|Kingdom-Actions#CollectTaxes>> once per Kingdom turn to attempt to bolster your Economy-based checks for the remainder of the Kingdom turn. If you don’t attempt to <<Collect Taxes|Kingdom-Actions#CollectTaxes>>, you can instead attempt a DC 11 flat check; on a success, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1."
               }
             ],
             "id": "CollectTaxes"
@@ -165,8 +157,7 @@
             "content": [
               {
                 "type": "paragraph",
-                "content": "You can draw upon the kingdom’s funds to enhance the standard of living for its citizens by attempting the <<Improve Lifestyle|Kingdom-Actions#ImproveLifestyle>> activity or you can attempt a withdrawal from the kingdom’s funds using the <<Tap Treasury|Kingdom-Actions#TapTreasury>> activity.",
-                "id": "Anarchy"
+                "content": "You can draw upon the kingdom’s funds to enhance the standard of living for its citizens by attempting the <<Improve Lifestyle|Kingdom-Actions#ImproveLifestyle>> activity or you can attempt a withdrawal from the kingdom’s funds using the <<Tap Treasury|Kingdom-Actions#TapTreasury>> activity."
               }
             ],
             "id": "ApproveExpenses"
@@ -178,8 +169,7 @@
             "content": [
               {
                 "type": "paragraph",
-                "content": "If your kingdom has any stockpiles of <<Commodities|Kingdom-Rules#Commodities>>, you can attempt the <<Trade Commodities|Kingdom-Actions#TradeCommodities>> activity to bolster your <<RP|Kingdom-Rules#ResourcePoints>> for the turn.",
-                "id": "Anarchy"
+                "content": "If your kingdom has any stockpiles of <<Commodities|Kingdom-Rules#Commodities>>, you can attempt the <<Trade Commodities|Kingdom-Actions#TradeCommodities>> activity to bolster your <<RP|Kingdom-Rules#ResourcePoints>> for the turn."
               }
             ],
             "id": "TapCommodities"
@@ -191,8 +181,7 @@
             "content": [
               {
                 "type": "paragraph",
-                "content": "If you’ve established trade agreements, you can use the <<Manage Trade Agreements|Kingdom-Actions#ManageTradeAgreements>> activity.",
-                "id": "Anarchy"
+                "content": "If you’ve established trade agreements, you can use the <<Manage Trade Agreements|Kingdom-Actions#ManageTradeAgreements>> activity."
               }
             ],
             "id": "ManageTradeAgreements"
@@ -207,13 +196,11 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "The Activity phase is when you make proclamations on expanding your kingdom, declare holidays, and manage your territory and <<settlements|Settlement-Rules>>. It’s during this phase that the bulk of your kingdom’s growth occurs.",
-            "id": "Anarchy"
+            "content": "The Activity phase is when you make proclamations on expanding your kingdom, declare holidays, and manage your territory and <<settlements|Settlement-Rules>>. It’s during this phase that the bulk of your kingdom’s growth occurs."
           },
           {
             "type": "paragraph",
-            "content": "Each activity will need to decide which <<settlement|Settlement-Rules>> to use for determining <<item bonuses|Settlement-Rules#MaximumItemBonus>> from <<settlement|Settlement-Rules>> <<structures|Settlement-Structures>>. For each <<item bonus|Settlement-Rules#MaximumItemBonus>>, use the higher of the applicable <<settlement’s|Settlement-Rules>> item bonus or half the <<capital’s|Settlement-Rules#Capital>> <<item bonus|Settlement-Rules#MaximumItemBonus>>. If the applicable <<settlement|Settlement-Rules>> is the <<capital|Settlement-Rules#Capital>>, simply use the full <<capital’s|Settlement-Rules#Capital>> <<item bonus|Settlement-Rules#MaximumItemBonus>>.",
-            "id": "Anarchy"
+            "content": "Each activity will need to decide which <<settlement|Settlement-Rules>> to use for determining <<item bonuses|Settlement-Rules#MaximumItemBonus>> from <<settlement|Settlement-Rules>> <<structures|Settlement-Structures>>. For each <<item bonus|Settlement-Rules#MaximumItemBonus>>, use the higher of the applicable <<settlement’s|Settlement-Rules>> item bonus or half the <<capital’s|Settlement-Rules#Capital>> <<item bonus|Settlement-Rules#MaximumItemBonus>>. If the applicable <<settlement|Settlement-Rules>> is the <<capital|Settlement-Rules#Capital>>, simply use the full <<capital’s|Settlement-Rules#Capital>> <<item bonus|Settlement-Rules#MaximumItemBonus>>."
           },
           {
             "type": "heading",
@@ -222,18 +209,15 @@
             "content": [
               {
                 "type": "paragraph",
-                "content": "Choose up to four <<leadership roles|Leadership-Roles>> which have a PC assigned to them. Each of those roles can perform up to 2 <<Leadership activities|Kingdom-Actions#LeadershipPhase>>, or 3 if your kingdom's <<capital|Settlement-Rules#Capital>> has a <<Castle|Settlement-Structures#Castle>>, <<Palace|Settlement-Structures#Palace>>, or <<Town Hall|Settlement-Structures#TownHall>>.",
-                "id": "Anarchy"
+                "content": "Choose up to four <<leadership roles|Leadership-Roles>> which have a PC assigned to them. Each of those roles can perform up to 2 <<Leadership activities|Kingdom-Actions#LeadershipPhase>>, or 3 if your kingdom's <<capital|Settlement-Rules#Capital>> has a <<Castle|Settlement-Structures#Castle>>, <<Palace|Settlement-Structures#Palace>>, or <<Town Hall|Settlement-Structures#TownHall>>."
               },
               {
                 "type": "paragraph",
-                "content": "Your party chooses the order you go in when taking <<Leadership activities|Kingdom-Actions#LeadershipPhase>>. Unless an activity states otherwise, a leader cannot attempt the same <<Leadership activity|Kingdom-Actions#LeadershipPhase>> more than once per Kingdom turn.",
-                "id": "Anarchy"
+                "content": "Your party chooses the order you go in when taking <<Leadership activities|Kingdom-Actions#LeadershipPhase>>. Unless an activity states otherwise, a leader cannot attempt the same <<Leadership activity|Kingdom-Actions#LeadershipPhase>> more than once per Kingdom turn."
               },
               {
                 "type": "paragraph",
-                "content": "For the purposes of determining which <<settlement|Settlement-Rules>> to use for determining <<item bonuses|Settlement-Rules#MaximumItemBonus>>, use the <<settlement|Settlement-Rules>> in which the leader spent the most of their time leading during the month.",
-                "id": "Anarchy"
+                "content": "For the purposes of determining which <<settlement|Settlement-Rules>> to use for determining <<item bonuses|Settlement-Rules#MaximumItemBonus>>, use the <<settlement|Settlement-Rules>> in which the leader spent the most of their time leading during the month."
               }
             ],
             "id": "LeadershipActivities"
@@ -245,13 +229,11 @@
             "content": [
               {
                 "type": "paragraph",
-                "content": "The PC leaders may now collectively attempt up to three <<Region activities|Kingdom-Turn#RegionActivities>>. The players decide who rolls any skill checks needed to resolve these activities.",
-                "id": "Anarchy"
+                "content": "The PC leaders may now collectively attempt up to three <<Region activities|Kingdom-Turn#RegionActivities>>. The players decide who rolls any skill checks needed to resolve these activities."
               },
               {
                 "type": "paragraph",
-                "content": "For the purposes of determining which <<settlement|Settlement-Rules>> to use for determining item bonuses, use the <<settlement|Settlement-Rules>> closest to the hex in which the <<Region activity|Kingdom-Turn#RegionActivities>> is located. The players may choose which <<settlement|Settlement-Rules>> to use in the case of a tie.",
-                "id": "Anarchy"
+                "content": "For the purposes of determining which <<settlement|Settlement-Rules>> to use for determining item bonuses, use the <<settlement|Settlement-Rules>> closest to the hex in which the <<Region activity|Kingdom-Turn#RegionActivities>> is located. The players may choose which <<settlement|Settlement-Rules>> to use in the case of a tie."
               }
             ],
             "id": "RegionActivities"
@@ -263,13 +245,11 @@
             "content": [
               {
                 "type": "paragraph",
-                "content": "Your party may now attempt one <<Civic activity|Kingdom-Actions#CivicPhase>> for each of the kingdom’s <<settlements|Settlement-Rules>>. You determine the order in which these activities are attempted and who rolls any skill checks.",
-                "id": "Anarchy"
+                "content": "Your party may now attempt one <<Civic activity|Kingdom-Actions#CivicPhase>> for each of the kingdom’s <<settlements|Settlement-Rules>>. You determine the order in which these activities are attempted and who rolls any skill checks."
               },
               {
                 "type": "paragraph",
-                "content": "For the purposes of determining which <<settlement|Settlement-Rules>> to use for determining <<item bonuses|Settlement-Rules#MaximumItemBonus>>, use the <<settlement|Settlement-Rules>> in which the <<Civic activity|Kingdom-Actions#CivicPhase>> is performed.",
-                "id": "Anarchy"
+                "content": "For the purposes of determining which <<settlement|Settlement-Rules>> to use for determining <<item bonuses|Settlement-Rules#MaximumItemBonus>>, use the <<settlement|Settlement-Rules>> in which the <<Civic activity|Kingdom-Actions#CivicPhase>> is performed."
               }
             ],
             "id": "CivicActivities"
@@ -281,13 +261,11 @@
             "content": [
               {
                 "type": "paragraph",
-                "content": "Your party may now attempt one <<Army activity|Kingdom-Actions#ArmyPhase>> for each of the kingdom's armies. You determine the order in which these activities are attempted and who rolls any skill checks.",
-                "id": "Anarchy"
+                "content": "Your party may now attempt one <<Army activity|Kingdom-Actions#ArmyPhase>> for each of the kingdom's armies. You determine the order in which these activities are attempted and who rolls any skill checks."
               },
               {
                 "type": "paragraph",
-                "content": "For the purposes of determining which <<settlement|Settlement-Rules>> to use for determining item bonuses, use the <<settlement|Settlement-Rules>> closest to the hex in which the <<Region activity|Kingdom-Turn#RegionActivities>> is located. The players may choose which <<settlement|Settlement-Rules>> to use in the case of a tie.",
-                "id": "Anarchy"
+                "content": "For the purposes of determining which <<settlement|Settlement-Rules>> to use for determining item bonuses, use the <<settlement|Settlement-Rules>> closest to the hex in which the <<Region activity|Kingdom-Turn#RegionActivities>> is located. The players may choose which <<settlement|Settlement-Rules>> to use in the case of a tie."
               }
             ],
             "id": "ArmyActivities"
@@ -302,13 +280,11 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "Events affect entire kingdom, single hexes, or a <<settlement|Settlement-Rules>>. Some are harmful, while some are beneficial. Certain events continue for multiple turns, and only come to an end once they’ve been properly handled by the PCs or their kingdom.",
-            "id": "Anarchy"
+            "content": "Events affect entire kingdom, single hexes, or a <<settlement|Settlement-Rules>>. Some are harmful, while some are beneficial. Certain events continue for multiple turns, and only come to an end once they’ve been properly handled by the PCs or their kingdom."
           },
           {
             "type": "paragraph",
-            "content": "Each event will need to decide which <<settlement|Settlement-Rules>> to use for determining <<item bonuses|Settlement-Rules#MaximumItemBonus>> from <<settlement|Settlement-Rules>> <<structures|Settlement-Structures>>. For each <<item bonus|Settlement-Rules#MaximumItemBonus>>, use the higher of the applicable <<settlement’s|Settlement-Rules>> <<item bonus|Settlement-Rules#MaximumItemBonus>> or half the <<capital’s|Settlement-Rules#Capital>> <<item bonus|Settlement-Rules#MaximumItemBonus>>. If the applicable <<settlement|Settlement-Rules>> is the <<capital|Settlement-Rules#Capital>>, simply use the full <<capital’s|Settlement-Rules#Capital>> <<item bonus|Settlement-Rules#MaximumItemBonus>>. Use the <<settlement|Settlement-Rules>> closest to the hex in which the event is located for determining <<item bonuses|Settlement-Rules#MaximumItemBonus>>. If the event targets the entire kingdom, use the <<capital’s|Settlement-Rules#Capital>> <<item bonus|Settlement-Rules#MaximumItemBonus>>.",
-            "id": "Anarchy"
+            "content": "Each event will need to decide which <<settlement|Settlement-Rules>> to use for determining <<item bonuses|Settlement-Rules#MaximumItemBonus>> from <<settlement|Settlement-Rules>> <<structures|Settlement-Structures>>. For each <<item bonus|Settlement-Rules#MaximumItemBonus>>, use the higher of the applicable <<settlement’s|Settlement-Rules>> <<item bonus|Settlement-Rules#MaximumItemBonus>> or half the <<capital’s|Settlement-Rules#Capital>> <<item bonus|Settlement-Rules#MaximumItemBonus>>. If the applicable <<settlement|Settlement-Rules>> is the <<capital|Settlement-Rules#Capital>>, simply use the full <<capital’s|Settlement-Rules#Capital>> <<item bonus|Settlement-Rules#MaximumItemBonus>>. Use the <<settlement|Settlement-Rules>> closest to the hex in which the event is located for determining <<item bonuses|Settlement-Rules#MaximumItemBonus>>. If the event targets the entire kingdom, use the <<capital’s|Settlement-Rules#Capital>> <<item bonus|Settlement-Rules#MaximumItemBonus>>."
           },
           {
             "type": "heading",
@@ -317,8 +293,7 @@
             "content": [
               {
                 "type": "paragraph",
-                "content": "Attempt a DC 16 flat check. On success, a random kingdom event occurs. If no random event occurs, the DC for this check in the next Kingdom turn is reduced by 5. Once an event occurs, the DC resets to 16.",
-                "id": "Anarchy"
+                "content": "Attempt a DC 16 flat check. On success, a random kingdom event occurs. If no random event occurs, the DC for this check in the next Kingdom turn is reduced by 5. Once an event occurs, the DC resets to 16."
               }
             ],
             "id": "CheckForARandomEvent"
@@ -330,13 +305,11 @@
             "content": [
               {
                 "type": "paragraph",
-                "content": "Random events present opportunities to go forth in exploration or encounter mode to deal with a rampaging monster or the like; these are handled now.",
-                "id": "Anarchy"
+                "content": "Random events present opportunities to go forth in exploration or encounter mode to deal with a rampaging monster or the like; these are handled now."
               },
               {
                 "type": "paragraph",
-                "content": "In some chapters of the Kingmaker Adventure Path, specific story events are introduced outside of Kingdom turns; these are resolved when they occur.",
-                "id": "Anarchy"
+                "content": "In some chapters of the Kingmaker Adventure Path, specific story events are introduced outside of Kingdom turns; these are resolved when they occur."
               }
             ],
             "id": "EventResolution"
@@ -351,13 +324,11 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "The GM now awards any kingdom XP earned during turn. Full rules the various ways to earn kingdom XP are found on the following pages.",
-            "id": "Anarchy"
+            "content": "The GM now awards any kingdom XP earned during turn. Full rules the various ways to earn kingdom XP are found on the following pages."
           },
           {
             "type": "paragraph",
-            "content": "If your kingdom’s XP total is above 1,000, and your kingdom isn’t at its maximum level, increase your kingdom level by 1 and subtract 1,000 from your XP total. See <<Kingdom Advancement for the full rules for leveling up|Kingdom-Advancement>>.",
-            "id": "Anarchy"
+            "content": "If your kingdom’s XP total is above 1,000, and your kingdom isn’t at its maximum level, increase your kingdom level by 1 and subtract 1,000 from your XP total. See <<Kingdom Advancement for the full rules for leveling up|Kingdom-Advancement>>."
           }
         ],
         "id": "XPPhase"
@@ -372,8 +343,7 @@
     "content": [
       {
         "type": "paragraph",
-        "content": "A kingdom gains experience (XP) by <<claiming hexes|Kingdom-Actions#ClaimHex>>, <<reaching milestones|Kingdom-Turn#MilestoneXPAwards>> that occur during the course of a campaign, enduring random kingdom events, or converting surplus <<RP|Kingdom-Rules#ResourcePoints>> at the end of a Kingdom turn.",
-        "id": "Anarchy"
+        "content": "A kingdom gains experience (XP) by <<claiming hexes|Kingdom-Actions#ClaimHex>>, <<reaching milestones|Kingdom-Turn#MilestoneXPAwards>> that occur during the course of a campaign, enduring random kingdom events, or converting surplus <<RP|Kingdom-Rules#ResourcePoints>> at the end of a Kingdom turn."
       },
       {
         "type": "heading",
@@ -382,13 +352,11 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "Each time a kingdom <<claims a hex|Kingdom-Actions#ClaimHex>>, it earns kingdom XP. If this hex is <<lost|Army-Conditions#Lost>> at a later date, the kingdom does not lose the XP earned from <<claiming|Kingdom-Actions#ClaimHex>> it. Conversely, if the kingdom reclaims a lost hex, it does not gain XP from reclaiming it.",
-            "id": "Anarchy"
+            "content": "Each time a kingdom <<claims a hex|Kingdom-Actions#ClaimHex>>, it earns kingdom XP. If this hex is <<lost|Army-Conditions#Lost>> at a later date, the kingdom does not lose the XP earned from <<claiming|Kingdom-Actions#ClaimHex>> it. Conversely, if the kingdom reclaims a lost hex, it does not gain XP from reclaiming it."
           },
           {
             "type": "paragraph",
-            "content": "The XP earned depends on the kingdom's new <<size|Kingdom-Rules#KingdomPropertiesTable>> after they earn the hex.",
-            "id": "Anarchy"
+            "content": "The XP earned depends on the kingdom's new <<size|Kingdom-Rules#KingdomPropertiesTable>> after they earn the hex."
           },
           {
             "type": "table",
@@ -436,8 +404,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "A kingdom earns 30 XP for experiencing a random event or more for a Story event, regardless of the event’s outcome.",
-            "id": "Anarchy"
+            "content": "A kingdom earns 30 XP for experiencing a random event or more for a Story event, regardless of the event’s outcome."
           }
         ],
         "id": "EventXPAwards"
@@ -449,8 +416,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "Any <<RP|Kingdom-Rules#ResourcePoints>> remaining unspent at the end of a Kingdom turn is converted into XP. The amount of XP gained from each surplus <<RP|Kingdom-Rules#ResourcePoints>> depends on the level of your kingdom.",
-            "id": "Anarchy"
+            "content": "Any <<RP|Kingdom-Rules#ResourcePoints>> remaining unspent at the end of a Kingdom turn is converted into XP. The amount of XP gained from each surplus <<RP|Kingdom-Rules#ResourcePoints>> depends on the level of your kingdom."
           },
           {
             "type": "table",
@@ -494,8 +460,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "Your kingdom gains experience by building <<structures|Settlement-Structures>> within its <<settlements|Settlement-Rules>>. Each <<structure|Settlement-Structures>> lists XP in its entry. Each turn, gain XP for the highest XP value of any <<structure|Settlement-Structures>> you built that turn.",
-            "id": "Anarchy"
+            "content": "Your kingdom gains experience by building <<structures|Settlement-Structures>> within its <<settlements|Settlement-Rules>>. Each <<structure|Settlement-Structures>> lists XP in its entry. Each turn, gain XP for the highest XP value of any <<structure|Settlement-Structures>> you built that turn."
           }
         ],
         "id": "StructureXPAwards"
@@ -507,8 +472,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "Similarly, your kingdom gains XP by building outside the borders of your <<settlements|Settlement-Rules>>. Each turn you do one or more of the following activities, gain the XP for the highest value activity you performed (for example, if you used both <<Build Roads|Kingdom-Actions#BuildRoads>> and <<Irrigation|Kingdom-Actions#Irrigation>>, you would gain 20 XP).",
-            "id": "Anarchy"
+            "content": "Similarly, your kingdom gains XP by building outside the borders of your <<settlements|Settlement-Rules>>. Each turn you do one or more of the following activities, gain the XP for the highest value activity you performed (for example, if you used both <<Build Roads|Kingdom-Actions#BuildRoads>> and <<Irrigation|Kingdom-Actions#Irrigation>>, you would gain 20 XP)."
           },
           {
             "type": "table",
@@ -590,8 +554,7 @@
         "content": [
           {
             "type": "paragraph",
-            "content": "As the kingdom grows, the kingdom gains XP the first time it reaches a milestone. These XP awards are given only once, the first time each milestone is attained. The milestones are listed in the following table.",
-            "id": "Anarchy"
+            "content": "As the kingdom grows, the kingdom gains XP the first time it reaches a milestone. These XP awards are given only once, the first time each milestone is attained. The milestones are listed in the following table."
           },
           {
             "type": "table",

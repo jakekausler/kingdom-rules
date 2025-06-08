@@ -19,8 +19,7 @@
   },
   {
     "type": "paragraph",
-    "content": "If a defeated army takes damage, it must succeed at a DC 16 flat check or be <<destroyed|#Destroyed>>. If all armies on a side are defeated, those armies are <<destroyed|#Destroyed>>.",
-    "id": "Defeated"
+    "content": "If a defeated army takes damage, it must succeed at a DC 16 flat check or be <<destroyed|#Destroyed>>. If all armies on a side are defeated, those armies are <<destroyed|#Destroyed>>."
   },
   {
     "type": "paragraph",
