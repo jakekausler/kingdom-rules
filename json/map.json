@@ -1047,18 +1047,6 @@
       }
     },
     {
-      "w": false,
-      "nw": false,
-      "sw": true,
-      "e": false,
-      "se": false,
-      "ne": true,
-      "hex": {
-        "x": 5,
-        "y": 8
-      }
-    },
-    {
       "w": true,
       "nw": false,
       "sw": false,
@@ -1128,6 +1116,18 @@
       "hex": {
         "x": 19,
         "y": 5
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": true,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 5,
+        "y": 8
       }
     }
   ],
