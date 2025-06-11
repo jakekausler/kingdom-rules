@@ -1,0 +1,4 @@
+.dark .leaflet-popup-content-wrapper, .dark .leaflet-popup-tip {
+  background-color: #1a1a1a;
+  color: white;
+}

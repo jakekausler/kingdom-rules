@@ -9,5 +9,8 @@ export default defineConfig({
     port: 9031,
     host: true,
     allowedHosts: ["localhost", "127.0.0.1", "kingmaker.jakekausler.com"],
+    watch: {
+      ignored: ["./json/map.json"],
+    },
   },
 });

@@ -234,7 +234,6 @@ function ActionList({
   filters: ActionFilter;
   setCurrentAction: React.Dispatch<React.SetStateAction<Action | null>>;
 }) {
-  console.log(actions);
   const [sortColumn, setSortColumn] = React.useState<string | null>(null);
   const [sortDirection, setSortDirection] = React.useState<"asc" | "desc" | null>(
     null,
@@ -258,8 +257,6 @@ function ActionList({
         );
       }
     });
-  console.log(filteredActions);
-  console.log(filters);
   return (
     <Table.ScrollContainer minWidth="100%" h="100%">
       <Table stickyHeader>

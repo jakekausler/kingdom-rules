@@ -4,6 +4,7 @@ import { MantineColorScheme, MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
 import '@mantine/notifications/styles.css';
 import { Notifications } from '@mantine/notifications';
+import 'leaflet/dist/leaflet.css';
 
 // Retrieve the saved color scheme from localStorage or default to 'dark'
 const savedColorScheme = localStorage.getItem('colorScheme') || 'dark';

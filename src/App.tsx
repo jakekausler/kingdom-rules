@@ -22,6 +22,7 @@ import Header from "./components/shell/Header";
 import Sidebar from "./components/shell/Sidebar";
 import FindStructures from "./components/filters/findStructures";
 import FindActions from "./components/filters/findActions";
+import { KingdomMapContainer } from "./components/map/kingdomMapContainer/kingdomMapContainer";
 
 const RULESETS: Record<string, ParsedElement[]> = {
   "Kingdom Actions": kingdomActions as ParsedElement[],
@@ -39,6 +40,7 @@ const RULESETS: Record<string, ParsedElement[]> = {
 const nonRulesetPages: Record<string, React.FC> = {
   "Find Structures": FindStructures,
   "Find Actions": FindActions,
+  Map: KingdomMapContainer,
 };
 
 // // TODO: Add anchors to each heading, item, and table
@@ -88,13 +90,25 @@ function App() {
                 key={key}
               />
             ))}
-            {Object.keys(nonRulesetPages).map((key) => (
-              <Route
-                path={`/${key.replace(/\s+/g, "-")}`}
-                element={React.createElement(nonRulesetPages[key])}
-                key={key}
-              />
-            ))}
+            {Object.keys(nonRulesetPages).map((key) => {
+              if (key === "Map") {
+                return (
+                  <Route
+                    path={`/${key.replace(/\s+/g, "-")}`}
+                    element={<KingdomMapContainer />}
+                    key={key}
+                  />
+                );
+              } else {
+                return (
+                  <Route
+                    path={`/${key.replace(/\s+/g, "-")}`}
+                    element={React.createElement(nonRulesetPages[key])}
+                    key={key}
+                  />
+                );
+              }
+            })}
             <Route
               path="/"
               element={

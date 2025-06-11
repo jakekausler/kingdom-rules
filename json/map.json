@@ -1,0 +1,1400 @@
+{
+  "locations": [
+    {
+      "id": "a6b467f6-cd41-444f-ada2-a373216c49cb",
+      "name": "Current Party Location",
+      "description": "",
+      "type": "poi",
+      "location": {
+        "latlng": {
+          "y": -120.71395546316296,
+          "x": 176.25
+        },
+        "coordinate": {
+          "x": 5640,
+          "y": 1213.8465748212147
+        },
+        "hex": {
+          "x": 19,
+          "y": 4
+        }
+      },
+      "icon": "http://192.168.2.148:9036/mapicons/a_007.png",
+      "traits": [],
+      "hidden": false
+    },
+    {
+      "id": "551a0d7e-7ec2-4615-8e17-96b9d0a0b097",
+      "type": "settlement",
+      "name": "Old Sycamore",
+      "description": "Old mitflit hideout",
+      "location": {
+        "latlng": {
+          "y": -118.22163762055413,
+          "x": 176.125
+        },
+        "coordinate": {
+          "x": 5636,
+          "y": 1134.0924038577323
+        },
+        "hex": {
+          "x": 19,
+          "y": 4
+        }
+      },
+      "size": "village",
+      "icon": "http://192.168.2.148:9036/mapicons/042.png",
+      "hidden": false,
+      "extraInfluenceHexes": [],
+      "isCapital": true
+    },
+    {
+      "id": "67a4674f-de3c-4f99-9378-d79286e5462b",
+      "type": "poi",
+      "name": "Gold Vein",
+      "description": "",
+      "icon": "http://192.168.2.148:9036/mapicons/a_050.png",
+      "location": {
+        "latlng": {
+          "y": -113.22643130177957,
+          "x": 173.5
+        },
+        "coordinate": {
+          "x": 5552,
+          "y": 974.2458016569462
+        },
+        "hex": {
+          "x": 19,
+          "y": 3
+        },
+        "sextant": {
+          "outline": [
+            {
+              "x": 5502.934800313913,
+              "y": 902.41
+            },
+            {
+              "x": 5642.7979030251,
+              "y": 983.16
+            },
+            {
+              "x": 5502.934800313913,
+              "y": 1063.9099999999999
+            }
+          ],
+          "direction": "se",
+          "center": {
+            "x": 5502.934800313913,
+            "y": 902.41
+          },
+          "edgeMidpoint": {
+            "x": 5572.866351669507,
+            "y": 1023.5349999999999
+          },
+          "centroid": {
+            "x": 5549.555834550975,
+            "y": 983.1599999999999
+          }
+        }
+      },
+      "hidden": false
+    },
+    {
+      "id": "3e5540ff-d2e3-42cd-8ba7-11e93e9c17a3",
+      "type": "poi",
+      "name": "Stag Lord's Fort",
+      "description": "",
+      "icon": "http://192.168.2.148:9036/mapicons/050.png",
+      "location": {
+        "latlng": {
+          "y": -134.90768776589505,
+          "x": 167.6875
+        },
+        "coordinate": {
+          "x": 5366,
+          "y": 1668.0460085086415
+        },
+        "hex": {
+          "x": 18,
+          "y": 6
+        },
+        "sextant": {
+          "outline": [
+            {
+              "x": 5363.071697602726,
+              "y": 1629.16
+            },
+            {
+              "x": 5502.934800313913,
+              "y": 1709.91
+            },
+            {
+              "x": 5363.071697602726,
+              "y": 1790.66
+            }
+          ],
+          "direction": "se",
+          "center": {
+            "x": 5363.071697602726,
+            "y": 1629.16
+          },
+          "edgeMidpoint": {
+            "x": 5433.003248958319,
+            "y": 1750.285
+          },
+          "centroid": {
+            "x": 5409.6927318397875,
+            "y": 1709.91
+          }
+        }
+      },
+      "hidden": false
+    },
+    {
+      "id": "358fbcbf-64a7-4f29-8980-525ffae43a4e",
+      "type": "poi",
+      "name": "Sootscale Caverns",
+      "description": "",
+      "icon": "http://192.168.2.148:9036/mapicons/a_050.png",
+      "location": {
+        "latlng": {
+          "y": -125.97276075042383,
+          "x": 180.5625
+        },
+        "coordinate": {
+          "x": 5778,
+          "y": 1382.128344013563
+        },
+        "hex": {
+          "x": 20,
+          "y": 5
+        },
+        "sextant": {
+          "outline": [
+            {
+              "x": 5782.661005736286,
+              "y": 1386.91
+            },
+            {
+              "x": 5642.797903025099,
+              "y": 1306.16
+            },
+            {
+              "x": 5782.661005736286,
+              "y": 1225.41
+            }
+          ],
+          "direction": "nw",
+          "center": {
+            "x": 5782.661005736286,
+            "y": 1386.91
+          },
+          "edgeMidpoint": {
+            "x": 5712.729454380693,
+            "y": 1265.785
+          },
+          "centroid": {
+            "x": 5736.039971499224,
+            "y": 1306.16
+          }
+        }
+      },
+      "hidden": false
+    },
+    {
+      "id": "bfc5fad5-06ae-4bfb-a215-0c23d237f518",
+      "type": "poi",
+      "name": "Oleg's Trading Post",
+      "description": "",
+      "icon": "http://192.168.2.148:9036/mapicons/042.png",
+      "location": {
+        "latlng": {
+          "y": -92.73233297258682,
+          "x": 171.75
+        },
+        "coordinate": {
+          "x": 5496,
+          "y": 318.43465512277817
+        },
+        "hex": {
+          "x": 19,
+          "y": 1
+        },
+        "sextant": {
+          "outline": [
+            {
+              "x": 5502.934800313913,
+              "y": 417.90999999999997
+            },
+            {
+              "x": 5363.071697602726,
+              "y": 337.16
+            },
+            {
+              "x": 5502.934800313913,
+              "y": 256.40999999999997
+            }
+          ],
+          "direction": "nw",
+          "center": {
+            "x": 5502.934800313913,
+            "y": 417.90999999999997
+          },
+          "edgeMidpoint": {
+            "x": 5433.003248958319,
+            "y": 296.78499999999997
+          },
+          "centroid": {
+            "x": 5456.313766076851,
+            "y": 337.15999999999997
+          }
+        }
+      },
+      "hidden": false
+    },
+    {
+      "id": "38c5d428-5343-47df-b35c-fd05ebe600ef",
+      "type": "poi",
+      "name": "Nivakta's Crossing",
+      "description": "",
+      "icon": "http://192.168.2.148:9036/mapicons/043.png",
+      "location": {
+        "latlng": {
+          "y": -95.4815412850395,
+          "x": 224.1875
+        },
+        "coordinate": {
+          "x": 7174,
+          "y": 406.40932112126393
+        },
+        "hex": {
+          "x": 25,
+          "y": 1
+        },
+        "sextant": {
+          "outline": [
+            {
+              "x": 7181.292032848155,
+              "y": 417.90999999999997
+            },
+            {
+              "x": 7041.428930136968,
+              "y": 337.16
+            },
+            {
+              "x": 7181.292032848155,
+              "y": 256.40999999999997
+            }
+          ],
+          "direction": "nw",
+          "center": {
+            "x": 7181.292032848155,
+            "y": 417.90999999999997
+          },
+          "edgeMidpoint": {
+            "x": 7111.360481492562,
+            "y": 296.78499999999997
+          },
+          "centroid": {
+            "x": 7134.670998611094,
+            "y": 337.15999999999997
+          }
+        }
+      },
+      "hidden": false
+    },
+    {
+      "id": "5c1ab966-cb4b-4b26-aed0-550c168c0648",
+      "type": "poi",
+      "name": "Varnhold",
+      "description": "",
+      "icon": "http://192.168.2.148:9036/mapicons/042.png",
+      "location": {
+        "latlng": {
+          "y": -119.84952405450649,
+          "x": 219.625
+        },
+        "coordinate": {
+          "x": 7028,
+          "y": 1186.184769744208
+        },
+        "hex": {
+          "x": 24,
+          "y": 4
+        },
+        "sextant": {
+          "outline": [
+            {
+              "x": 7041.428930136968,
+              "y": 1144.66
+            },
+            {
+              "x": 7041.428930136968,
+              "y": 1306.16
+            },
+            {
+              "x": 6901.565827425781,
+              "y": 1225.41
+            }
+          ],
+          "direction": "sw",
+          "center": {
+            "x": 7041.428930136968,
+            "y": 1144.66
+          },
+          "edgeMidpoint": {
+            "x": 6971.497378781374,
+            "y": 1265.785
+          },
+          "centroid": {
+            "x": 6994.807895899906,
+            "y": 1225.41
+          }
+        }
+      },
+      "hidden": false
+    },
+    {
+      "id": "d3acf264-39a6-4243-94e3-f8b0fab1390a",
+      "type": "poi",
+      "name": "Restov",
+      "description": "",
+      "icon": "http://192.168.2.148:9036/mapicons/044.png",
+      "location": {
+        "latlng": {
+          "y": -92.35744092997963,
+          "x": 238.625
+        },
+        "coordinate": {
+          "x": 7636,
+          "y": 306.43810975934866
+        },
+        "hex": {
+          "x": 26,
+          "y": 0
+        },
+        "sextant": {
+          "outline": [
+            {
+              "x": 7600.881340981715,
+              "y": 175.66
+            },
+            {
+              "x": 7740.744443692902,
+              "y": 256.40999999999997
+            },
+            {
+              "x": 7600.881340981715,
+              "y": 337.15999999999997
+            }
+          ],
+          "direction": "se",
+          "center": {
+            "x": 7600.881340981715,
+            "y": 175.66
+          },
+          "edgeMidpoint": {
+            "x": 7670.812892337308,
+            "y": 296.78499999999997
+          },
+          "centroid": {
+            "x": 7647.502375218777,
+            "y": 256.40999999999997
+          }
+        }
+      },
+      "hidden": false
+    },
+    {
+      "id": "d9bfcc92-98d6-4db1-99c8-5a1ca6433711",
+      "type": "poi",
+      "name": "Fort Serenko",
+      "description": "",
+      "icon": "http://192.168.2.148:9036/mapicons/051.png",
+      "location": {
+        "latlng": {
+          "y": -96.16884336315267,
+          "x": 205.125
+        },
+        "coordinate": {
+          "x": 6564,
+          "y": 428.40298762088605
+        },
+        "hex": {
+          "x": 23,
+          "y": 1
+        },
+        "sextant": {
+          "outline": [
+            {
+              "x": 6621.839622003407,
+              "y": 417.90999999999997
+            },
+            {
+              "x": 6481.9765192922205,
+              "y": 498.65999999999997
+            },
+            {
+              "x": 6481.9765192922205,
+              "y": 337.16
+            }
+          ],
+          "direction": "w",
+          "center": {
+            "x": 6621.839622003407,
+            "y": 417.90999999999997
+          },
+          "edgeMidpoint": {
+            "x": 6481.9765192922205,
+            "y": 417.90999999999997
+          },
+          "centroid": {
+            "x": 6528.597553529283,
+            "y": 417.91
+          }
+        }
+      },
+      "hidden": false
+    },
+    {
+      "id": "cb67464d-b169-4640-8a39-397c445efa1d",
+      "type": "poi",
+      "name": "Rickety Bridge",
+      "description": "",
+      "icon": "http://192.168.2.148:9036/mapicons/071.png",
+      "location": {
+        "latlng": {
+          "y": -118.98959010223642,
+          "x": 167.4863273661274
+        },
+        "coordinate": {
+          "x": 5359.562475716077,
+          "y": 1158.666883271566
+        },
+        "hex": {
+          "x": 18,
+          "y": 4
+        },
+        "sextant": {
+          "outline": [
+            {
+              "x": 5363.071697602726,
+              "y": 1144.66
+            },
+            {
+              "x": 5363.071697602726,
+              "y": 1306.16
+            },
+            {
+              "x": 5223.208594891539,
+              "y": 1225.41
+            }
+          ],
+          "direction": "sw",
+          "center": {
+            "x": 5363.071697602726,
+            "y": 1144.66
+          },
+          "edgeMidpoint": {
+            "x": 5293.140146247133,
+            "y": 1265.785
+          },
+          "centroid": {
+            "x": 5316.450663365664,
+            "y": 1225.41
+          }
+        }
+      },
+      "hidden": false
+    },
+    {
+      "id": "9a7bf9fb-278d-426f-aad8-de9c5c46bc37",
+      "type": "poi",
+      "name": "Lightning-Struck Tree",
+      "description": "",
+      "icon": "http://192.168.2.148:9036/mapicons/061.png",
+      "location": {
+        "latlng": {
+          "y": -110.57847939432656,
+          "x": 180.63086007488886
+        },
+        "coordinate": {
+          "x": 5780.1875223964435,
+          "y": 889.51134061845
+        },
+        "hex": {
+          "x": 20,
+          "y": 3
+        },
+        "sextant": {
+          "outline": [
+            {
+              "x": 5782.661005736286,
+              "y": 902.41
+            },
+            {
+              "x": 5642.797903025099,
+              "y": 821.66
+            },
+            {
+              "x": 5782.661005736286,
+              "y": 740.91
+            }
+          ],
+          "direction": "nw",
+          "center": {
+            "x": 5782.661005736286,
+            "y": 902.41
+          },
+          "edgeMidpoint": {
+            "x": 5712.729454380693,
+            "y": 781.285
+          },
+          "centroid": {
+            "x": 5736.039971499224,
+            "y": 821.66
+          }
+        }
+      },
+      "hidden": false
+    },
+    {
+      "id": "39a7af04-6bd4-47f0-b5c2-2c645e20df4b",
+      "type": "poi",
+      "name": "Littletown",
+      "description": "",
+      "icon": "http://192.168.2.148:9036/mapicons/043.png",
+      "location": {
+        "latlng": {
+          "y": -144.39122540923248,
+          "x": 35.24999826153133
+        },
+        "coordinate": {
+          "x": 1127.999944369003,
+          "y": 1971.5192130954392
+        },
+        "hex": {
+          "x": 3,
+          "y": 7
+        },
+        "sextant": {
+          "outline": [
+            {
+              "x": 1027.315513555934,
+              "y": 1871.41
+            },
+            {
+              "x": 1167.178616267121,
+              "y": 1952.16
+            },
+            {
+              "x": 1027.315513555934,
+              "y": 2032.91
+            }
+          ],
+          "direction": "se",
+          "center": {
+            "x": 1027.315513555934,
+            "y": 1871.41
+          },
+          "edgeMidpoint": {
+            "x": 1097.2470649115276,
+            "y": 1992.535
+          },
+          "centroid": {
+            "x": 1073.9365477929964,
+            "y": 1952.16
+          }
+        }
+      },
+      "hidden": false
+    },
+    {
+      "id": "d4674137-50fc-4c1a-93a2-ac607d990009",
+      "type": "poi",
+      "name": "Pitax",
+      "description": "",
+      "icon": "http://192.168.2.148:9036/mapicons/044.png",
+      "location": {
+        "latlng": {
+          "y": -156.5199321308948,
+          "x": 53.195316964760075
+        },
+        "coordinate": {
+          "x": 1702.2501428723226,
+          "y": 2359.6378281886336
+        },
+        "hex": {
+          "x": 5,
+          "y": 9
+        },
+        "sextant": {
+          "outline": [
+            {
+              "x": 1586.7679244006813,
+              "y": 2355.91
+            },
+            {
+              "x": 1726.6310271118682,
+              "y": 2275.16
+            },
+            {
+              "x": 1726.6310271118682,
+              "y": 2436.66
+            }
+          ],
+          "direction": "e",
+          "center": {
+            "x": 1586.7679244006813,
+            "y": 2355.91
+          },
+          "edgeMidpoint": {
+            "x": 1726.6310271118682,
+            "y": 2355.91
+          },
+          "centroid": {
+            "x": 1680.009992874806,
+            "y": 2355.91
+          }
+        }
+      },
+      "hidden": false
+    }
+  ],
+  "roads": [
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 22,
+        "y": 5
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 22,
+        "y": 4
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 23,
+        "y": 5
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 22,
+        "y": 6
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 21,
+        "y": 6
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 20,
+        "y": 6
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 21,
+        "y": 3
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 20,
+        "y": 3
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 21,
+        "y": 4
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 21,
+        "y": 5
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 20,
+        "y": 4
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 20,
+        "y": 5
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 19,
+        "y": 4
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": true,
+      "ne": false,
+      "hex": {
+        "x": 18,
+        "y": -1
+      }
+    },
+    {
+      "w": false,
+      "nw": true,
+      "sw": false,
+      "e": false,
+      "se": true,
+      "ne": false,
+      "hex": {
+        "x": 18,
+        "y": 0
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": true,
+      "e": true,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 19,
+        "y": 0
+      }
+    },
+    {
+      "w": true,
+      "nw": false,
+      "sw": false,
+      "e": true,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 20,
+        "y": 0
+      }
+    },
+    {
+      "w": true,
+      "nw": false,
+      "sw": false,
+      "e": true,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 21,
+        "y": 0
+      }
+    },
+    {
+      "w": true,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": true,
+      "ne": false,
+      "hex": {
+        "x": 22,
+        "y": 0
+      }
+    },
+    {
+      "w": false,
+      "nw": true,
+      "sw": false,
+      "e": true,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 23,
+        "y": 1
+      }
+    },
+    {
+      "w": true,
+      "nw": false,
+      "sw": false,
+      "e": true,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 24,
+        "y": 1
+      }
+    },
+    {
+      "w": true,
+      "nw": false,
+      "sw": false,
+      "e": true,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 25,
+        "y": 1
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": true,
+      "ne": false,
+      "hex": {
+        "x": 26,
+        "y": -1
+      }
+    },
+    {
+      "w": false,
+      "nw": true,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": true,
+      "hex": {
+        "x": 19,
+        "y": 1
+      }
+    },
+    {
+      "w": true,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": true,
+      "hex": {
+        "x": 26,
+        "y": 1
+      }
+    },
+    {
+      "w": false,
+      "nw": true,
+      "sw": true,
+      "e": false,
+      "se": true,
+      "ne": false,
+      "hex": {
+        "x": 26,
+        "y": 0
+      }
+    },
+    {
+      "w": false,
+      "nw": true,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": true,
+      "hex": {
+        "x": 27,
+        "y": 1
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": true,
+      "e": false,
+      "se": true,
+      "ne": false,
+      "hex": {
+        "x": 27,
+        "y": 0
+      }
+    },
+    {
+      "w": false,
+      "nw": true,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": true,
+      "hex": {
+        "x": 28,
+        "y": 1
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": true,
+      "e": false,
+      "se": true,
+      "ne": false,
+      "hex": {
+        "x": 28,
+        "y": 0
+      }
+    },
+    {
+      "w": false,
+      "nw": true,
+      "sw": false,
+      "e": false,
+      "se": true,
+      "ne": false,
+      "hex": {
+        "x": 3,
+        "y": 8
+      }
+    },
+    {
+      "w": false,
+      "nw": true,
+      "sw": false,
+      "e": true,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 4,
+        "y": 9
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": true,
+      "e": false,
+      "se": false,
+      "ne": true,
+      "hex": {
+        "x": 5,
+        "y": 8
+      }
+    },
+    {
+      "w": true,
+      "nw": false,
+      "sw": false,
+      "e": true,
+      "se": false,
+      "ne": true,
+      "hex": {
+        "x": 5,
+        "y": 9
+      }
+    },
+    {
+      "w": true,
+      "nw": false,
+      "sw": true,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 6,
+        "y": 9
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": true,
+      "ne": true,
+      "hex": {
+        "x": 5,
+        "y": 10
+      }
+    },
+    {
+      "w": true,
+      "nw": true,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 6,
+        "y": 11
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": true,
+      "se": true,
+      "ne": false,
+      "hex": {
+        "x": 5,
+        "y": 11
+      }
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 19,
+        "y": 5
+      }
+    }
+  ],
+  "bridges": [],
+  "rivers": [
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 21,
+        "y": 7
+      },
+      "useCenter": true
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 21,
+        "y": 8
+      },
+      "useCenter": true
+    },
+    {
+      "w": false,
+      "nw": false,
+      "sw": false,
+      "e": false,
+      "se": false,
+      "ne": false,
+      "hex": {
+        "x": 22,
+        "y": 7
+      },
+      "useCenter": true
+    }
+  ],
+  "reservoirs": [],
+  "hexOrientation": "pointy",
+  "hexLayout": "even",
+  "hexApothem": 161.5,
+  "hexOffset": {
+    "x": 328,
+    "y": 175.66
+  },
+  "mapOffset": {
+    "x": 0,
+    "y": 2649
+  },
+  "imageSize": {
+    "x": 8192,
+    "y": 8192
+  },
+  "mapSize": {
+    "x": 8192,
+    "y": 2894
+  },
+  "ownedHexes": [
+    {
+      "x": 19,
+      "y": 4
+    }
+  ],
+  "reconnoiteredHexes": [
+    {
+      "x": 19,
+      "y": 3
+    },
+    {
+      "x": 18,
+      "y": 2
+    },
+    {
+      "x": 19,
+      "y": 5
+    },
+    {
+      "x": 18,
+      "y": 6
+    }
+  ],
+  "nations": [
+    {
+      "name": "Numeria",
+      "color": "black",
+      "hexes": [
+        {
+          "x": 4,
+          "y": 0
+        },
+        {
+          "x": 4,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 0
+        },
+        {
+          "x": 3,
+          "y": 1
+        },
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 2
+        },
+        {
+          "x": 0,
+          "y": 2
+        },
+        {
+          "x": 1,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": -1,
+          "y": 2
+        },
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": -1,
+          "y": 0
+        },
+        {
+          "x": -1,
+          "y": 1
+        }
+      ]
+    },
+    {
+      "name": "Pitax",
+      "color": "blue",
+      "hexes": [
+        {
+          "x": 5,
+          "y": 9
+        },
+        {
+          "x": 4,
+          "y": 10
+        },
+        {
+          "x": 4,
+          "y": 11
+        },
+        {
+          "x": 4,
+          "y": 9
+        },
+        {
+          "x": 3,
+          "y": 10
+        },
+        {
+          "x": 3,
+          "y": 11
+        },
+        {
+          "x": 3,
+          "y": 8
+        },
+        {
+          "x": 3,
+          "y": 9
+        },
+        {
+          "x": 2,
+          "y": 10
+        },
+        {
+          "x": 2,
+          "y": 11
+        },
+        {
+          "x": 1,
+          "y": 10
+        },
+        {
+          "x": 1,
+          "y": 11
+        },
+        {
+          "x": 0,
+          "y": 10
+        },
+        {
+          "x": 0,
+          "y": 11
+        },
+        {
+          "x": -1,
+          "y": 10
+        },
+        {
+          "x": -1,
+          "y": 11
+        }
+      ]
+    },
+    {
+      "name": "Brevoy",
+      "color": "yellow",
+      "hexes": [
+        {
+          "x": 24,
+          "y": 0
+        },
+        {
+          "x": 25,
+          "y": 0
+        },
+        {
+          "x": 25,
+          "y": 1
+        },
+        {
+          "x": 26,
+          "y": 0
+        },
+        {
+          "x": 26,
+          "y": 1
+        },
+        {
+          "x": 27,
+          "y": 0
+        },
+        {
+          "x": 27,
+          "y": 1
+        },
+        {
+          "x": 28,
+          "y": 0
+        },
+        {
+          "x": 28,
+          "y": 1
+        }
+      ]
+    }
+  ]
+}
