@@ -19,7 +19,7 @@
           "y": 4
         }
       },
-      "icon": "http://192.168.2.148:9036/mapicons/a_007.png",
+      "icon": "/mapicons/a_007.png",
       "traits": [],
       "hidden": false
     },
@@ -43,7 +43,7 @@
         }
       },
       "size": "village",
-      "icon": "http://192.168.2.148:9036/mapicons/042.png",
+      "icon": "/mapicons/042.png",
       "hidden": false,
       "extraInfluenceHexes": [],
       "isCapital": true
@@ -53,7 +53,7 @@
       "type": "poi",
       "name": "Gold Vein",
       "description": "",
-      "icon": "http://192.168.2.148:9036/mapicons/a_050.png",
+      "icon": "/mapicons/a_050.png",
       "location": {
         "latlng": {
           "y": -113.22643130177957,
@@ -104,7 +104,7 @@
       "type": "poi",
       "name": "Stag Lord's Fort",
       "description": "",
-      "icon": "http://192.168.2.148:9036/mapicons/050.png",
+      "icon": "/mapicons/050.png",
       "location": {
         "latlng": {
           "y": -134.90768776589505,
@@ -155,7 +155,7 @@
       "type": "poi",
       "name": "Sootscale Caverns",
       "description": "",
-      "icon": "http://192.168.2.148:9036/mapicons/a_050.png",
+      "icon": "/mapicons/a_050.png",
       "location": {
         "latlng": {
           "y": -125.97276075042383,
@@ -206,7 +206,7 @@
       "type": "poi",
       "name": "Oleg's Trading Post",
       "description": "",
-      "icon": "http://192.168.2.148:9036/mapicons/042.png",
+      "icon": "/mapicons/042.png",
       "location": {
         "latlng": {
           "y": -92.73233297258682,
@@ -257,7 +257,7 @@
       "type": "poi",
       "name": "Nivakta's Crossing",
       "description": "",
-      "icon": "http://192.168.2.148:9036/mapicons/043.png",
+      "icon": "/mapicons/043.png",
       "location": {
         "latlng": {
           "y": -95.4815412850395,
@@ -308,7 +308,7 @@
       "type": "poi",
       "name": "Varnhold",
       "description": "",
-      "icon": "http://192.168.2.148:9036/mapicons/042.png",
+      "icon": "/mapicons/042.png",
       "location": {
         "latlng": {
           "y": -119.84952405450649,
@@ -359,7 +359,7 @@
       "type": "poi",
       "name": "Restov",
       "description": "",
-      "icon": "http://192.168.2.148:9036/mapicons/044.png",
+      "icon": "/mapicons/044.png",
       "location": {
         "latlng": {
           "y": -92.35744092997963,
@@ -410,7 +410,7 @@
       "type": "poi",
       "name": "Fort Serenko",
       "description": "",
-      "icon": "http://192.168.2.148:9036/mapicons/051.png",
+      "icon": "/mapicons/051.png",
       "location": {
         "latlng": {
           "y": -96.16884336315267,
@@ -461,7 +461,7 @@
       "type": "poi",
       "name": "Rickety Bridge",
       "description": "",
-      "icon": "http://192.168.2.148:9036/mapicons/071.png",
+      "icon": "/mapicons/071.png",
       "location": {
         "latlng": {
           "y": -118.98959010223642,
@@ -512,7 +512,7 @@
       "type": "poi",
       "name": "Lightning-Struck Tree",
       "description": "",
-      "icon": "http://192.168.2.148:9036/mapicons/061.png",
+      "icon": "/mapicons/061.png",
       "location": {
         "latlng": {
           "y": -110.57847939432656,
@@ -563,7 +563,7 @@
       "type": "poi",
       "name": "Littletown",
       "description": "",
-      "icon": "http://192.168.2.148:9036/mapicons/043.png",
+      "icon": "/mapicons/043.png",
       "location": {
         "latlng": {
           "y": -144.39122540923248,
@@ -614,7 +614,7 @@
       "type": "poi",
       "name": "Pitax",
       "description": "",
-      "icon": "http://192.168.2.148:9036/mapicons/044.png",
+      "icon": "/mapicons/044.png",
       "location": {
         "latlng": {
           "y": -156.5199321308948,

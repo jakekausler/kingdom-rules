@@ -12,7 +12,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app: express.Application = express();
-const PORT: number = parseInt(process.env.PORT || "9036", 10);
+const PORT: number = parseInt(process.env.PORT || "9035", 10);
 
 const server = http.createServer(app);
 const io = new Server(server, {
